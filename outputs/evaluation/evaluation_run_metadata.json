@@ -1,0 +1,70 @@
+{
+  "run_timestamp_utc": "2026-07-29T10:14:19.754300+00:00",
+  "ocr_engine": {
+    "engine_name": "RapidOCR ONNX Runtime",
+    "engine_version": "1.4.4",
+    "onnxruntime_version": "1.22.1",
+    "execution_provider": [
+      "CPUExecutionProvider"
+    ],
+    "available_execution_providers": [
+      "AzureExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "fallback_engine": null,
+    "supported_file_types": [
+      "pdf",
+      "png",
+      "jpg",
+      "jpeg"
+    ],
+    "bounding_boxes_available": true,
+    "ocr_confidence_available": true
+  },
+  "extraction_configuration": {
+    "pdf_text_min_chars": 40,
+    "render_dpi": 180,
+    "numeric_tolerance": 0.05,
+    "low_ocr_confidence": 0.65,
+    "low_extraction_confidence": 0.55,
+    "cache_version": 1,
+    "preprocessing": {
+      "upscale_min_width": 900,
+      "deskew": true,
+      "normalize_contrast": true,
+      "denoise": true
+    }
+  },
+  "preprocessing_configuration": {
+    "upscale_min_width": 900,
+    "deskew": true,
+    "normalize_contrast": true,
+    "denoise": true
+  },
+  "confidence_thresholds": {
+    "low_extraction": 0.55,
+    "low_ocr": 0.65
+  },
+  "numeric_tolerance": 0.05,
+  "code_configuration_hash": "37a67d6f3e858b82325158f84293a6fe90934ad5609b95e32fe4075652d1c517",
+  "package_versions": {
+    "rapidocr-onnxruntime": "1.4.4",
+    "onnxruntime": "1.22.1",
+    "PyMuPDF": "1.26.3",
+    "pydantic": "2.11.7",
+    "pandas": "2.3.1",
+    "numpy": "2.2.6",
+    "opencv-python-headless": "4.12.0.88",
+    "matplotlib": "3.10.3"
+  },
+  "prediction_cache_mode": "uncached",
+  "prediction_files_saved_before_truth_access": true,
+  "prediction_finished_timestamp_utc": "2026-07-29T10:20:41.623790+00:00",
+  "stage3_extraction_output_hashes": {
+    "document_results.json": "cb7adf5c3865423264c038a68db23a7843a99f657427c54a7192fad27b612a9c",
+    "document_summary.csv": "e65dd57966d12b5758364d0329e13a7bb1a74fc7414d1b65948e5f0769cd8873",
+    "line_items.csv": "f0a516ba6487f4bd90bec88d59dc05207678e222918ab6f3aeda923c94cec40e",
+    "validation_warnings.csv": "f64701bea0bdb2b3c9bbc1c63019f6c2141e36f520dc4652f27562d457dbe979",
+    "extracted_data.xlsx": "ddfdc3a2d61ece32042479f456f7c74c2a3a35be82a6ae1077320d0d25ba0c48"
+  }
+}

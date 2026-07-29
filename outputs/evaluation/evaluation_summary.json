@@ -1,0 +1,116 @@
+{
+  "test_source_document_count": 21,
+  "test_variant_count": 84,
+  "processing_success_rate": 1.0,
+  "document_type_classification": {
+    "accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "uncertain_count": 0,
+    "labels": [
+      "invoice",
+      "receipt"
+    ],
+    "confusion_matrix": [
+      [
+        44,
+        0
+      ],
+      [
+        0,
+        40
+      ]
+    ],
+    "per_class": {
+      "invoice": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 44
+      },
+      "receipt": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 40
+      }
+    }
+  },
+  "macro_field_precision": 0.8421850079744816,
+  "macro_field_recall": 0.8149521531100479,
+  "macro_field_f1": 0.826990611652635,
+  "micro_field_f1": 0.832908163265306,
+  "critical_field_accuracy": 0.9714285714285713,
+  "complete_record_accuracy": 0.2619047619047619,
+  "numeric_field_tolerance_accuracy": 0.9568874868559412,
+  "line_item_row_precision": 1.0,
+  "line_item_row_recall": 0.7871621621621622,
+  "line_item_row_f1": 0.8809073724007561,
+  "ocr_cer_ocr_route": 1.0099934609284926,
+  "ocr_wer_ocr_route": 0.7184046331671778,
+  "embedded_text_cer": 1.0391649547910748,
+  "embedded_text_wer": 0.961616004962779,
+  "clean_document_performance": {
+    "variant_count": 21,
+    "critical_field_accuracy": 1.0,
+    "visible_field_accuracy": 1.0,
+    "line_item_f1": 0.9153439153439155
+  },
+  "degraded_document_performance": {
+    "variant_count": 63,
+    "critical_field_accuracy": 0.9619047619047618,
+    "visible_field_accuracy": 0.7620851370851371,
+    "line_item_f1": 0.8030486268581506
+  },
+  "invoice_performance": {
+    "document_type": "invoice",
+    "variant_count": 44,
+    "processing_success_rate": 1.0,
+    "critical_field_accuracy": 0.968181818181818,
+    "macro_field_f1": 0.7644628099173553,
+    "line_item_f1": 0.8316378066378065,
+    "ocr_cer": 1.1949253513252085,
+    "ocr_wer": 0.9301284139993817,
+    "average_confidence": 0.929184090909091,
+    "average_processing_time": 4.574988636363636,
+    "validation_warning_frequency": 0.7954545454545454
+  },
+  "receipt_performance": {
+    "document_type": "receipt",
+    "variant_count": 40,
+    "processing_success_rate": 1.0,
+    "critical_field_accuracy": 0.975,
+    "macro_field_f1": 0.884375,
+    "line_item_f1": 0.8305555555555557,
+    "ocr_cer": 0.8218834157699607,
+    "ocr_wer": 0.6131944444444445,
+    "average_confidence": 0.9166525,
+    "average_processing_time": 4.485175,
+    "validation_warning_frequency": 0.325
+  },
+  "runtime": {
+    "uncached_total_seconds": 380.92,
+    "average_seconds_per_variant": 4.532220238095237,
+    "median_seconds_per_variant": 5.38765,
+    "digital_pdf_average_seconds": 0.06321428571428572,
+    "ocr_variant_average_seconds": 6.021888888888888,
+    "cached_total_seconds": 3.917,
+    "failure_count": 0,
+    "exceptions": []
+  },
+  "most_frequent_error_categories": {
+    "OCR character error": 83,
+    "label not detected": 40,
+    "row grouping": 18,
+    "rotation": 16,
+    "compact receipt layout": 13,
+    "perspective distortion": 12
+  },
+  "main_limitations": [
+    "Optional fields absent from rendered documents were excluded from field scoring.",
+    "Line-item spatial grouping is weaker on compact receipts and rotated tables.",
+    "Stage 1 expected OCR text omits some visible address and label text, inflating CER/WER.",
+    "All test results fell in the High confidence band, limiting confidence-band comparison."
+  ]
+}

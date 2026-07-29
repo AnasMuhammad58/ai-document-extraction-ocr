@@ -1,0 +1,531 @@
+document_id,variant_id,item_order,description,quantity,unit_price,line_total,raw_text,confidence
+INV-0001,INV-0001-image_jpg,1,Herbal tea,2.0,34.94,69.88,Herbal tea | 2 | $34.94 | $69.88,0.95
+INV-0001,INV-0001-image_jpg,2,Cleaning cloths,4.0,43.73,174.92,Cleaning cloths | 4 | $43.73 | $174.92,0.95
+INV-0001,INV-0001-image_jpg,3,Recycled notebooks,4.0,35.24,140.96,Recycled notebooks | 4 | $35.24 | $140.96,0.95
+INV-0003,INV-0003-image_jpg,1,Canvastote,4.0,38.06,152.24,Canvastote | 4 | $38.06 | $152.24,0.95
+INV-0003,INV-0003-image_jpg,2,USBadapter,3.0,56.38,169.14,USBadapter | 3 | $56.38 | $169.14,0.95
+INV-0003,INV-0003-image_jpg,3,Coffeebeans,3.0,54.61,163.83,Coffeebeans | 3 | $54.61 | $163.83,0.95
+INV-0003,INV-0003-image_jpg,4,Desk organizer,4.0,47.1,188.4,Desk organizer | 4 | $47.10 | $188.40,0.95
+INV-0005,INV-0005-image_jpg,1,USBadapter,2.0,49.22,98.44,USBadapter | 2 | $49.22 | $98.44,0.95
+INV-0005,INV-0005-image_jpg,2,Archivefolders,2.0,27.92,55.84,Archivefolders | 2 | $27.92 | $55.84,0.95
+INV-0006,INV-0006-image_jpg,1,Archive folders,4.0,23.0,92.0,Archive folders | 4 | $23.00 | $92.00,0.95
+INV-0007,INV-0007-image_jpg,1,Gel pen set,2.0,32.11,64.22,Gel pen set | 2 | $32.11 | $64.22,0.95
+INV-0007,INV-0007-image_jpg,2,Desk organizer,1.0,23.8,23.8,Desk organizer | 1 | $23.80 | $23.80,0.95
+INV-0009,INV-0009-image_jpg,1,USB adapter,1.0,2.91,2.91,USB adapter | 1 | $2.91 | $2.91,0.95
+INV-0010,INV-0010-image_jpg,1,Cable clips,4.0,45.48,181.92,Cable clips | 4 | $45.48 | $181.92,0.95
+INV-0010,INV-0010-image_jpg,2,Herbaltea,4.0,31.94,127.76,Herbaltea | 4 | $31.94 | $127.76,0.95
+INV-0010,INV-0010-image_jpg,3,USB adapter,3.0,33.03,99.09,USB adapter | 3 | $33.03 | $99.09,0.95
+INV-0010,INV-0010-image_jpg,4,Recycled notebooks,4.0,29.62,118.48,Recycled notebooks | 4 | $29.62 | $118.48,0.95
+INV-0012,INV-0012-image_jpg,1,Cleaning cloths,3.0,34.06,102.18,Cleaning cloths | 3 | $34.06 | $102.18,0.95
+INV-0012,INV-0012-image_jpg,2,Archivefolders,3.0,57.97,173.91,Archivefolders | 3 | $57.97 | $173.91,0.95
+INV-0014,INV-0014-image_jpg,1,Herbal tea,3.0,4.09,12.27,Herbal tea | 3 | $4.09 | $12.27,0.95
+INV-0014,INV-0014-image_jpg,2,USBadapter,3.0,29.18,87.54,USBadapter | 3 | $29.18 | $87.54,0.95
+INV-0014,INV-0014-image_jpg,3,Gel pen set,3.0,47.11,141.33,Gel pen set | 3 | $47.11 | $141.33,0.95
+INV-0014,INV-0014-image_jpg,4,Granola cup,3.0,39.21,117.63,Granola cup | 3 | $39.21 | $117.63,0.95
+INV-0016,INV-0016-image_jpg,1,Archive folders,1.0,57.72,57.72,Archive folders | 1 | $57.72 | $57.72,0.95
+INV-0016,INV-0016-image_jpg,2,Canvas tote,4.0,26.17,104.68,Canvas tote | 4 | $26.17 | $104.68,0.95
+INV-0016,INV-0016-image_jpg,3,Herbal tea,4.0,20.39,81.56,Herbal tea | 4 | $20.39 | $81.56,0.95
+INV-0016,INV-0016-image_jpg,4,Cable clips,4.0,22.65,90.6,Cable clips | 4 | $22.65 | $90.60,0.95
+INV-0016,INV-0016-image_jpg,5,Desk organizer,3.0,34.02,102.06,Desk organizer | 3 | $34.02 | $102.06,0.95
+INV-0018,INV-0018-image_jpg,1,Desk organizer,3.0,17.29,51.87,Desk organizer | 3 | $17.29 | $51.87,0.95
+INV-0018,INV-0018-image_jpg,2,Archivefolders,1.0,16.3,16.3,Archivefolders | 1 | $16.30 | $16.30,0.95
+INV-0019,INV-0019-image_jpg,1,Granola cup,3.0,9.57,28.71,Granola cup | 3 | $9.57 | $28.71,0.95
+INV-0019,INV-0019-image_jpg,2,Herbaltea,4.0,55.52,222.08,Herbaltea | 4 | $55.52 | $222.08,0.95
+INV-0019,INV-0019-image_jpg,3,Cable clips,2.0,21.91,43.82,Cable clips | 2 | $21.91 | $43.82,0.95
+INV-0019,INV-0019-image_jpg,4,Canvastote,4.0,28.73,114.92,Canvastote | 4 | $28.73 | $114.92,0.95
+INV-0020,INV-0020-image_jpg,1,Archive folders,3.0,9.15,27.45,Archive folders | 3 | $9.15 | $27.45,0.95
+INV-0020,INV-0020-image_jpg,2,Coffeebeans,3.0,43.62,130.86,Coffeebeans | 3 | $43.62 | $130.86,0.95
+INV-0020,INV-0020-image_jpg,3,Gel pen set,3.0,18.76,56.28,Gel pen set | 3 | $18.76 | $56.28,0.95
+INV-0021,INV-0021-image_jpg,1,USBadapter,3.0,39.53,118.59,USBadapter | 3 | $39.53 | $118.59,0.95
+INV-0021,INV-0021-image_jpg,2,Granolacup,4.0,47.47,189.88,Granolacup | 4 | $47.47 | $189.88,0.95
+INV-0021,INV-0021-image_jpg,3,Cleaning cloths,4.0,17.01,68.04,Cleaning cloths | 4 | $17.01 | $68.04,0.95
+INV-0022,INV-0022-image_jpg,1,Archivefolders,2.0,36.02,72.04,Archivefolders | 2 | $36.02 | $72.04,0.95
+INV-0022,INV-0022-image_jpg,2,Coffeebeans,3.0,19.47,58.41,Coffeebeans | 3 | $19.47 | $58.41,0.95
+INV-0023,INV-0023-image_jpg,1,Coffee beans,4.0,37.3,149.2,Coffee beans | 4 | $37.30 | $149.20,0.95
+INV-0023,INV-0023-image_jpg,2,Canvas tote,4.0,39.8,159.2,Canvas tote | 4 | $39.80 | $159.20,0.95
+INV-0023,INV-0023-image_jpg,3,Granola cup,4.0,56.37,225.48,Granola cup | 4 | $56.37 | $225.48,0.95
+INV-0023,INV-0023-image_jpg,4,Gel pen set,1.0,33.33,33.33,Gel pen set | 1 | $33.33 | $33.33,0.95
+INV-0023,INV-0023-image_jpg,5,Recycled notebooks,3.0,12.98,38.94,Recycled notebooks | 3 | $12.98 | $38.94,0.95
+INV-0024,INV-0024-image_jpg,1,Cable clips,4.0,7.65,30.6,Cable clips | 4 | $7.65 | $30.60,0.95
+INV-0024,INV-0024-image_jpg,2,Cleaning cloths,3.0,24.66,73.98,Cleaning cloths | 3 | $24.66 | $73.98,0.95
+INV-0026,INV-0026-image_jpg,1,Desk organizer,4.0,55.86,223.44,Desk organizer | 4 | $55.86 | $223.44,0.95
+INV-0026,INV-0026-image_jpg,2,Archivefolders,2.0,23.66,47.32,Archivefolders | 2 | $23.66 | $47.32,0.95
+INV-0028,INV-0028-image_jpg,1,Archive folders,2.0,29.5,59.0,Archive folders | 2 | $29.50 | $59.00,0.95
+INV-0028,INV-0028-image_jpg,2,Coffee beans,1.0,7.23,7.23,Coffee beans | 1 | $7.23 | $7.23,0.95
+INV-0029,INV-0029-image_jpg,1,Granola cup,2.0,30.27,60.54,Granola cup | 2 | $30.27 | $60.54,0.95
+INV-0030,INV-0030-image_jpg,1,USB adapter,3.0,36.39,109.17,USB adapter | 3 | $36.39 | $109.17,0.95
+INV-0030,INV-0030-image_jpg,2,Canvas tote,2.0,10.7,21.4,Canvas tote | 2 | $10.70 | $21.40,0.95
+INV-0030,INV-0030-image_jpg,3,Desk organizer,2.0,33.76,67.52,Desk organizer | 2 | $33.76 | $67.52,0.95
+INV-0030,INV-0030-image_jpg,4,Herbal tea,2.0,25.17,50.34,Herbal tea | 2 | $25.17 | $50.34,0.95
+INV-0032,INV-0032-image_jpg,1,Recycled notebooks,2.0,24.58,49.16,Recycled notebooks | 2 | $24.58 | $49.16,0.95
+INV-0032,INV-0032-image_jpg,2,Gel pen set,3.0,19.37,58.11,Gel pen set | 3 | $19.37 | $58.11,0.95
+INV-0032,INV-0032-image_jpg,3,USBadapter,2.0,24.99,49.98,USBadapter | 2 | $24.99 | $49.98,0.95
+INV-0033,INV-0033-image_jpg,1,USBadapter,3.0,49.55,148.65,USBadapter | 3 | $49.55 | $148.65,0.95
+INV-0034,INV-0034-image_jpg,1,Archive folders,1.0,35.16,35.16,Archive folders | 1 | $35.16 | $35.16,0.95
+INV-0034,INV-0034-image_jpg,2,Cleaning cloths,1.0,29.14,29.14,Cleaning cloths | 1 | $29.14 | $29.14,0.95
+INV-0034,INV-0034-image_jpg,3,USBadapter,4.0,50.89,203.56,USBadapter | 4 | $50.89 | $203.56,0.95
+INV-0034,INV-0034-image_jpg,4,Coffeebeans,4.0,23.04,92.16,Coffeebeans | 4 | $23.04 | $92.16,0.95
+INV-0035,INV-0035-image_jpg,1,Cable clips,4.0,6.49,25.96,Cable clips | 4 | $6.49 | $25.96,0.95
+INV-0035,INV-0035-image_jpg,2,Cleaning cloths,3.0,47.55,142.65,Cleaning cloths | 3 | $47.55 | $142.65,0.95
+INV-0036,INV-0036-image_jpg,1,Cable clips,2.0,18.3,36.6,Cable clips | 2 | $18.30 | $36.60,0.95
+INV-0036,INV-0036-image_jpg,2,Desk organizer,3.0,11.86,35.58,Desk organizer | 3 | $11.86 | $35.58,0.95
+INV-0036,INV-0036-image_jpg,3,Granola cup,3.0,53.94,161.82,Granola cup | 3 | $53.94 | $161.82,0.95
+INV-0036,INV-0036-image_jpg,4,Gelpenset,3.0,42.75,128.25,Gelpenset | 3 | $42.75 | $128.25,0.95
+INV-0039,INV-0039-image_jpg,1,Coffeebeans,1.0,22.83,22.83,Coffeebeans | 1 | $22.83 | $22.83,0.95
+INV-0039,INV-0039-image_jpg,2,Cable clips,1.0,19.13,19.13,Cable clips | 1 | $19.13 | $19.13,0.95
+INV-0039,INV-0039-image_jpg,3,Granola cup,2.0,22.18,44.36,Granola cup | 2 | $22.18 | $44.36,0.95
+INV-0039,INV-0039-image_jpg,4,Canvas tote,3.0,38.95,116.85,Canvas tote | 3 | $38.95 | $116.85,0.95
+INV-0001,INV-0001-digital_pdf,1,Herbal tea,2.0,34.94,69.88,Herbal | tea | 2 | $34.94 | $69.88,0.95
+INV-0001,INV-0001-digital_pdf,2,Cleaning cloths,4.0,43.73,174.92,Cleaning | cloths | 4 | $43.73 | $174.92,0.95
+INV-0001,INV-0001-digital_pdf,3,Recycled notebooks,4.0,35.24,140.96,Recycled | notebooks | 4 | $35.24 | $140.96,0.95
+INV-0003,INV-0003-digital_pdf,1,Canvas tote,1.0,53.52,53.52,Canvas | tote | 1 | $53.52 | $53.52,0.95
+INV-0003,INV-0003-digital_pdf,2,USB adapter,4.0,38.06,152.24,USB | adapter | 4 | $38.06 | $152.24,0.95
+INV-0003,INV-0003-digital_pdf,3,Coffee beans,3.0,56.38,169.14,Coffee | beans | 3 | $56.38 | $169.14,0.95
+INV-0003,INV-0003-digital_pdf,4,Desk organizer,3.0,54.61,163.83,Desk | organizer | 3 | $54.61 | $163.83,0.95
+INV-0003,INV-0003-digital_pdf,5,Gel pen set,4.0,47.1,188.4,Gel | pen | set | 4 | $47.10 | $188.40,0.95
+INV-0005,INV-0005-digital_pdf,1,USB adapter,2.0,49.22,98.44,USB | adapter | 2 | $49.22 | $98.44,0.95
+INV-0005,INV-0005-digital_pdf,2,Archive folders,2.0,27.92,55.84,Archive | folders | 2 | $27.92 | $55.84,0.95
+INV-0005,INV-0005-digital_pdf,3,Canvas tote,4.0,7.55,30.2,Canvas | tote | 4 | $7.55 | $30.20,0.95
+INV-0006,INV-0006-digital_pdf,1,Archive folders,4.0,23.0,92.0,Archive | folders | 4 | $23.00 | $92.00,0.95
+INV-0007,INV-0007-digital_pdf,1,Gel pen set,2.0,32.11,64.22,Gel | pen | set | 2 | $32.11 | $64.22,0.95
+INV-0007,INV-0007-digital_pdf,2,Desk organizer,1.0,23.8,23.8,Desk | organizer | 1 | $23.80 | $23.80,0.95
+INV-0009,INV-0009-digital_pdf,1,USB adapter,1.0,2.91,2.91,USB | adapter | 1 | $2.91 | $2.91,0.95
+INV-0010,INV-0010-digital_pdf,1,Cable clips,1.0,13.54,13.54,Cable | clips | 1 | $13.54 | $13.54,0.95
+INV-0010,INV-0010-digital_pdf,2,Herbal tea,4.0,45.48,181.92,Herbal | tea | 4 | $45.48 | $181.92,0.95
+INV-0010,INV-0010-digital_pdf,3,USB adapter,4.0,31.94,127.76,USB | adapter | 4 | $31.94 | $127.76,0.95
+INV-0010,INV-0010-digital_pdf,4,Recycled notebooks,3.0,33.03,99.09,Recycled | notebooks | 3 | $33.03 | $99.09,0.95
+INV-0010,INV-0010-digital_pdf,5,Granola cup,4.0,29.62,118.48,Granola | cup | 4 | $29.62 | $118.48,0.95
+INV-0012,INV-0012-digital_pdf,1,Cleaning cloths,3.0,34.06,102.18,Cleaning | cloths | 3 | $34.06 | $102.18,0.95
+INV-0012,INV-0012-digital_pdf,2,Archive folders,3.0,57.97,173.91,Archive | folders | 3 | $57.97 | $173.91,0.95
+INV-0014,INV-0014-digital_pdf,1,Herbal tea,3.0,4.09,12.27,Herbal | tea | 3 | $4.09 | $12.27,0.95
+INV-0014,INV-0014-digital_pdf,2,USB adapter,3.0,29.18,87.54,USB | adapter | 3 | $29.18 | $87.54,0.95
+INV-0014,INV-0014-digital_pdf,3,Gel pen set,3.0,47.11,141.33,Gel | pen | set | 3 | $47.11 | $141.33,0.95
+INV-0014,INV-0014-digital_pdf,4,Granola cup,3.0,39.21,117.63,Granola | cup | 3 | $39.21 | $117.63,0.95
+INV-0016,INV-0016-digital_pdf,1,Archive folders,1.0,57.72,57.72,Archive | folders | 1 | $57.72 | $57.72,0.95
+INV-0016,INV-0016-digital_pdf,2,Canvas tote,4.0,26.17,104.68,Canvas | tote | 4 | $26.17 | $104.68,0.95
+INV-0016,INV-0016-digital_pdf,3,Herbal tea,4.0,20.39,81.56,Herbal | tea | 4 | $20.39 | $81.56,0.95
+INV-0016,INV-0016-digital_pdf,4,Cable clips,4.0,22.65,90.6,Cable | clips | 4 | $22.65 | $90.60,0.95
+INV-0016,INV-0016-digital_pdf,5,Desk organizer,3.0,34.02,102.06,Desk | organizer | 3 | $34.02 | $102.06,0.95
+INV-0017,INV-0017-digital_pdf,1,Granola cup,2.0,39.53,79.06,Granola | cup | 2 | $39.53 | $79.06,0.95
+INV-0017,INV-0017-digital_pdf,2,Archive folders,1.0,43.23,43.23,Archive | folders | 1 | $43.23 | $43.23,0.95
+INV-0018,INV-0018-digital_pdf,1,Desk organizer,3.0,17.29,51.87,Desk | organizer | 3 | $17.29 | $51.87,0.95
+INV-0018,INV-0018-digital_pdf,2,Archive folders,1.0,16.3,16.3,Archive | folders | 1 | $16.30 | $16.30,0.95
+INV-0019,INV-0019-digital_pdf,1,Granola cup,3.0,9.57,28.71,Granola | cup | 3 | $9.57 | $28.71,0.95
+INV-0019,INV-0019-digital_pdf,2,Herbal tea,4.0,55.52,222.08,Herbal | tea | 4 | $55.52 | $222.08,0.95
+INV-0019,INV-0019-digital_pdf,3,Cable clips,2.0,21.91,43.82,Cable | clips | 2 | $21.91 | $43.82,0.95
+INV-0019,INV-0019-digital_pdf,4,Canvas tote,4.0,28.73,114.92,Canvas | tote | 4 | $28.73 | $114.92,0.95
+INV-0019,INV-0019-digital_pdf,5,Cleaning cloths,1.0,54.47,54.47,Cleaning | cloths | 1 | $54.47 | $54.47,0.95
+INV-0020,INV-0020-digital_pdf,1,Archive folders,3.0,9.15,27.45,Archive | folders | 3 | $9.15 | $27.45,0.95
+INV-0020,INV-0020-digital_pdf,2,Coffee beans,3.0,43.62,130.86,Coffee | beans | 3 | $43.62 | $130.86,0.95
+INV-0020,INV-0020-digital_pdf,3,Gel pen set,3.0,18.76,56.28,Gel | pen | set | 3 | $18.76 | $56.28,0.95
+INV-0021,INV-0021-digital_pdf,1,USB adapter,3.0,39.53,118.59,USB | adapter | 3 | $39.53 | $118.59,0.95
+INV-0021,INV-0021-digital_pdf,2,Granola cup,4.0,47.47,189.88,Granola | cup | 4 | $47.47 | $189.88,0.95
+INV-0021,INV-0021-digital_pdf,3,Cleaning cloths,4.0,17.01,68.04,Cleaning | cloths | 4 | $17.01 | $68.04,0.95
+INV-0021,INV-0021-digital_pdf,4,Coffee beans,4.0,36.08,144.32,Coffee | beans | 4 | $36.08 | $144.32,0.95
+INV-0022,INV-0022-digital_pdf,1,Archive folders,2.0,36.02,72.04,Archive | folders | 2 | $36.02 | $72.04,0.95
+INV-0022,INV-0022-digital_pdf,2,Coffee beans,3.0,19.47,58.41,Coffee | beans | 3 | $19.47 | $58.41,0.95
+INV-0022,INV-0022-digital_pdf,3,Recycled notebooks,1.0,21.26,21.26,Recycled | notebooks | 1 | $21.26 | $21.26,0.95
+INV-0023,INV-0023-digital_pdf,1,Coffee beans,4.0,37.3,149.2,Coffee | beans | 4 | $37.30 | $149.20,0.95
+INV-0023,INV-0023-digital_pdf,2,Canvas tote,4.0,39.8,159.2,Canvas | tote | 4 | $39.80 | $159.20,0.95
+INV-0023,INV-0023-digital_pdf,3,Granola cup,4.0,56.37,225.48,Granola | cup | 4 | $56.37 | $225.48,0.95
+INV-0023,INV-0023-digital_pdf,4,Gel pen set,1.0,33.33,33.33,Gel | pen | set | 1 | $33.33 | $33.33,0.95
+INV-0023,INV-0023-digital_pdf,5,Recycled notebooks,3.0,12.98,38.94,Recycled | notebooks | 3 | $12.98 | $38.94,0.95
+INV-0024,INV-0024-digital_pdf,1,Cable clips,2.0,55.78,111.56,Cable | clips | 2 | $55.78 | $111.56,0.95
+INV-0024,INV-0024-digital_pdf,2,Cleaning cloths,4.0,7.65,30.6,Cleaning | cloths | 4 | $7.65 | $30.60,0.95
+INV-0024,INV-0024-digital_pdf,3,Granola cup,3.0,24.66,73.98,Granola | cup | 3 | $24.66 | $73.98,0.95
+INV-0026,INV-0026-digital_pdf,1,Desk organizer,4.0,55.86,223.44,Desk | organizer | 4 | $55.86 | $223.44,0.95
+INV-0026,INV-0026-digital_pdf,2,Archive folders,2.0,23.66,47.32,Archive | folders | 2 | $23.66 | $47.32,0.95
+INV-0028,INV-0028-digital_pdf,1,Archive folders,2.0,29.5,59.0,Archive | folders | 2 | $29.50 | $59.00,0.95
+INV-0028,INV-0028-digital_pdf,2,Coffee beans,1.0,7.23,7.23,Coffee | beans | 1 | $7.23 | $7.23,0.95
+INV-0029,INV-0029-digital_pdf,1,Granola cup,2.0,30.27,60.54,Granola | cup | 2 | $30.27 | $60.54,0.95
+INV-0030,INV-0030-digital_pdf,1,USB adapter,3.0,36.39,109.17,USB | adapter | 3 | $36.39 | $109.17,0.95
+INV-0030,INV-0030-digital_pdf,2,Canvas tote,2.0,10.7,21.4,Canvas | tote | 2 | $10.70 | $21.40,0.95
+INV-0030,INV-0030-digital_pdf,3,Desk organizer,2.0,33.76,67.52,Desk | organizer | 2 | $33.76 | $67.52,0.95
+INV-0030,INV-0030-digital_pdf,4,Herbal tea,2.0,25.17,50.34,Herbal | tea | 2 | $25.17 | $50.34,0.95
+INV-0032,INV-0032-digital_pdf,1,Recycled notebooks,2.0,24.58,49.16,Recycled | notebooks | 2 | $24.58 | $49.16,0.95
+INV-0032,INV-0032-digital_pdf,2,Gel pen set,3.0,19.37,58.11,Gel | pen | set | 3 | $19.37 | $58.11,0.95
+INV-0032,INV-0032-digital_pdf,3,USB adapter,2.0,24.99,49.98,USB | adapter | 2 | $24.99 | $49.98,0.95
+INV-0033,INV-0033-digital_pdf,1,USB adapter,3.0,49.55,148.65,USB | adapter | 3 | $49.55 | $148.65,0.95
+INV-0034,INV-0034-digital_pdf,1,Archive folders,1.0,35.16,35.16,Archive | folders | 1 | $35.16 | $35.16,0.95
+INV-0034,INV-0034-digital_pdf,2,Cleaning cloths,1.0,29.14,29.14,Cleaning | cloths | 1 | $29.14 | $29.14,0.95
+INV-0034,INV-0034-digital_pdf,3,USB adapter,4.0,50.89,203.56,USB | adapter | 4 | $50.89 | $203.56,0.95
+INV-0034,INV-0034-digital_pdf,4,Coffee beans,4.0,23.04,92.16,Coffee | beans | 4 | $23.04 | $92.16,0.95
+INV-0035,INV-0035-digital_pdf,1,Cable clips,4.0,6.49,25.96,Cable | clips | 4 | $6.49 | $25.96,0.95
+INV-0035,INV-0035-digital_pdf,2,Cleaning cloths,3.0,47.55,142.65,Cleaning | cloths | 3 | $47.55 | $142.65,0.95
+INV-0035,INV-0035-digital_pdf,3,Canvas tote,1.0,18.08,18.08,Canvas | tote | 1 | $18.08 | $18.08,0.95
+INV-0036,INV-0036-digital_pdf,1,Cable clips,2.0,18.3,36.6,Cable | clips | 2 | $18.30 | $36.60,0.95
+INV-0036,INV-0036-digital_pdf,2,Desk organizer,3.0,11.86,35.58,Desk | organizer | 3 | $11.86 | $35.58,0.95
+INV-0036,INV-0036-digital_pdf,3,Granola cup,3.0,53.94,161.82,Granola | cup | 3 | $53.94 | $161.82,0.95
+INV-0036,INV-0036-digital_pdf,4,Gel pen set,3.0,42.75,128.25,Gel | pen | set | 3 | $42.75 | $128.25,0.95
+INV-0039,INV-0039-digital_pdf,1,Coffee beans,1.0,22.83,22.83,Coffee | beans | 1 | $22.83 | $22.83,0.95
+INV-0039,INV-0039-digital_pdf,2,Cable clips,1.0,19.13,19.13,Cable | clips | 1 | $19.13 | $19.13,0.95
+INV-0039,INV-0039-digital_pdf,3,Granola cup,2.0,22.18,44.36,Granola | cup | 2 | $22.18 | $44.36,0.95
+INV-0039,INV-0039-digital_pdf,4,Canvas tote,3.0,38.95,116.85,Canvas | tote | 3 | $38.95 | $116.85,0.95
+INV-0001,INV-0001-image_png,1,Herbal tea,4.0,43.73,174.92,Herbal tea | 4 | $43.73 | $174.92,0.95
+INV-0003,INV-0003-image_png,1,USB adapter,4.0,38.06,152.24,USB adapter | 4 | $38.06 | $152.24,0.95
+INV-0003,INV-0003-image_png,2,Coffee beans,3.0,56.38,169.14,Coffee beans | 3 | $56.38 | $169.14,0.95
+INV-0003,INV-0003-image_png,3,Desk organizer,3.0,54.61,163.83,Desk organizer | 3 | $54.61 | $163.83,0.95
+INV-0003,INV-0003-image_png,4,Gel pen set,4.0,47.1,188.4,Gel pen set | 4 | $47.10 | $188.40,0.95
+INV-0005,INV-0005-image_png,1,USBadapter,2.0,49.22,98.44,USBadapter | 2 | $49.22 | $98.44,0.95
+INV-0005,INV-0005-image_png,2,Archivefolders,2.0,27.92,55.84,Archivefolders | 2 | $27.92 | $55.84,0.95
+INV-0005,INV-0005-image_png,3,Canvastote,4.0,7.55,30.2,Canvastote | 4 | $7.55 | $30.20,0.95
+INV-0006,INV-0006-image_png,1,Archive folders,4.0,23.0,92.0,Archive folders | 4 | $23.00 | $92.00,0.95
+INV-0007,INV-0007-image_png,1,Gel pen set,2.0,32.11,64.22,Gel pen set | 2 | $32.11 | $64.22,0.95
+INV-0007,INV-0007-image_png,2,Desk organizer,1.0,23.8,23.8,Desk organizer | 1 | $23.80 | $23.80,0.95
+INV-0009,INV-0009-image_png,1,USB adapter,1.0,2.91,2.91,USB adapter | 1 | $2.91 | $2.91,0.95
+INV-0010,INV-0010-image_png,1,Herbal tea,4.0,45.48,181.92,Herbal tea | 4 | $45.48 | $181.92,0.95
+INV-0010,INV-0010-image_png,2,USB adapter,4.0,31.94,127.76,USB adapter | 4 | $31.94 | $127.76,0.95
+INV-0010,INV-0010-image_png,3,Recycled notebooks,3.0,33.03,99.09,Recycled notebooks | 3 | $33.03 | $99.09,0.95
+INV-0010,INV-0010-image_png,4,Granola cup,4.0,29.62,118.48,Granola cup | 4 | $29.62 | $118.48,0.95
+INV-0012,INV-0012-image_png,1,Archivefolders,3.0,57.97,173.91,Archivefolders | 3 | $57.97 | $173.91,0.95
+INV-0014,INV-0014-image_png,1,Herbal tea,3.0,4.09,12.27,Herbal tea | 3 | $4.09 | $12.27,0.95
+INV-0014,INV-0014-image_png,2,Gel pen set,3.0,47.11,141.33,Gel pen set | 3 | $47.11 | $141.33,0.95
+INV-0014,INV-0014-image_png,3,Granola cup,3.0,39.21,117.63,Granola cup | 3 | $39.21 | $117.63,0.95
+INV-0016,INV-0016-image_png,1,Archive folders,1.0,57.72,57.72,Archive folders | 1 | $57.72 | $57.72,0.95
+INV-0016,INV-0016-image_png,2,Canvastote,4.0,26.17,104.68,Canvastote | 4 | $26.17 | $104.68,0.95
+INV-0016,INV-0016-image_png,3,Herbal tea,4.0,20.39,81.56,Herbal tea | 4 | $20.39 | $81.56,0.95
+INV-0016,INV-0016-image_png,4,Cable clips,4.0,22.65,90.6,Cable clips | 4 | $22.65 | $90.60,0.95
+INV-0016,INV-0016-image_png,5,Desk organizer,3.0,34.02,102.06,Desk organizer | 3 | $34.02 | $102.06,0.95
+INV-0017,INV-0017-image_png,1,Granola cup,2.0,39.53,79.06,Granola cup | 2 | $39.53 | $79.06,0.95
+INV-0018,INV-0018-image_png,1,Desk organizer,3.0,17.29,51.87,Desk organizer | 3 | $17.29 | $51.87,0.95
+INV-0018,INV-0018-image_png,2,Archivefolders,1.0,16.3,16.3,Archivefolders | 1 | $16.30 | $16.30,0.95
+INV-0019,INV-0019-image_png,1,Herbal tea,4.0,55.52,222.08,Herbal tea | 4 | $55.52 | $222.08,0.95
+INV-0019,INV-0019-image_png,2,Cable clips,2.0,21.91,43.82,Cable clips | 2 | $21.91 | $43.82,0.95
+INV-0019,INV-0019-image_png,3,Canvastote,4.0,28.73,114.92,Canvastote | 4 | $28.73 | $114.92,0.95
+INV-0020,INV-0020-image_png,1,Archive folders,3.0,9.15,27.45,Archive folders | 3 | $9.15 | $27.45,0.95
+INV-0020,INV-0020-image_png,2,Coffeebeans,3.0,43.62,130.86,Coffeebeans | 3 | $43.62 | $130.86,0.95
+INV-0020,INV-0020-image_png,3,Gel pen set,3.0,18.76,56.28,Gel pen set | 3 | $18.76 | $56.28,0.95
+INV-0021,INV-0021-image_png,1,USB adapter,3.0,39.53,118.59,USB adapter | 3 | $39.53 | $118.59,0.95
+INV-0021,INV-0021-image_png,2,Granola cup,4.0,47.47,189.88,Granola cup | 4 | $47.47 | $189.88,0.95
+INV-0021,INV-0021-image_png,3,Cleaning cloths,4.0,17.01,68.04,Cleaning cloths | 4 | $17.01 | $68.04,0.95
+INV-0021,INV-0021-image_png,4,Coffee beans,4.0,36.08,144.32,Coffee beans | 4 | $36.08 | $144.32,0.95
+INV-0022,INV-0022-image_png,1,Archive folders,3.0,19.47,58.41,Archive folders | 3 | $19.47 | $58.41,0.95
+INV-0023,INV-0023-image_png,1,Coffeebeans,4.0,37.3,149.2,Coffeebeans | 4 | $37.30 | $149.20,0.95
+INV-0023,INV-0023-image_png,2,Canvastote,4.0,39.8,159.2,Canvastote | 4 | $39.80 | $159.20,0.95
+INV-0023,INV-0023-image_png,3,Granola cup,4.0,56.37,225.48,Granola cup | 4 | $56.37 | $225.48,0.95
+INV-0023,INV-0023-image_png,4,Gel pen set,1.0,33.33,33.33,Gel pen set | 1 | $33.33 | $33.33,0.95
+INV-0023,INV-0023-image_png,5,Recycled notebooks,3.0,12.98,38.94,Recycled notebooks | 3 | $12.98 | $38.94,0.95
+INV-0024,INV-0024-image_png,1,Cable clips,2.0,55.78,111.56,Cable clips | 2 | $55.78 | $111.56,0.95
+INV-0024,INV-0024-image_png,2,Cleaning cloths,4.0,7.65,30.6,Cleaning cloths | 4 | $7.65 | $30.60,0.95
+INV-0024,INV-0024-image_png,3,Granola cup,3.0,24.66,73.98,Granola cup | 3 | $24.66 | $73.98,0.95
+INV-0026,INV-0026-image_png,1,Deskorganizer,4.0,55.86,223.44,Deskorganizer | 4 | $55.86 | $223.44,0.95
+INV-0026,INV-0026-image_png,2,Archivefolders,2.0,23.66,47.32,Archivefolders | 2 | $23.66 | $47.32,0.95
+INV-0028,INV-0028-image_png,1,Archive folders,2.0,29.5,59.0,Archive folders | 2 | $29.50 | $59.00,0.95
+INV-0028,INV-0028-image_png,2,Coffee beans,1.0,7.23,7.23,Coffee beans | 1 | $7.23 | $7.23,0.95
+INV-0029,INV-0029-image_png,1,Granola cup,2.0,31.0,62.0,Granola cup | 2 | $31.00 | $62.00,0.95
+INV-0030,INV-0030-image_png,1,USB adapter,3.0,36.39,109.17,USB adapter | 3 | $36.39 | $109.17,0.95
+INV-0030,INV-0030-image_png,2,Canvastote,2.0,10.7,21.4,Canvastote | 2 | $10.70 | $21.40,0.95
+INV-0030,INV-0030-image_png,3,Desk organizer,2.0,33.76,67.52,Desk organizer | 2 | $33.76 | $67.52,0.95
+INV-0030,INV-0030-image_png,4,Herbal tea,2.0,25.17,50.34,Herbal tea | 2 | $25.17 | $50.34,0.95
+INV-0032,INV-0032-image_png,1,Recycled notebooks,2.0,24.58,49.16,Recycled notebooks | 2 | $24.58 | $49.16,0.95
+INV-0032,INV-0032-image_png,2,Gel pen set,3.0,19.37,58.11,Gel pen set | 3 | $19.37 | $58.11,0.95
+INV-0032,INV-0032-image_png,3,USB adapter,2.0,24.99,49.98,USB adapter | 2 | $24.99 | $49.98,0.95
+INV-0033,INV-0033-image_png,1,USB adapter,3.0,49.55,148.65,USB adapter | 3 | $49.55 | $148.65,0.95
+INV-0034,INV-0034-image_png,1,Archive folders,1.0,35.16,35.16,Archive folders | 1 | $35.16 | $35.16,0.95
+INV-0034,INV-0034-image_png,2,Cleaning cloths,1.0,29.14,29.14,Cleaning cloths | 1 | $29.14 | $29.14,0.95
+INV-0034,INV-0034-image_png,3,USB adapter,4.0,50.89,203.56,USB adapter | 4 | $50.89 | $203.56,0.95
+INV-0034,INV-0034-image_png,4,Coffeebeans,4.0,23.04,92.16,Coffeebeans | 4 | $23.04 | $92.16,0.95
+INV-0035,INV-0035-image_png,1,Cable clips,4.0,6.49,25.96,Cable clips | 4 | $6.49 | $25.96,0.95
+INV-0035,INV-0035-image_png,2,Cleaning cloths,3.0,47.55,142.65,Cleaning cloths | 3 | $47.55 | $142.65,0.95
+INV-0036,INV-0036-image_png,1,Cable clips,3.0,11.86,35.58,Cable clips | 3 | $11.86 | $35.58,0.95
+INV-0036,INV-0036-image_png,2,Desk organizer,3.0,53.94,161.82,Desk organizer | 3 | $53.94 | $161.82,0.95
+INV-0036,INV-0036-image_png,3,Granola cup,3.0,42.75,128.25,Granola cup | 3 | $42.75 | $128.25,0.95
+INV-0039,INV-0039-image_png,1,Coffeebeans,1.0,22.83,22.83,Coffeebeans | 1 | $22.83 | $22.83,0.95
+INV-0039,INV-0039-image_png,2,Cable clips,1.0,19.13,19.13,Cable clips | 1 | $19.13 | $19.13,0.95
+INV-0039,INV-0039-image_png,3,Granola cup,2.0,22.18,44.36,Granola cup | 2 | $22.18 | $44.36,0.95
+INV-0039,INV-0039-image_png,4,Canvastote,3.0,38.95,116.85,Canvastote | 3 | $38.95 | $116.85,0.95
+RCT-0001,RCT-0001-image_jpg,1,Cable clips,1.0,14.46,14.46,Cable clips | 1 | $14.46 | $14.46,0.95
+RCT-0003,RCT-0003-image_jpg,1,Cable clips,3.0,5.84,17.52,Cable clips | 3 | $5.84 | $17.52,0.95
+RCT-0005,RCT-0005-image_jpg,1,Desk organizer,3.0,13.75,41.25,Desk organizer | 3 | $13.75 | $41.25,0.95
+RCT-0005,RCT-0005-image_jpg,2,Cleaning cloths,3.0,11.92,35.76,Cleaning cloths | 3 | $11.92 | $35.76,0.95
+RCT-0005,RCT-0005-image_jpg,3,Coffee beans,4.0,15.16,60.64,Coffee beans | 4 | $15.16 | $60.64,0.95
+RCT-0005,RCT-0005-image_jpg,4,USB adapter,3.0,12.18,36.54,USB adapter | 3 | $12.18 | $36.54,0.95
+RCT-0007,RCT-0007-image_jpg,1,Cable clips,4.0,6.56,26.24,Cable clips | 4 | $6.56 | $26.24,0.95
+RCT-0007,RCT-0007-image_jpg,2,Recycled notebooks,4.0,10.9,43.6,Recycled notebooks | 4 | $10.90 | $43.60,0.95
+RCT-0007,RCT-0007-image_jpg,3,Coffee beans,2.0,6.22,12.44,Coffee beans | 2 | $6.22 | $12.44,0.95
+RCT-0007,RCT-0007-image_jpg,4,Desk organizer,2.0,12.85,25.7,Desk organizer | 2 | $12.85 | $25.70,0.95
+RCT-0008,RCT-0008-image_jpg,1,Cable clips,3.0,3.22,9.66,Cable clips | 3 | $3.22 | $9.66,0.95
+RCT-0008,RCT-0008-image_jpg,2,Deskorganizer,2.0,12.57,25.14,Deskorganizer | 2 | $12.57 | $25.14,0.95
+RCT-0008,RCT-0008-image_jpg,3,Coffee beans,1.0,8.57,8.57,Coffee beans | 1 | $8.57 | $8.57,0.95
+RCT-0009,RCT-0009-image_jpg,1,Herbal tea,4.0,16.3,65.2,Herbal tea | 4 | $16.30 | $65.20,0.95
+RCT-0009,RCT-0009-image_jpg,2,USB adapter,3.0,6.91,20.73,USB adapter | 3 | $6.91 | $20.73,0.95
+RCT-0009,RCT-0009-image_jpg,3,Cleaning cloths,4.0,12.46,49.84,Cleaning cloths | 4 | $12.46 | $49.84,0.95
+RCT-0009,RCT-0009-image_jpg,4,Coffee beans,4.0,14.74,58.96,Coffee beans | 4 | $14.74 | $58.96,0.95
+RCT-0012,RCT-0012-image_jpg,1,Gel pen set,3.0,9.76,29.28,Gel pen set | 3 | $9.76 | $29.28,0.95
+RCT-0012,RCT-0012-image_jpg,2,Recycled notebooks,4.0,9.21,36.84,Recycled notebooks | 4 | $9.21 | $36.84,0.95
+RCT-0012,RCT-0012-image_jpg,3,Canvas tote,4.0,4.02,16.08,Canvas tote | 4 | $4.02 | $16.08,0.95
+RCT-0013,RCT-0013-image_jpg,1,Gel pen set,1.0,10.47,10.47,Gel pen set | 1 | $10.47 | $10.47,0.95
+RCT-0013,RCT-0013-image_jpg,2,Desk organizer,2.0,11.49,22.98,Desk organizer | 2 | $11.49 | $22.98,0.95
+RCT-0013,RCT-0013-image_jpg,3,Recycled notebooks,1.0,12.72,12.72,Recycled notebooks | 1 | $12.72 | $12.72,0.95
+RCT-0015,RCT-0015-image_jpg,1,Canvas tote,3.0,3.47,10.41,Canvas tote | 3 | $3.47 | $10.41,0.95
+RCT-0015,RCT-0015-image_jpg,2,Desk organizer,1.0,10.03,10.03,Desk organizer | 1 | $10.03 | $10.03,0.95
+RCT-0015,RCT-0015-image_jpg,3,Granola cup,1.0,16.38,16.38,Granola cup | 1 | $16.38 | $16.38,0.95
+RCT-0017,RCT-0017-image_jpg,1,Deskorganizer,2.0,11.16,22.32,Deskorganizer | 2 | $11.16 | $22.32,0.95
+RCT-0017,RCT-0017-image_jpg,2,USBadapter,1.0,3.18,3.18,USBadapter | 1 | $3.18 | $3.18,0.95
+RCT-0017,RCT-0017-image_jpg,3,Cleaningcloths,4.0,8.72,34.88,Cleaningcloths | 4 | $8.72 | $34.88,0.95
+RCT-0017,RCT-0017-image_jpg,4,Gel pen set,4.0,6.71,26.84,Gel pen set | 4 | $6.71 | $26.84,0.95
+RCT-0019,RCT-0019-image_jpg,1,Desk organizer,4.0,16.49,65.96,Desk organizer | 4 | $16.49 | $65.96,0.95
+RCT-0019,RCT-0019-image_jpg,2,Cable clips,2.0,6.13,12.26,Cable clips | 2 | $6.13 | $12.26,0.95
+RCT-0019,RCT-0019-image_jpg,3,Granola cup,4.0,8.34,33.36,Granola cup | 4 | $8.34 | $33.36,0.95
+RCT-0020,RCT-0020-image_jpg,1,Desk organizer,1.0,9.2,9.2,Desk organizer | 1 | $9.20 | $9.20,0.95
+RCT-0023,RCT-0023-image_jpg,1,Cable clips,3.0,14.29,42.87,Cable clips | 3 | $14.29 | $42.87,0.95
+RCT-0023,RCT-0023-image_jpg,2,Canvastote,2.0,16.85,33.7,Canvastote | 2 | $16.85 | $33.70,0.95
+RCT-0023,RCT-0023-image_jpg,3,Gel pen set,4.0,9.11,36.44,Gel pen set | 4 | $9.11 | $36.44,0.95
+RCT-0023,RCT-0023-image_jpg,4,Cleaning cloths,1.0,8.93,8.93,Cleaning cloths | 1 | $8.93 | $8.93,0.95
+RCT-0023,RCT-0023-image_jpg,5,Coffee beans,3.0,13.85,41.55,Coffee beans | 3 | $13.85 | $41.55,0.95
+RCT-0024,RCT-0024-image_jpg,1,Coffeebeans,3.0,4.4,13.2,Coffeebeans | 3 | $4.40 | $13.20,0.95
+RCT-0024,RCT-0024-image_jpg,2,Desk organizer,1.0,9.29,9.29,Desk organizer | 1 | $9.29 | $9.29,0.95
+RCT-0024,RCT-0024-image_jpg,3,Cleaningcloths,1.0,15.26,15.26,Cleaningcloths | 1 | $15.26 | $15.26,0.95
+RCT-0024,RCT-0024-image_jpg,4,Gelpenset,4.0,16.13,64.52,Gelpenset | 4 | $16.13 | $64.52,0.95
+RCT-0026,RCT-0026-image_jpg,1,Herbal tea,4.0,5.42,21.68,Herbal tea | 4 | $5.42 | $21.68,0.95
+RCT-0026,RCT-0026-image_jpg,2,Cable clips,2.0,13.1,26.2,Cable clips | 2 | $13.10 | $26.20,0.95
+RCT-0027,RCT-0027-image_jpg,1,USB adapter,3.0,11.73,35.19,USB adapter | 3 | $11.73 | $35.19,0.95
+RCT-0027,RCT-0027-image_jpg,2,Desk organizer,1.0,15.15,15.15,Desk organizer | 1 | $15.15 | $15.15,0.95
+RCT-0027,RCT-0027-image_jpg,3,Recyclednotebooks,4.0,3.95,15.8,Recyclednotebooks | 4 | $3.95 | $15.80,0.95
+RCT-0027,RCT-0027-image_jpg,4,Archivefolders,3.0,8.52,25.56,Archivefolders | 3 | $8.52 | $25.56,0.95
+RCT-0027,RCT-0027-image_jpg,5,Coffee beans,1.0,10.85,10.85,Coffee beans | 1 | $10.85 | $10.85,0.95
+RCT-0029,RCT-0029-image_jpg,1,Desk organizer,2.0,2.6,5.2,Desk organizer | 2 | $2.60 | $5.20,0.95
+RCT-0029,RCT-0029-image_jpg,2,Cleaning cloths,1.0,8.95,8.95,Cleaning cloths | 1 | $8.95 | $8.95,0.95
+RCT-0029,RCT-0029-image_jpg,3,Gel pen set,4.0,12.7,50.8,Gel pen set | 4 | $12.70 | $50.80,0.95
+RCT-0029,RCT-0029-image_jpg,4,Cable clips,2.0,12.95,25.9,Cable clips | 2 | $12.95 | $25.90,0.95
+RCT-0001,RCT-0001-digital_pdf,1,Cable clips,1.0,14.46,14.46,Cable | clips | 1 | $14.46 | $14.46,0.95
+RCT-0003,RCT-0003-digital_pdf,1,Cable clips,3.0,5.84,17.52,Cable | clips | 3 | $5.84 | $17.52,0.95
+RCT-0005,RCT-0005-digital_pdf,1,Desk organizer,3.0,13.75,41.25,Desk | organizer | 3 | $13.75 | $41.25,0.95
+RCT-0005,RCT-0005-digital_pdf,2,Cleaning cloths,3.0,11.92,35.76,Cleaning | cloths | 3 | $11.92 | $35.76,0.95
+RCT-0005,RCT-0005-digital_pdf,3,Coffee beans,4.0,15.16,60.64,Coffee | beans | 4 | $15.16 | $60.64,0.95
+RCT-0005,RCT-0005-digital_pdf,4,USB adapter,3.0,12.18,36.54,USB | adapter | 3 | $12.18 | $36.54,0.95
+RCT-0007,RCT-0007-digital_pdf,1,Cable clips,4.0,6.56,26.24,Cable | clips | 4 | $6.56 | $26.24,0.95
+RCT-0007,RCT-0007-digital_pdf,2,Recycled notebooks,4.0,10.9,43.6,Recycled | notebooks | 4 | $10.90 | $43.60,0.95
+RCT-0007,RCT-0007-digital_pdf,3,Coffee beans,2.0,6.22,12.44,Coffee | beans | 2 | $6.22 | $12.44,0.95
+RCT-0007,RCT-0007-digital_pdf,4,Desk organizer,2.0,12.85,25.7,Desk | organizer | 2 | $12.85 | $25.70,0.95
+RCT-0008,RCT-0008-digital_pdf,1,Cable clips,3.0,3.22,9.66,Cable | clips | 3 | $3.22 | $9.66,0.95
+RCT-0008,RCT-0008-digital_pdf,2,Desk organizer,2.0,12.57,25.14,Desk | organizer | 2 | $12.57 | $25.14,0.95
+RCT-0008,RCT-0008-digital_pdf,3,Coffee beans,1.0,8.57,8.57,Coffee | beans | 1 | $8.57 | $8.57,0.95
+RCT-0008,RCT-0008-digital_pdf,4,Recycled notebooks,1.0,12.24,12.24,Recycled | notebooks | 1 | $12.24 | $12.24,0.95
+RCT-0009,RCT-0009-digital_pdf,1,Herbal tea,4.0,16.3,65.2,Herbal | tea | 4 | $16.30 | $65.20,0.95
+RCT-0009,RCT-0009-digital_pdf,2,USB adapter,3.0,6.91,20.73,USB | adapter | 3 | $6.91 | $20.73,0.95
+RCT-0009,RCT-0009-digital_pdf,3,Cleaning cloths,4.0,12.46,49.84,Cleaning | cloths | 4 | $12.46 | $49.84,0.95
+RCT-0009,RCT-0009-digital_pdf,4,Coffee beans,4.0,14.74,58.96,Coffee | beans | 4 | $14.74 | $58.96,0.95
+RCT-0012,RCT-0012-digital_pdf,1,Gel pen set,3.0,9.76,29.28,Gel | pen | set | 3 | $9.76 | $29.28,0.95
+RCT-0012,RCT-0012-digital_pdf,2,Recycled notebooks,4.0,9.21,36.84,Recycled | notebooks | 4 | $9.21 | $36.84,0.95
+RCT-0012,RCT-0012-digital_pdf,3,Canvas tote,4.0,4.02,16.08,Canvas | tote | 4 | $4.02 | $16.08,0.95
+RCT-0013,RCT-0013-digital_pdf,1,Gel pen set,1.0,10.47,10.47,Gel | pen | set | 1 | $10.47 | $10.47,0.95
+RCT-0013,RCT-0013-digital_pdf,2,Desk organizer,2.0,11.49,22.98,Desk | organizer | 2 | $11.49 | $22.98,0.95
+RCT-0013,RCT-0013-digital_pdf,3,Recycled notebooks,1.0,12.72,12.72,Recycled | notebooks | 1 | $12.72 | $12.72,0.95
+RCT-0013,RCT-0013-digital_pdf,4,Canvas tote,1.0,13.11,13.11,Canvas | tote | 1 | $13.11 | $13.11,0.95
+RCT-0015,RCT-0015-digital_pdf,1,Canvas tote,3.0,3.47,10.41,Canvas | tote | 3 | $3.47 | $10.41,0.95
+RCT-0015,RCT-0015-digital_pdf,2,Desk organizer,1.0,10.03,10.03,Desk | organizer | 1 | $10.03 | $10.03,0.95
+RCT-0015,RCT-0015-digital_pdf,3,Granola cup,1.0,16.38,16.38,Granola | cup | 1 | $16.38 | $16.38,0.95
+RCT-0015,RCT-0015-digital_pdf,4,Herbal tea,1.0,16.9,16.9,Herbal | tea | 1 | $16.90 | $16.90,0.95
+RCT-0017,RCT-0017-digital_pdf,1,Desk organizer,2.0,11.16,22.32,Desk | organizer | 2 | $11.16 | $22.32,0.95
+RCT-0017,RCT-0017-digital_pdf,2,USB adapter,1.0,3.18,3.18,USB | adapter | 1 | $3.18 | $3.18,0.95
+RCT-0017,RCT-0017-digital_pdf,3,Cleaning cloths,4.0,8.72,34.88,Cleaning | cloths | 4 | $8.72 | $34.88,0.95
+RCT-0017,RCT-0017-digital_pdf,4,Gel pen set,4.0,6.71,26.84,Gel | pen | set | 4 | $6.71 | $26.84,0.95
+RCT-0018,RCT-0018-digital_pdf,1,Cable clips,1.0,4.37,4.37,Cable | clips | 1 | $4.37 | $4.37,0.95
+RCT-0018,RCT-0018-digital_pdf,2,Recycled notebooks,2.0,12.24,24.48,Recycled | notebooks | 2 | $12.24 | $24.48,0.95
+RCT-0018,RCT-0018-digital_pdf,3,Canvas tote,4.0,8.25,33.0,Canvas | tote | 4 | $8.25 | $33.00,0.95
+RCT-0018,RCT-0018-digital_pdf,4,Cleaning cloths,1.0,14.56,14.56,Cleaning | cloths | 1 | $14.56 | $14.56,0.95
+RCT-0018,RCT-0018-digital_pdf,5,Gel pen set,4.0,3.25,13.0,Gel | pen | set | 4 | $3.25 | $13.00,0.95
+RCT-0019,RCT-0019-digital_pdf,1,Desk organizer,4.0,16.49,65.96,Desk | organizer | 4 | $16.49 | $65.96,0.95
+RCT-0019,RCT-0019-digital_pdf,2,Cable clips,2.0,6.13,12.26,Cable | clips | 2 | $6.13 | $12.26,0.95
+RCT-0019,RCT-0019-digital_pdf,3,Granola cup,4.0,8.34,33.36,Granola | cup | 4 | $8.34 | $33.36,0.95
+RCT-0020,RCT-0020-digital_pdf,1,Desk organizer,1.0,9.2,9.2,Desk | organizer | 1 | $9.20 | $9.20,0.95
+RCT-0023,RCT-0023-digital_pdf,1,Cable clips,3.0,14.29,42.87,Cable | clips | 3 | $14.29 | $42.87,0.95
+RCT-0023,RCT-0023-digital_pdf,2,Canvas tote,2.0,16.85,33.7,Canvas | tote | 2 | $16.85 | $33.70,0.95
+RCT-0023,RCT-0023-digital_pdf,3,Gel pen set,4.0,9.11,36.44,Gel | pen | set | 4 | $9.11 | $36.44,0.95
+RCT-0023,RCT-0023-digital_pdf,4,Cleaning cloths,1.0,8.93,8.93,Cleaning | cloths | 1 | $8.93 | $8.93,0.95
+RCT-0023,RCT-0023-digital_pdf,5,Coffee beans,3.0,13.85,41.55,Coffee | beans | 3 | $13.85 | $41.55,0.95
+RCT-0024,RCT-0024-digital_pdf,1,Coffee beans,3.0,4.4,13.2,Coffee | beans | 3 | $4.40 | $13.20,0.95
+RCT-0024,RCT-0024-digital_pdf,2,Desk organizer,1.0,9.29,9.29,Desk | organizer | 1 | $9.29 | $9.29,0.95
+RCT-0024,RCT-0024-digital_pdf,3,Cleaning cloths,1.0,15.26,15.26,Cleaning | cloths | 1 | $15.26 | $15.26,0.95
+RCT-0024,RCT-0024-digital_pdf,4,Gel pen set,4.0,16.13,64.52,Gel | pen | set | 4 | $16.13 | $64.52,0.95
+RCT-0026,RCT-0026-digital_pdf,1,Herbal tea,4.0,5.42,21.68,Herbal | tea | 4 | $5.42 | $21.68,0.95
+RCT-0026,RCT-0026-digital_pdf,2,Cable clips,2.0,13.1,26.2,Cable | clips | 2 | $13.10 | $26.20,0.95
+RCT-0027,RCT-0027-digital_pdf,1,USB adapter,3.0,11.73,35.19,USB | adapter | 3 | $11.73 | $35.19,0.95
+RCT-0027,RCT-0027-digital_pdf,2,Desk organizer,1.0,15.15,15.15,Desk | organizer | 1 | $15.15 | $15.15,0.95
+RCT-0027,RCT-0027-digital_pdf,3,Recycled notebooks,4.0,3.95,15.8,Recycled | notebooks | 4 | $3.95 | $15.80,0.95
+RCT-0027,RCT-0027-digital_pdf,4,Archive folders,3.0,8.52,25.56,Archive | folders | 3 | $8.52 | $25.56,0.95
+RCT-0027,RCT-0027-digital_pdf,5,Coffee beans,1.0,10.85,10.85,Coffee | beans | 1 | $10.85 | $10.85,0.95
+RCT-0029,RCT-0029-digital_pdf,1,Desk organizer,2.0,2.6,5.2,Desk | organizer | 2 | $2.60 | $5.20,0.95
+RCT-0029,RCT-0029-digital_pdf,2,Cleaning cloths,1.0,8.95,8.95,Cleaning | cloths | 1 | $8.95 | $8.95,0.95
+RCT-0029,RCT-0029-digital_pdf,3,Gel pen set,4.0,12.7,50.8,Gel | pen | set | 4 | $12.70 | $50.80,0.95
+RCT-0029,RCT-0029-digital_pdf,4,Cable clips,2.0,12.95,25.9,Cable | clips | 2 | $12.95 | $25.90,0.95
+RCT-0003,RCT-0003-image_png,1,Cable clips,3.0,5.84,17.52,Cable clips | 3 | $5.84 | $17.52,0.95
+RCT-0005,RCT-0005-image_png,1,Desk organizer,3.0,13.75,41.25,Desk organizer | 3 | $13.75 | $41.25,0.95
+RCT-0005,RCT-0005-image_png,2,Cleaning cloths,3.0,11.92,35.76,Cleaning cloths | 3 | $11.92 | $35.76,0.95
+RCT-0005,RCT-0005-image_png,3,Coffee beans,4.0,15.16,60.64,Coffee beans | 4 | $15.16 | $60.64,0.95
+RCT-0005,RCT-0005-image_png,4,USB adapter,3.0,12.18,36.54,USB adapter | 3 | $12.18 | $36.54,0.95
+RCT-0007,RCT-0007-image_png,1,Cable clips,4.0,6.56,26.24,Cable clips | 4 | $6.56 | $26.24,0.95
+RCT-0007,RCT-0007-image_png,2,Recyclednotebooks,4.0,10.9,43.6,Recyclednotebooks | 4 | $10.90 | $43.60,0.95
+RCT-0007,RCT-0007-image_png,3,Coffee beans,2.0,6.22,12.44,Coffee beans | 2 | $6.22 | $12.44,0.95
+RCT-0007,RCT-0007-image_png,4,Desk organizer,2.0,12.85,25.7,Desk organizer | 2 | $12.85 | $25.70,0.95
+RCT-0008,RCT-0008-image_png,1,Cable clips,3.0,3.22,9.66,Cable clips | 3 | $3.22 | $9.66,0.95
+RCT-0008,RCT-0008-image_png,2,Desk organizer,2.0,12.57,25.14,Desk organizer | 2 | $12.57 | $25.14,0.95
+RCT-0008,RCT-0008-image_png,3,Coffee beans,1.0,8.57,8.57,Coffee beans | 1 | $8.57 | $8.57,0.95
+RCT-0012,RCT-0012-image_png,1,Gel pen set,3.0,9.76,29.28,Gel pen set | 3 | $9.76 | $29.28,0.95
+RCT-0012,RCT-0012-image_png,2,Recycled notebooks,4.0,9.21,36.84,Recycled notebooks | 4 | $9.21 | $36.84,0.95
+RCT-0012,RCT-0012-image_png,3,Canvas tote,4.0,4.02,16.08,Canvas tote | 4 | $4.02 | $16.08,0.95
+RCT-0013,RCT-0013-image_png,1,Gel pen set,1.0,10.47,10.47,Gel pen set | 1 | $10.47 | $10.47,0.95
+RCT-0013,RCT-0013-image_png,2,Desk organizer,2.0,11.49,22.98,Desk organizer | 2 | $11.49 | $22.98,0.95
+RCT-0013,RCT-0013-image_png,3,Recyclednotebooks,1.0,12.72,12.72,Recyclednotebooks | 1 | $12.72 | $12.72,0.95
+RCT-0015,RCT-0015-image_png,1,Canvastote,3.0,3.47,10.41,Canvastote | 3 | $3.47 | $10.41,0.95
+RCT-0015,RCT-0015-image_png,2,Desk organizer,1.0,10.03,10.03,Desk organizer | 1 | $10.03 | $10.03,0.95
+RCT-0015,RCT-0015-image_png,3,Granola cup,1.0,16.38,16.38,Granola cup | 1 | $16.38 | $16.38,0.95
+RCT-0017,RCT-0017-image_png,1,Desk organizer,2.0,11.16,22.32,Desk organizer | 2 | $11.16 | $22.32,0.95
+RCT-0017,RCT-0017-image_png,2,USB adapter,1.0,3.18,3.18,USB adapter | 1 | $3.18 | $3.18,0.95
+RCT-0017,RCT-0017-image_png,3,Cleaning cloths,4.0,8.72,34.88,Cleaning cloths | 4 | $8.72 | $34.88,0.95
+RCT-0017,RCT-0017-image_png,4,Gel pen set,4.0,6.71,26.84,Gel pen set | 4 | $6.71 | $26.84,0.95
+RCT-0018,RCT-0018-image_png,1,Cable clips,1.0,4.37,4.37,Cable clips | 1 | $4.37 | $4.37,0.95
+RCT-0018,RCT-0018-image_png,2,Recycled notebooks,2.0,12.24,24.48,Recycled notebooks | 2 | $12.24 | $24.48,0.95
+RCT-0018,RCT-0018-image_png,3,Canvas tote,4.0,8.25,33.0,Canvas tote | 4 | $8.25 | $33.00,0.95
+RCT-0018,RCT-0018-image_png,4,Cleaning cloths,1.0,14.56,14.56,Cleaning cloths | 1 | $14.56 | $14.56,0.95
+RCT-0018,RCT-0018-image_png,5,Gel pen set,4.0,3.25,13.0,Gel pen set | 4 | $3.25 | $13.00,0.95
+RCT-0019,RCT-0019-image_png,1,Desk organizer,4.0,16.49,65.96,Desk organizer | 4 | $16.49 | $65.96,0.95
+RCT-0019,RCT-0019-image_png,2,Cable clips,2.0,6.13,12.26,Cable clips | 2 | $6.13 | $12.26,0.95
+RCT-0019,RCT-0019-image_png,3,Granola cup,4.0,8.34,33.36,Granola cup | 4 | $8.34 | $33.36,0.95
+RCT-0024,RCT-0024-image_png,1,Coffee beans,3.0,4.4,13.2,Coffee beans | 3 | $4.40 | $13.20,0.95
+RCT-0024,RCT-0024-image_png,2,Desk organizer,1.0,9.29,9.29,Desk organizer | 1 | $9.29 | $9.29,0.95
+RCT-0024,RCT-0024-image_png,3,Cleaning cloths,1.0,15.26,15.26,Cleaning cloths | 1 | $15.26 | $15.26,0.95
+RCT-0024,RCT-0024-image_png,4,Gel pen set,4.0,16.13,64.52,Gel pen set | 4 | $16.13 | $64.52,0.95
+RCT-0026,RCT-0026-image_png,1,Herbal tea,4.0,5.42,21.68,Herbal tea | 4 | $5.42 | $21.68,0.95
+RCT-0026,RCT-0026-image_png,2,Cable clips,2.0,13.1,26.2,Cable clips | 2 | $13.10 | $26.20,0.95
+RCT-0027,RCT-0027-image_png,1,USB adapter,3.0,11.73,35.19,USB adapter | 3 | $11.73 | $35.19,0.95
+RCT-0027,RCT-0027-image_png,2,Desk organizer,1.0,15.15,15.15,Desk organizer | 1 | $15.15 | $15.15,0.95
+RCT-0027,RCT-0027-image_png,3,Recyclednotebooks,4.0,3.95,15.8,Recyclednotebooks | 4 | $3.95 | $15.80,0.95
+RCT-0027,RCT-0027-image_png,4,Archive folders,3.0,8.52,25.56,Archive folders | 3 | $8.52 | $25.56,0.95
+RCT-0027,RCT-0027-image_png,5,Coffee beans,1.0,10.85,10.85,Coffee beans | 1 | $10.85 | $10.85,0.95
+RCT-0029,RCT-0029-image_png,1,Desk organizer,2.0,2.6,5.2,Desk organizer | 2 | $2.60 | $5.20,0.95
+RCT-0029,RCT-0029-image_png,2,Cleaningcloths,1.0,8.95,8.95,Cleaningcloths | 1 | $8.95 | $8.95,0.95
+RCT-0029,RCT-0029-image_png,3,Gel pen set,4.0,12.7,50.8,Gel pen set | 4 | $12.70 | $50.80,0.95
+RCT-0029,RCT-0029-image_png,4,Cable clips,2.0,12.95,25.9,Cable clips | 2 | $12.95 | $25.90,0.95
+INV-0001,INV-0001-scanned_pdf,1,Herbal tea,2.0,34.94,69.88,Herbal tea | 2 | $34.94 | $69.88,0.95
+INV-0001,INV-0001-scanned_pdf,2,Cleaning cloths,4.0,43.73,174.92,Cleaning cloths | 4 | $43.73 | $174.92,0.95
+INV-0001,INV-0001-scanned_pdf,3,Recycled notebooks,4.0,35.24,140.96,Recycled notebooks | 4 | $35.24 | $140.96,0.95
+INV-0003,INV-0003-scanned_pdf,1,Canvastote,1.0,53.52,53.52,Canvastote | 1 | $53.52 | $53.52,0.95
+INV-0003,INV-0003-scanned_pdf,2,USBadapter,4.0,38.06,152.24,USBadapter | 4 | $38.06 | $152.24,0.95
+INV-0003,INV-0003-scanned_pdf,3,Coffeebeans,3.0,56.38,169.14,Coffeebeans | 3 | $56.38 | $169.14,0.95
+INV-0003,INV-0003-scanned_pdf,4,Deskorganizer,3.0,54.61,163.83,Deskorganizer | 3 | $54.61 | $163.83,0.95
+INV-0003,INV-0003-scanned_pdf,5,Gelpenset,4.0,47.0,188.4,Gelpenset | 4 | $47 | $188.40,0.95
+INV-0005,INV-0005-scanned_pdf,1,USBadapter,2.0,27.92,55.84,USBadapter | 2 | $27.92 | $55.84,0.95
+INV-0005,INV-0005-scanned_pdf,2,Archivefolders,4.0,7.55,30.2,Archivefolders | 4 | $7.55 | $30.20,0.95
+INV-0005,INV-0005-scanned_pdf,3,Canvas tote,2.0,27.65,55.3,Canvas tote | 2 | $27.65 | $55.30,0.95
+INV-0006,INV-0006-scanned_pdf,1,Archivefolders,4.0,23.0,92.0,Archivefolders | 4 | $23.00 | $92.00,0.95
+INV-0006,INV-0006-scanned_pdf,2,Shippinglabels,1.0,12.92,12.92,Shippinglabels | 1 | $12.92 | $12.92,0.95
+INV-0007,INV-0007-scanned_pdf,1,Gel penset,2.0,32.11,64.22,Gel penset | 2 | $32.11 | $64.22,0.95
+INV-0007,INV-0007-scanned_pdf,2,Deskorganizer,1.0,23.8,23.8,Deskorganizer | 1 | $23.80 | $23.80,0.95
+INV-0009,INV-0009-scanned_pdf,1,USBadapter,1.0,2.91,2.91,USBadapter | 1 | $2.91 | $2.91,0.95
+INV-0009,INV-0009-scanned_pdf,2,Shippinglabels,3.0,50.75,152.25,Shippinglabels | 3 | $50.75 | $152.25,0.95
+INV-0009,INV-0009-scanned_pdf,3,Herbal tea,3.0,9.53,28.59,Herbal tea | 3 | $9.53 | $28.59,0.95
+INV-0009,INV-0009-scanned_pdf,4,Archivefolders,2.0,30.23,60.46,Archivefolders | 2 | $30.23 | $60.46,0.95
+INV-0010,INV-0010-scanned_pdf,1,Cable clips,1.0,13.54,13.54,Cable clips | 1 | $13.54 | $13.54,0.95
+INV-0010,INV-0010-scanned_pdf,2,Herbal tea,4.0,45.48,181.92,Herbal tea | 4 | $45.48 | $181.92,0.95
+INV-0010,INV-0010-scanned_pdf,3,USBadapter,4.0,31.94,127.76,USBadapter | 4 | $31.94 | $127.76,0.95
+INV-0010,INV-0010-scanned_pdf,4,Recyclednotebooks,3.0,33.03,99.09,Recyclednotebooks | 3 | $33.03 | $99.09,0.95
+INV-0012,INV-0012-scanned_pdf,1,Cleaning cloths,3.0,57.97,173.91,Cleaning cloths | 3 | $57.97 | $173.91,0.95
+INV-0014,INV-0014-scanned_pdf,1,Herbal tea,3.0,4.09,12.27,Herbal tea | 3 | $4.09 | $12.27,0.95
+INV-0014,INV-0014-scanned_pdf,2,USBadapter,3.0,29.18,87.54,USBadapter | 3 | $29.18 | $87.54,0.95
+INV-0014,INV-0014-scanned_pdf,3,Gel penset,3.0,47.11,141.33,Gel penset | 3 | $47.11 | $141.33,0.95
+INV-0014,INV-0014-scanned_pdf,4,Granolacup,3.0,39.21,117.63,Granolacup | 3 | $39.21 | $117.63,0.95
+INV-0016,INV-0016-scanned_pdf,1,Archive folders,1.0,57.72,57.72,Archive folders | 1 | $57.72 | $57.72,0.95
+INV-0016,INV-0016-scanned_pdf,2,Canvastote,4.0,26.17,104.68,Canvastote | 4 | $26.17 | $104.68,0.95
+INV-0016,INV-0016-scanned_pdf,3,Herbal tea,4.0,20.39,81.56,Herbal tea | 4 | $20.39 | $81.56,0.95
+INV-0016,INV-0016-scanned_pdf,4,Desk organizer,3.0,34.02,102.06,Desk organizer | 3 | $34.02 | $102.06,0.95
+INV-0017,INV-0017-scanned_pdf,1,Granola cup,2.0,39.53,79.06,Granola cup | 2 | $39.53 | $79.06,0.95
+INV-0018,INV-0018-scanned_pdf,1,Desk organizer,3.0,17.29,51.87,Desk organizer | 3 | $17.29 | $51.87,0.95
+INV-0019,INV-0019-scanned_pdf,1,Granolacup,4.0,55.52,222.08,Granolacup | 4 | $55.52 | $222.08,0.95
+INV-0019,INV-0019-scanned_pdf,2,Herbaltea,2.0,21.91,43.82,Herbaltea | 2 | $21.91 | $43.82,0.95
+INV-0019,INV-0019-scanned_pdf,3,Cable clips,4.0,28.73,114.92,Cable clips | 4 | $28.73 | $114.92,0.95
+INV-0020,INV-0020-scanned_pdf,1,Archivefolders,3.0,9.15,27.45,Archivefolders | 3 | $9.15 | $27.45,0.95
+INV-0020,INV-0020-scanned_pdf,2,Coffeebeans,3.0,43.62,130.86,Coffeebeans | 3 | $43.62 | $130.86,0.95
+INV-0020,INV-0020-scanned_pdf,3,Gelpenset,3.0,18.76,56.28,Gelpenset | 3 | $18.76 | $56.28,0.95
+INV-0021,INV-0021-scanned_pdf,1,USBadapter,3.0,39.53,118.59,USBadapter | 3 | $39.53 | $118.59,0.95
+INV-0021,INV-0021-scanned_pdf,2,Granolacup,4.0,47.47,189.88,Granolacup | 4 | $47.47 | $189.88,0.95
+INV-0021,INV-0021-scanned_pdf,3,Cleaning cloths,4.0,17.01,68.04,Cleaning cloths | 4 | $17.01 | $68.04,0.95
+INV-0021,INV-0021-scanned_pdf,4,Coffeebeans,4.0,36.08,144.32,Coffeebeans | 4 | $36.08 | $144.32,0.95
+INV-0022,INV-0022-scanned_pdf,1,Archivefolders,2.0,36.02,72.04,Archivefolders | 2 | $36.02 | $72.04,0.95
+INV-0022,INV-0022-scanned_pdf,2,Coffeebeans,3.0,19.47,58.41,Coffeebeans | 3 | $19.47 | $58.41,0.95
+INV-0022,INV-0022-scanned_pdf,3,Recycled notebooks,1.0,21.26,21.26,Recycled notebooks | 1 | $21.26 | $21.26,0.95
+INV-0023,INV-0023-scanned_pdf,1,Coffeebeans,4.0,37.3,149.2,Coffeebeans | 4 | $37.30 | $149.20,0.95
+INV-0023,INV-0023-scanned_pdf,2,Canvastote,4.0,39.8,159.2,Canvastote | 4 | $39.80 | $159.20,0.95
+INV-0023,INV-0023-scanned_pdf,3,Granola cup,4.0,56.37,225.48,Granola cup | 4 | $56.37 | $225.48,0.95
+INV-0023,INV-0023-scanned_pdf,4,Gelpenset,1.0,33.33,33.33,Gelpenset | 1 | $33.33 | $33.33,0.95
+INV-0023,INV-0023-scanned_pdf,5,Recycled notebooks,3.0,12.98,38.94,Recycled notebooks | 3 | $12.98 | $38.94,0.95
+INV-0024,INV-0024-scanned_pdf,1,Cableclips,2.0,55.78,111.56,Cableclips | 2 | $55.78 | $111.56,0.95
+INV-0024,INV-0024-scanned_pdf,2,Cleaning cloths,4.0,7.65,30.6,Cleaning cloths | 4 | $7.65 | $30.60,0.95
+INV-0024,INV-0024-scanned_pdf,3,Granola cup,3.0,24.66,73.98,Granola cup | 3 | $24.66 | $73.98,0.95
+INV-0026,INV-0026-scanned_pdf,1,Deskorganizer,2.0,23.66,47.32,Deskorganizer | 2 | $23.66 | $47.32,0.95
+INV-0028,INV-0028-scanned_pdf,1,Archivefolders,2.0,29.5,59.0,Archivefolders | 2 | $29.50 | $59.00,0.95
+INV-0029,INV-0029-scanned_pdf,1,Granola cup,2.0,30.27,60.54,Granola cup | 2 | $30.27 | $60.54,0.95
+INV-0030,INV-0030-scanned_pdf,1,USBadapter,3.0,36.39,109.17,USBadapter | 3 | $36.39 | $109.17,0.95
+INV-0030,INV-0030-scanned_pdf,2,Canvastote,2.0,10.7,21.4,Canvastote | 2 | $10.70 | $21.40,0.95
+INV-0030,INV-0030-scanned_pdf,3,Deskorganizer,2.0,33.76,67.52,Deskorganizer | 2 | $33.76 | $67.52,0.95
+INV-0033,INV-0033-scanned_pdf,1,USBadapter,4.0,50.71,202.84,USBadapter | 4 | $50.71 | $202.84,0.95
+INV-0034,INV-0034-scanned_pdf,1,Archivefolders,1.0,35.16,35.16,Archivefolders | 1 | $35.16 | $35.16,0.95
+INV-0034,INV-0034-scanned_pdf,2,Cleaningcloths,1.0,29.14,29.14,Cleaningcloths | 1 | $29.14 | $29.14,0.95
+INV-0034,INV-0034-scanned_pdf,3,USBadapter,4.0,50.89,203.56,USBadapter | 4 | $50.89 | $203.56,0.95
+INV-0034,INV-0034-scanned_pdf,4,Coffeebeans,4.0,23.04,92.16,Coffeebeans | 4 | $23.04 | $92.16,0.95
+INV-0035,INV-0035-scanned_pdf,1,Cable clips,4.0,6.49,25.96,Cable clips | 4 | $6.49 | $25.96,0.95
+INV-0035,INV-0035-scanned_pdf,2,Cleaning cloths,3.0,47.55,142.65,Cleaning cloths | 3 | $47.55 | $142.65,0.95
+INV-0036,INV-0036-scanned_pdf,1,Cable clips,2.0,18.3,36.6,Cable clips | 2 | $18.30 | $36.60,0.95
+INV-0036,INV-0036-scanned_pdf,2,Deskorganizer,3.0,11.86,35.58,Deskorganizer | 3 | $11.86 | $35.58,0.95
+INV-0036,INV-0036-scanned_pdf,3,Granola cup,3.0,53.94,161.82,Granola cup | 3 | $53.94 | $161.82,0.95
+INV-0036,INV-0036-scanned_pdf,4,Gel penset,3.0,42.75,128.25,Gel penset | 3 | $42.75 | $128.25,0.95
+RCT-0003,RCT-0003-scanned_pdf,1,Cable clips,3.0,5.84,17.52,Cable clips | 3 | $5.84 | $17.52,0.95
+RCT-0005,RCT-0005-scanned_pdf,1,Desk organizer,3.0,13.75,41.25,Desk organizer | 3 | $13.75 | $41.25,0.95
+RCT-0005,RCT-0005-scanned_pdf,2,Cleaningcloths,3.0,11.92,35.76,Cleaningcloths | 3 | $11.92 | $35.76,0.95
+RCT-0005,RCT-0005-scanned_pdf,3,Coffee beans,4.0,15.16,60.64,Coffee beans | 4 | $15.16 | $60.64,0.95
+RCT-0005,RCT-0005-scanned_pdf,4,USBadapter,3.0,12.18,36.54,USBadapter | 3 | $12.18 | $36.54,0.95
+RCT-0007,RCT-0007-scanned_pdf,1,Cable clips,4.0,6.56,26.24,Cable clips | 4 | $6.56 | $26.24,0.95
+RCT-0007,RCT-0007-scanned_pdf,2,Recyclednotebooks,4.0,10.9,43.6,Recyclednotebooks | 4 | $10.90 | $43.60,0.95
+RCT-0007,RCT-0007-scanned_pdf,3,Coffee beans,2.0,6.22,12.44,Coffee beans | 2 | $6.22 | $12.44,0.95
+RCT-0007,RCT-0007-scanned_pdf,4,Desk organizer,2.0,12.85,25.7,Desk organizer | 2 | $12.85 | $25.70,0.95
+RCT-0008,RCT-0008-scanned_pdf,1,Cable clips,3.0,3.22,9.66,Cable clips | 3 | $3.22 | $9.66,0.95
+RCT-0008,RCT-0008-scanned_pdf,2,Deskorganizer,2.0,12.57,25.14,Deskorganizer | 2 | $12.57 | $25.14,0.95
+RCT-0008,RCT-0008-scanned_pdf,3,Coffee beans,1.0,8.57,8.57,Coffee beans | 1 | $8.57 | $8.57,0.95
+RCT-0009,RCT-0009-scanned_pdf,1,Herbal tea,4.0,16.3,65.2,Herbal tea | 4 | $16.30 | $65.20,0.95
+RCT-0009,RCT-0009-scanned_pdf,2,USBadapter,3.0,6.91,20.73,USBadapter | 3 | $6.91 | $20.73,0.95
+RCT-0009,RCT-0009-scanned_pdf,3,Cleaning cloths,4.0,12.46,49.84,Cleaning cloths | 4 | $12.46 | $49.84,0.95
+RCT-0009,RCT-0009-scanned_pdf,4,Coffee beans,4.0,14.74,58.96,Coffee beans | 4 | $14.74 | $58.96,0.95
+RCT-0012,RCT-0012-scanned_pdf,1,Gel penset,3.0,9.76,29.28,Gel penset | 3 | $9.76 | $29.28,0.95
+RCT-0012,RCT-0012-scanned_pdf,2,Recycled notebooks,4.0,9.21,36.84,Recycled notebooks | 4 | $9.21 | $36.84,0.95
+RCT-0012,RCT-0012-scanned_pdf,3,Canvastote,4.0,4.02,16.08,Canvastote | 4 | $4.02 | $16.08,0.95
+RCT-0013,RCT-0013-scanned_pdf,1,Gel pen set,1.0,10.47,10.47,Gel pen set | 1 | $10.47 | $10.47,0.95
+RCT-0013,RCT-0013-scanned_pdf,2,Desk organizer,2.0,11.49,22.98,Desk organizer | 2 | $11.49 | $22.98,0.95
+RCT-0013,RCT-0013-scanned_pdf,3,Recycled notebooks,1.0,12.72,12.72,Recycled notebooks | 1 | $12.72 | $12.72,0.95
+RCT-0013,RCT-0013-scanned_pdf,4,Canvas tote,1.0,13.11,13.11,Canvas tote | 1 | $13.11 | $13.11,0.95
+RCT-0015,RCT-0015-scanned_pdf,1,Canvas tote,3.0,3.47,10.41,Canvas tote | 3 | $3.47 | $10.41,0.95
+RCT-0015,RCT-0015-scanned_pdf,2,Desk organizer,1.0,10.03,10.03,Desk organizer | 1 | $10.03 | $10.03,0.95
+RCT-0015,RCT-0015-scanned_pdf,3,Granola cup,1.0,16.38,16.38,Granola cup | 1 | $16.38 | $16.38,0.95
+RCT-0017,RCT-0017-scanned_pdf,1,Desk organizer,2.0,11.16,22.32,Desk organizer | 2 | $11.16 | $22.32,0.95
+RCT-0017,RCT-0017-scanned_pdf,2,USBadapter,1.0,3.18,3.18,USBadapter | 1 | $3.18 | $3.18,0.95
+RCT-0017,RCT-0017-scanned_pdf,3,Cleaning cloths,4.0,8.72,34.88,Cleaning cloths | 4 | $8.72 | $34.88,0.95
+RCT-0017,RCT-0017-scanned_pdf,4,Gel pen set,4.0,6.71,26.84,Gel pen set | 4 | $6.71 | $26.84,0.95
+RCT-0018,RCT-0018-scanned_pdf,1,Cable clips,1.0,4.37,4.37,Cable clips | 1 | $4.37 | $4.37,0.95
+RCT-0018,RCT-0018-scanned_pdf,2,Recycled notebooks,2.0,12.24,24.48,Recycled notebooks | 2 | $12.24 | $24.48,0.95
+RCT-0018,RCT-0018-scanned_pdf,3,Canvas tote,4.0,8.25,33.0,Canvas tote | 4 | $8.25 | $33.00,0.95
+RCT-0018,RCT-0018-scanned_pdf,4,Cleaning cloths,1.0,14.56,14.56,Cleaning cloths | 1 | $14.56 | $14.56,0.95
+RCT-0018,RCT-0018-scanned_pdf,5,Gelpen set,4.0,3.25,13.0,Gelpen set | 4 | $3.25 | $13.00,0.95
+RCT-0019,RCT-0019-scanned_pdf,1,Deskorganizer,4.0,16.49,65.96,Deskorganizer | 4 | $16.49 | $65.96,0.95
+RCT-0019,RCT-0019-scanned_pdf,2,Cable clips,2.0,6.13,12.26,Cable clips | 2 | $6.13 | $12.26,0.95
+RCT-0019,RCT-0019-scanned_pdf,3,Granola cup,4.0,8.34,33.36,Granola cup | 4 | $8.34 | $33.36,0.95
+RCT-0020,RCT-0020-scanned_pdf,1,Desk organizer,1.0,9.2,9.2,Desk organizer | 1 | $9.20 | $9.20,0.95
+RCT-0023,RCT-0023-scanned_pdf,1,Cable clips,3.0,14.29,42.87,Cable clips | 3 | $14.29 | $42.87,0.95
+RCT-0023,RCT-0023-scanned_pdf,2,Canvas tote,2.0,16.85,33.7,Canvas tote | 2 | $16.85 | $33.70,0.95
+RCT-0023,RCT-0023-scanned_pdf,3,Gel pen set,4.0,9.11,36.44,Gel pen set | 4 | $9.11 | $36.44,0.95
+RCT-0023,RCT-0023-scanned_pdf,4,Cleaning cloths,1.0,8.93,8.93,Cleaning cloths | 1 | $8.93 | $8.93,0.95
+RCT-0023,RCT-0023-scanned_pdf,5,Coffee beans,3.0,13.85,41.55,Coffee beans | 3 | $13.85 | $41.55,0.95
+RCT-0024,RCT-0024-scanned_pdf,1,Coffee beans,3.0,4.4,13.2,Coffee beans | 3 | $4.40 | $13.20,0.95
+RCT-0024,RCT-0024-scanned_pdf,2,Desk organizer,1.0,9.29,9.29,Desk organizer | 1 | $9.29 | $9.29,0.95
+RCT-0024,RCT-0024-scanned_pdf,3,Cleaning cloths,1.0,15.26,15.26,Cleaning cloths | 1 | $15.26 | $15.26,0.95
+RCT-0024,RCT-0024-scanned_pdf,4,Gel pen set,4.0,16.13,64.52,Gel pen set | 4 | $16.13 | $64.52,0.95
+RCT-0026,RCT-0026-scanned_pdf,1,Herbal tea,4.0,5.42,21.68,Herbal tea | 4 | $5.42 | $21.68,0.95
+RCT-0026,RCT-0026-scanned_pdf,2,Cable clips,2.0,13.1,26.2,Cable clips | 2 | $13.10 | $26.20,0.95
+RCT-0027,RCT-0027-scanned_pdf,1,USB adapter,3.0,11.73,35.19,USB adapter | 3 | $11.73 | $35.19,0.95
+RCT-0027,RCT-0027-scanned_pdf,2,Desk organizer,1.0,15.15,15.15,Desk organizer | 1 | $15.15 | $15.15,0.95
+RCT-0027,RCT-0027-scanned_pdf,3,Recycled notebooks,4.0,3.95,15.8,Recycled notebooks | 4 | $3.95 | $15.80,0.95
+RCT-0027,RCT-0027-scanned_pdf,4,Archive folders,3.0,8.52,25.56,Archive folders | 3 | $8.52. | $25.56,0.95
+RCT-0027,RCT-0027-scanned_pdf,5,Coffee beans,1.0,10.85,10.85,Coffee beans | 1 | $10.85 | $10.85,0.95
+RCT-0029,RCT-0029-scanned_pdf,1,Desk organizer,2.0,2.6,5.2,Desk organizer | 2 | $2.60 | $5.20,0.95
+RCT-0029,RCT-0029-scanned_pdf,2,Cleaningcloths,1.0,8.95,8.95,Cleaningcloths | 1 | $8.95 | $8.95,0.95
+RCT-0029,RCT-0029-scanned_pdf,3,Gel pen set,4.0,12.7,50.8,Gel pen set | 4 | $12.70 | $50.80,0.95
+RCT-0029,RCT-0029-scanned_pdf,4,Cable clips,2.0,12.95,25.9,Cable clips | 2 | $12.95 | $25.90,0.95

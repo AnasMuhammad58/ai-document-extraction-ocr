@@ -1,0 +1,121 @@
+document_id,variant_id,code,message,field,severity
+INV-0001,INV-0001-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0005,INV-0005-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0006,INV-0006-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0007,INV-0007-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0009,INV-0009-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0012,INV-0012-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0014,INV-0014-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0016,INV-0016-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0017,INV-0017-image_jpg,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+INV-0018,INV-0018-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0019,INV-0019-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0020,INV-0020-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0021,INV-0021-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0022,INV-0022-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0025,INV-0025-image_jpg,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+INV-0026,INV-0026-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0028,INV-0028-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0029,INV-0029-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0030,INV-0030-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0032,INV-0032-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0033,INV-0033-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0035,INV-0035-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0036,INV-0036-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0039,INV-0039-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0001,INV-0001-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0005,INV-0005-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0006,INV-0006-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0007,INV-0007-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0009,INV-0009-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0010,INV-0010-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0012,INV-0012-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0014,INV-0014-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0016,INV-0016-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0018,INV-0018-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0019,INV-0019-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0020,INV-0020-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0021,INV-0021-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0022,INV-0022-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0025,INV-0025-digital_pdf,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+INV-0026,INV-0026-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0028,INV-0028-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0029,INV-0029-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0030,INV-0030-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0032,INV-0032-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0033,INV-0033-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0036,INV-0036-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0039,INV-0039-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0003,INV-0003-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0005,INV-0005-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0006,INV-0006-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0007,INV-0007-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0009,INV-0009-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0010,INV-0010-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0012,INV-0012-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0014,INV-0014-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0016,INV-0016-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0017,INV-0017-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0018,INV-0018-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0019,INV-0019-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0020,INV-0020-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0021,INV-0021-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0025,INV-0025-image_png,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+INV-0026,INV-0026-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0028,INV-0028-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0030,INV-0030-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0032,INV-0032-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0033,INV-0033-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0035,INV-0035-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0039,INV-0039-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0001,RCT-0001-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0003,RCT-0003-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0008,RCT-0008-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0011,RCT-0011-image_jpg,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+RCT-0013,RCT-0013-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0015,RCT-0015-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0016,RCT-0016-image_jpg,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+RCT-0018,RCT-0018-image_jpg,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+RCT-0020,RCT-0020-image_jpg,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0001,RCT-0001-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0003,RCT-0003-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0011,RCT-0011-digital_pdf,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+RCT-0016,RCT-0016-digital_pdf,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+RCT-0020,RCT-0020-digital_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0001,RCT-0001-image_png,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+RCT-0003,RCT-0003-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0008,RCT-0008-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0009,RCT-0009-image_png,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+RCT-0011,RCT-0011-image_png,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+RCT-0013,RCT-0013-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0015,RCT-0015-image_png,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0016,RCT-0016-image_png,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+RCT-0020,RCT-0020-image_png,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+RCT-0023,RCT-0023-image_png,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+INV-0001,INV-0001-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0006,INV-0006-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0007,INV-0007-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0009,INV-0009-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0010,INV-0010-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0014,INV-0014-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0016,INV-0016-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0017,INV-0017-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0018,INV-0018-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0020,INV-0020-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0021,INV-0021-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0022,INV-0022-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0025,INV-0025-scanned_pdf,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+INV-0028,INV-0028-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0029,INV-0029-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0030,INV-0030-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0032,INV-0032-scanned_pdf,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+INV-0035,INV-0035-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0036,INV-0036-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+INV-0039,INV-0039-scanned_pdf,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+RCT-0001,RCT-0001-scanned_pdf,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+RCT-0003,RCT-0003-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0008,RCT-0008-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0011,RCT-0011-scanned_pdf,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+RCT-0015,RCT-0015-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning
+RCT-0016,RCT-0016-scanned_pdf,NO_LINE_ITEMS_FOUND,No line items were parsed.,,warning
+RCT-0020,RCT-0020-scanned_pdf,LINE_ITEM_SUM_MISMATCH,Line-item totals do not reconcile with subtotal.,,warning

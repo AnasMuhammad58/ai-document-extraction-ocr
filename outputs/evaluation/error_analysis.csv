@@ -1,0 +1,183 @@
+document_id,variant_id,document_type,template,format,quality_condition,field,expected_value,predicted_value,error_category,confidence,validation_warnings
+INV-0002,INV-0002-image_jpg,invoice,invoice_2,jpg,mild_shadow,customer_name,David Rodriguez,David Rodriguez Date:2025-04-25,OCR character error,0.9389,LINE_ITEM_SUM_MISMATCH
+INV-0002,INV-0002-image_jpg,invoice,invoice_2,jpg,mild_shadow,customer_address,"81445 Alvin Canyon, Amandahaven","81445 Alvin Canyon, Amandahaven Due:2025-06-09",OCR character error,0.9389,LINE_ITEM_SUM_MISMATCH
+INV-0004,INV-0004-image_jpg,invoice,invoice_4,jpg,light_noise,vendor_name,Copper & Pine Studio,Copper &PineStudio,OCR character error,0.9439,LINE_ITEM_SUM_MISMATCH
+INV-0004,INV-0004-image_jpg,invoice,invoice_4,jpg,light_noise,vendor_address,"11 Quartz Street, Bellmere, AZ 85004","11QuartzStreet,Bellmere,AZ85004",OCR character error,0.9439,LINE_ITEM_SUM_MISMATCH
+INV-0004,INV-0004-image_jpg,invoice,invoice_4,jpg,light_noise,customer_name,Heather Garrett,HeatherGarrett Date:2025-02-03,OCR character error,0.9439,LINE_ITEM_SUM_MISMATCH
+INV-0004,INV-0004-image_jpg,invoice,invoice_4,jpg,light_noise,customer_address,"117 Chang Junctions Suite 390, New Taylor","117ChangJunctionsSuite390,NewTaylor Due:2025-03-20",OCR character error,0.9439,LINE_ITEM_SUM_MISMATCH
+INV-0008,INV-0008-image_jpg,invoice,invoice_3,jpg,mild_blur,vendor_name,Blue Finch Supplies,BlueFinchSupplies,OCR character error,0.9302,LINE_ITEM_SUM_MISMATCH
+INV-0008,INV-0008-image_jpg,invoice,invoice_3,jpg,mild_blur,vendor_address,"409 Harbor Lane, Fairhaven, ME 04032","409HarborLane,Fairhaven,ME04032",OCR character error,0.9302,LINE_ITEM_SUM_MISMATCH
+INV-0008,INV-0008-image_jpg,invoice,invoice_3,jpg,mild_blur,customer_name,Leonard Hood,,label not detected,0.9302,LINE_ITEM_SUM_MISMATCH
+INV-0008,INV-0008-image_jpg,invoice,invoice_3,jpg,mild_blur,customer_address,"95673 Matthew Key, Michelefurt",,label not detected,0.9302,LINE_ITEM_SUM_MISMATCH
+INV-0011,INV-0011-image_jpg,invoice,invoice_1,jpg,light_noise,vendor_address,"18 Willow Loop, Alder Bay, OR 97001","18WillowLoop,AlderBay,OR97001",OCR character error,0.943,LINE_ITEM_SUM_MISMATCH
+INV-0011,INV-0011-image_jpg,invoice,invoice_1,jpg,light_noise,customer_name,Mr. Joshua Boyle,Mr.Joshua Boyle Date:2025-11-08,OCR character error,0.943,LINE_ITEM_SUM_MISMATCH
+INV-0011,INV-0011-image_jpg,invoice,invoice_1,jpg,light_noise,customer_address,"96378 Pierce Parkway, Burnsmouth","96378PierceParkway,Burnsmouth Due:2025-12-23",OCR character error,0.943,LINE_ITEM_SUM_MISMATCH
+INV-0011,INV-0011-image_jpg,invoice,invoice_1,jpg,light_noise,line_items,3,2,row grouping,0.943,LINE_ITEM_SUM_MISMATCH
+INV-0013,INV-0013-image_jpg,invoice,invoice_3,jpg,lower_contrast,vendor_address,"409 Harbor Lane, Fairhaven, ME 04032","409HarborLane,Fairhaven,ME04032",OCR character error,0.9288,LINE_ITEM_SUM_MISMATCH
+INV-0013,INV-0013-image_jpg,invoice,invoice_3,jpg,lower_contrast,customer_name,Tiffany Burton,,label not detected,0.9288,LINE_ITEM_SUM_MISMATCH
+INV-0013,INV-0013-image_jpg,invoice,invoice_3,jpg,lower_contrast,customer_address,"9576 Bradford Squares, Mckinneyborough",,label not detected,0.9288,LINE_ITEM_SUM_MISMATCH
+INV-0015,INV-0015-image_jpg,invoice,invoice_5,jpg,mild_blur,vendor_address,"260 Grove Avenue, Westvale, NY 10018","260GroveAvenue,Westvale,NY10018",OCR character error,0.9298,LINE_ITEM_SUM_MISMATCH
+INV-0015,INV-0015-image_jpg,invoice,invoice_5,jpg,mild_blur,customer_name,Kari Soto,,label not detected,0.9298,LINE_ITEM_SUM_MISMATCH
+INV-0015,INV-0015-image_jpg,invoice,invoice_5,jpg,mild_blur,customer_address,"74704 Stanley Trace Suite 038, Lake Thomasfurt",,label not detected,0.9298,LINE_ITEM_SUM_MISMATCH
+INV-0015,INV-0015-image_jpg,invoice,invoice_5,jpg,mild_blur,line_items,5,4,row grouping,0.9298,LINE_ITEM_SUM_MISMATCH
+INV-0027,INV-0027-image_jpg,invoice,invoice_2,jpg,lower_contrast,vendor_name,Juniper Office Works,JuniperOfficeWorks,OCR character error,0.9295,LINE_ITEM_SUM_MISMATCH
+INV-0027,INV-0027-image_jpg,invoice,invoice_2,jpg,lower_contrast,vendor_address,"72 Cedar Walk, Lumen City, CO 80014","72CedarWalk,LumenCity,CO80014",OCR character error,0.9295,LINE_ITEM_SUM_MISMATCH
+INV-0027,INV-0027-image_jpg,invoice,invoice_2,jpg,lower_contrast,customer_name,Lisa Johnson,,label not detected,0.9295,LINE_ITEM_SUM_MISMATCH
+INV-0027,INV-0027-image_jpg,invoice,invoice_2,jpg,lower_contrast,customer_address,"112 Phillip Terrace, South Carlos",,label not detected,0.9295,LINE_ITEM_SUM_MISMATCH
+INV-0027,INV-0027-image_jpg,invoice,invoice_2,jpg,lower_contrast,line_items,3,1,row grouping,0.9295,LINE_ITEM_SUM_MISMATCH
+INV-0031,INV-0031-image_jpg,invoice,invoice_1,jpg,slight_rotation,vendor_address,"18 Willow Loop, Alder Bay, OR 97001","18WillowLoop,AlderBay,OR97001",rotation,0.9516,
+INV-0031,INV-0031-image_jpg,invoice,invoice_1,jpg,slight_rotation,customer_name,Emily Serrano,"Emily Serrano 5982CrystalPort,Bowmanbury Due:2025-10-27",rotation,0.9516,
+INV-0031,INV-0031-image_jpg,invoice,invoice_1,jpg,slight_rotation,customer_address,"5982 Crystal Port, Bowmanbury",QTY PRICE AMOUNT,rotation,0.9516,
+INV-0031,INV-0031-image_jpg,invoice,invoice_1,jpg,slight_rotation,subtotal,306.09,,label not detected,0.9516,
+INV-0031,INV-0031-image_jpg,invoice,invoice_1,jpg,slight_rotation,line_items,4,3,row grouping,0.9516,
+INV-0037,INV-0037-image_jpg,invoice,invoice_2,jpg,mild_shadow,customer_name,Gabrielle Gentry,Gabrielle Gentry Date:2025-05-24,OCR character error,0.9398,LINE_ITEM_SUM_MISMATCH
+INV-0037,INV-0037-image_jpg,invoice,invoice_2,jpg,mild_shadow,customer_address,"84346 Jackson Road, Sarahaven","84346JacksonRoad, Sarahaven Due:2025-06-07",OCR character error,0.9398,LINE_ITEM_SUM_MISMATCH
+INV-0037,INV-0037-image_jpg,invoice,invoice_2,jpg,mild_shadow,line_items,3,2,row grouping,0.9398,LINE_ITEM_SUM_MISMATCH
+INV-0038,INV-0038-image_jpg,invoice,invoice_3,jpg,slight_rotation,vendor_address,"409 Harbor Lane, Fairhaven, ME 04032","409HarborLane,Fairhaven,ME04032",rotation,0.9382,
+INV-0038,INV-0038-image_jpg,invoice,invoice_3,jpg,slight_rotation,customer_name,Philip Arnold,,label not detected,0.9382,
+INV-0038,INV-0038-image_jpg,invoice,invoice_3,jpg,slight_rotation,customer_address,"4989 Crystal Harbor Apt. 271, Cantumouth",,label not detected,0.9382,
+INV-0038,INV-0038-image_jpg,invoice,invoice_3,jpg,slight_rotation,subtotal,81.31,,label not detected,0.9382,
+INV-0038,INV-0038-image_jpg,invoice,invoice_3,jpg,slight_rotation,line_items,3,1,row grouping,0.9382,
+INV-0040,INV-0040-image_jpg,invoice,invoice_5,jpg,perspective,vendor_address,"260 Grove Avenue, Westvale, NY 10018","260GroveAvenue,Westvale,NY10018",perspective distortion,0.9438,LINE_ITEM_SUM_MISMATCH
+INV-0040,INV-0040-image_jpg,invoice,invoice_5,jpg,perspective,customer_name,Teresa Jones,Teresa Jones Date:2025-10-01,perspective distortion,0.9438,LINE_ITEM_SUM_MISMATCH
+INV-0040,INV-0040-image_jpg,invoice,invoice_5,jpg,perspective,customer_address,"3885 Michael Rue Apt. 488, West Matthew","3885MichaelRueApt.488,WestMatthew Due:2025-10-15",perspective distortion,0.9438,LINE_ITEM_SUM_MISMATCH
+INV-0008,INV-0008-digital_pdf,invoice,invoice_3,digital_pdf,clean,line_items,4,0,row grouping,0.8756,NO_LINE_ITEMS_FOUND
+INV-0002,INV-0002-image_png,invoice,invoice_2,png,light_noise,vendor_name,Juniper Office Works,Juniper OfficeWorks,OCR character error,0.9429,LINE_ITEM_SUM_MISMATCH
+INV-0002,INV-0002-image_png,invoice,invoice_2,png,light_noise,vendor_address,"72 Cedar Walk, Lumen City, CO 80014","72CedarWalk,LumenCity,CO80014",OCR character error,0.9429,LINE_ITEM_SUM_MISMATCH
+INV-0002,INV-0002-image_png,invoice,invoice_2,png,light_noise,customer_name,David Rodriguez,David Rodriguez Date:2025-04-25,OCR character error,0.9429,LINE_ITEM_SUM_MISMATCH
+INV-0002,INV-0002-image_png,invoice,invoice_2,png,light_noise,customer_address,"81445 Alvin Canyon, Amandahaven","81445AlvinCanyon,Amandahaven Due:2025-06-09",OCR character error,0.9429,LINE_ITEM_SUM_MISMATCH
+INV-0004,INV-0004-image_png,invoice,invoice_4,png,lower_contrast,vendor_name,Copper & Pine Studio,Copper &PineStudio,OCR character error,0.9444,LINE_ITEM_SUM_MISMATCH
+INV-0004,INV-0004-image_png,invoice,invoice_4,png,lower_contrast,vendor_address,"11 Quartz Street, Bellmere, AZ 85004","11QuartzStreet,Bellmere,AZ85004",OCR character error,0.9444,LINE_ITEM_SUM_MISMATCH
+INV-0004,INV-0004-image_png,invoice,invoice_4,png,lower_contrast,customer_name,Heather Garrett,Heather Garrett Date:2025-02-03,OCR character error,0.9444,LINE_ITEM_SUM_MISMATCH
+INV-0004,INV-0004-image_png,invoice,invoice_4,png,lower_contrast,customer_address,"117 Chang Junctions Suite 390, New Taylor","117ChangJunctionsSuite390,NewTaylor Due:2025-03-20",OCR character error,0.9444,LINE_ITEM_SUM_MISMATCH
+INV-0008,INV-0008-image_png,invoice,invoice_3,png,slight_rotation,vendor_address,"409 Harbor Lane, Fairhaven, ME 04032","409HarborLane,Fairhaven,ME04032",rotation,0.9061,NO_LINE_ITEMS_FOUND
+INV-0008,INV-0008-image_png,invoice,invoice_3,png,slight_rotation,customer_name,Leonard Hood,"Leonard Hood 95673MatthewKey,Michelefurt Due:2025-10-24",rotation,0.9061,NO_LINE_ITEMS_FOUND
+INV-0008,INV-0008-image_png,invoice,invoice_3,png,slight_rotation,customer_address,"95673 Matthew Key, Michelefurt",QTY PRICE AMOUNT,rotation,0.9061,NO_LINE_ITEMS_FOUND
+INV-0008,INV-0008-image_png,invoice,invoice_3,png,slight_rotation,subtotal,395.96,,label not detected,0.9061,NO_LINE_ITEMS_FOUND
+INV-0008,INV-0008-image_png,invoice,invoice_3,png,slight_rotation,line_items,4,0,row grouping,0.9061,NO_LINE_ITEMS_FOUND
+INV-0011,INV-0011-image_png,invoice,invoice_1,png,lower_contrast,vendor_address,"18 Willow Loop, Alder Bay, OR 97001","18WillowLoop,AlderBay,OR97001",OCR character error,0.9433,LINE_ITEM_SUM_MISMATCH
+INV-0011,INV-0011-image_png,invoice,invoice_1,png,lower_contrast,customer_name,Mr. Joshua Boyle,Mr. Joshua Boyle Date:2025-11-08,OCR character error,0.9433,LINE_ITEM_SUM_MISMATCH
+INV-0011,INV-0011-image_png,invoice,invoice_1,png,lower_contrast,customer_address,"96378 Pierce Parkway, Burnsmouth","96378PierceParkway,Burnsmouth Due:2025-12-23",OCR character error,0.9433,LINE_ITEM_SUM_MISMATCH
+INV-0011,INV-0011-image_png,invoice,invoice_1,png,lower_contrast,line_items,3,2,row grouping,0.9433,LINE_ITEM_SUM_MISMATCH
+INV-0013,INV-0013-image_png,invoice,invoice_3,png,mild_blur,vendor_address,"409 Harbor Lane, Fairhaven, ME 04032","409HarborLane,Fairhaven,ME04032",OCR character error,0.9431,LINE_ITEM_SUM_MISMATCH
+INV-0013,INV-0013-image_png,invoice,invoice_3,png,mild_blur,customer_name,Tiffany Burton,Tiffany Burton Date:2025-10-12,OCR character error,0.9431,LINE_ITEM_SUM_MISMATCH
+INV-0013,INV-0013-image_png,invoice,invoice_3,png,mild_blur,customer_address,"9576 Bradford Squares, Mckinneyborough","9576BradfordSquares,Mckinneyborough Due:2025-11-26",OCR character error,0.9431,LINE_ITEM_SUM_MISMATCH
+INV-0015,INV-0015-image_png,invoice,invoice_5,png,slight_rotation,vendor_address,"260 Grove Avenue, Westvale, NY 10018","260GroveAvenue,Westvale,NY10018",rotation,0.9525,
+INV-0015,INV-0015-image_png,invoice,invoice_5,png,slight_rotation,customer_name,Kari Soto,"Kari Soto 74704StanleyTraceSuite038,LakeThomasfurt Due: 2025-11-12",rotation,0.9525,
+INV-0015,INV-0015-image_png,invoice,invoice_5,png,slight_rotation,customer_address,"74704 Stanley Trace Suite 038, Lake Thomasfurt",QTY PRICEAMOUNT,rotation,0.9525,
+INV-0015,INV-0015-image_png,invoice,invoice_5,png,slight_rotation,subtotal,404.29,,label not detected,0.9525,
+INV-0015,INV-0015-image_png,invoice,invoice_5,png,slight_rotation,line_items,5,4,row grouping,0.9525,
+INV-0027,INV-0027-image_png,invoice,invoice_2,png,mild_blur,vendor_address,"72 Cedar Walk, Lumen City, CO 80014","72CedarWalk,LumenCity,CO80014",OCR character error,0.943,LINE_ITEM_SUM_MISMATCH
+INV-0027,INV-0027-image_png,invoice,invoice_2,png,mild_blur,customer_name,Lisa Johnson,Lisa Johnson Date:2025-04-07,OCR character error,0.943,LINE_ITEM_SUM_MISMATCH
+INV-0027,INV-0027-image_png,invoice,invoice_2,png,mild_blur,customer_address,"112 Phillip Terrace, South Carlos","112PhillipTerrace,SouthCarlos Due:2025-04-21",OCR character error,0.943,LINE_ITEM_SUM_MISMATCH
+INV-0027,INV-0027-image_png,invoice,invoice_2,png,mild_blur,line_items,3,1,row grouping,0.943,LINE_ITEM_SUM_MISMATCH
+INV-0031,INV-0031-image_png,invoice,invoice_1,png,perspective,vendor_address,"18 Willow Loop, Alder Bay, OR 97001","18WillowLoop,AlderBay,OR97001",perspective distortion,0.9306,LINE_ITEM_SUM_MISMATCH
+INV-0031,INV-0031-image_png,invoice,invoice_1,png,perspective,customer_name,Emily Serrano,,label not detected,0.9306,LINE_ITEM_SUM_MISMATCH
+INV-0031,INV-0031-image_png,invoice,invoice_1,png,perspective,customer_address,"5982 Crystal Port, Bowmanbury",,label not detected,0.9306,LINE_ITEM_SUM_MISMATCH
+INV-0037,INV-0037-image_png,invoice,invoice_2,png,light_noise,vendor_name,Juniper Office Works,Juniper OfficeWorks,OCR character error,0.9441,LINE_ITEM_SUM_MISMATCH
+INV-0037,INV-0037-image_png,invoice,invoice_2,png,light_noise,vendor_address,"72 Cedar Walk, Lumen City, CO 80014","72CedarWalk,LumenCity,CO80014",OCR character error,0.9441,LINE_ITEM_SUM_MISMATCH
+INV-0037,INV-0037-image_png,invoice,invoice_2,png,light_noise,customer_name,Gabrielle Gentry,GabrielleGentry Date:2025-05-24,OCR character error,0.9441,LINE_ITEM_SUM_MISMATCH
+INV-0037,INV-0037-image_png,invoice,invoice_2,png,light_noise,customer_address,"84346 Jackson Road, Sarahaven","84346JacksonRoad,Sarahaven Due:2025-06-07",OCR character error,0.9441,LINE_ITEM_SUM_MISMATCH
+INV-0037,INV-0037-image_png,invoice,invoice_2,png,light_noise,line_items,3,2,row grouping,0.9441,LINE_ITEM_SUM_MISMATCH
+INV-0038,INV-0038-image_png,invoice,invoice_3,png,perspective,vendor_address,"409 Harbor Lane, Fairhaven, ME 04032","409HarborLane,Fairhaven,ME04032",perspective distortion,0.9438,LINE_ITEM_SUM_MISMATCH
+INV-0038,INV-0038-image_png,invoice,invoice_3,png,perspective,customer_name,Philip Arnold,Philip Arnold Date:2025-10-21,perspective distortion,0.9438,LINE_ITEM_SUM_MISMATCH
+INV-0038,INV-0038-image_png,invoice,invoice_3,png,perspective,customer_address,"4989 Crystal Harbor Apt. 271, Cantumouth","4989CrystalHarborApt.271,Cantumouth Due:2025-12-05",perspective distortion,0.9438,LINE_ITEM_SUM_MISMATCH
+INV-0038,INV-0038-image_png,invoice,invoice_3,png,perspective,line_items,3,2,row grouping,0.9438,LINE_ITEM_SUM_MISMATCH
+INV-0040,INV-0040-image_png,invoice,invoice_5,png,jpeg_compression,vendor_address,"260 Grove Avenue, Westvale, NY 10018","260GroveAvenue,Westvale,NY10018",OCR character error,0.929,LINE_ITEM_SUM_MISMATCH
+INV-0040,INV-0040-image_png,invoice,invoice_5,png,jpeg_compression,customer_name,Teresa Jones,,label not detected,0.929,LINE_ITEM_SUM_MISMATCH
+INV-0040,INV-0040-image_png,invoice,invoice_5,png,jpeg_compression,customer_address,"3885 Michael Rue Apt. 488, West Matthew",,label not detected,0.929,LINE_ITEM_SUM_MISMATCH
+RCT-0002,RCT-0002-image_jpg,receipt,receipt_2,jpg,jpeg_compression,merchant_address,"88 Crescent Road, Pinecross, WA 98104","88CrescentRoad,Pinecross,WA98104",OCR character error,0.9251,
+RCT-0004,RCT-0004-image_jpg,receipt,receipt_4,jpg,mild_shadow,line_items,2,0,compact receipt layout,0.8746,NO_LINE_ITEMS_FOUND
+RCT-0006,RCT-0006-image_jpg,receipt,receipt_2,jpg,light_noise,merchant_address,"88 Crescent Road, Pinecross, WA 98104","88CrescentRoad,Pinecross,WA98104",OCR character error,0.9271,
+RCT-0010,RCT-0010-image_jpg,receipt,receipt_2,jpg,mild_blur,merchant_name,Little Lantern Cafe,LittleLanternCafe,OCR character error,0.9277,
+RCT-0010,RCT-0010-image_jpg,receipt,receipt_2,jpg,mild_blur,merchant_address,"88 Crescent Road, Pinecross, WA 98104","88CrescentRoad,Pinecross,WA98104",OCR character error,0.9277,
+RCT-0014,RCT-0014-image_jpg,receipt,receipt_2,jpg,perspective,merchant_address,"88 Crescent Road, Pinecross, WA 98104","88CrescentRoad,Pinecross,WA98104",perspective distortion,0.9174,LINE_ITEM_SUM_MISMATCH
+RCT-0014,RCT-0014-image_jpg,receipt,receipt_2,jpg,perspective,line_items,5,1,compact receipt layout,0.9174,LINE_ITEM_SUM_MISMATCH
+RCT-0021,RCT-0021-image_jpg,receipt,receipt_1,jpg,perspective,merchant_address,"15 Orchard Way, Brookfield, VT 05036","15OrchardWay,Brookfield,VT05036",perspective distortion,0.9165,LINE_ITEM_SUM_MISMATCH
+RCT-0021,RCT-0021-image_jpg,receipt,receipt_1,jpg,perspective,line_items,2,1,compact receipt layout,0.9165,LINE_ITEM_SUM_MISMATCH
+RCT-0022,RCT-0022-image_jpg,receipt,receipt_2,jpg,lower_contrast,merchant_address,"88 Crescent Road, Pinecross, WA 98104","88CrescentRoad,Pinecross,WA98104",OCR character error,0.9266,
+RCT-0025,RCT-0025-image_jpg,receipt,receipt_1,jpg,mild_shadow,merchant_name,Morning Oak Market,MorningOakMarket,OCR character error,0.9124,LINE_ITEM_SUM_MISMATCH
+RCT-0025,RCT-0025-image_jpg,receipt,receipt_1,jpg,mild_shadow,merchant_address,"15 Orchard Way, Brookfield, VT 05036","15 OrchardWay,BrookfieldVT 05036",OCR character error,0.9124,LINE_ITEM_SUM_MISMATCH
+RCT-0025,RCT-0025-image_jpg,receipt,receipt_1,jpg,mild_shadow,line_items,5,4,compact receipt layout,0.9124,LINE_ITEM_SUM_MISMATCH
+RCT-0028,RCT-0028-image_jpg,receipt,receipt_4,jpg,perspective,merchant_address,"39 Prism Avenue, Eastmere, IL 60607","39PrismAvenue,Eastmere,IL60607",perspective distortion,0.9271,
+RCT-0030,RCT-0030-image_jpg,receipt,receipt_2,jpg,jpeg_compression,merchant_address,"88 Crescent Road, Pinecross, WA 98104","88Crescent Road,Pinecross,WA 98104",OCR character error,0.9266,
+RCT-0014,RCT-0014-digital_pdf,receipt,receipt_2,digital_pdf,clean,line_items,5,1,compact receipt layout,0.9041,LINE_ITEM_SUM_MISMATCH
+RCT-0025,RCT-0025-digital_pdf,receipt,receipt_1,digital_pdf,clean,line_items,5,4,compact receipt layout,0.9041,LINE_ITEM_SUM_MISMATCH
+RCT-0002,RCT-0002-image_png,receipt,receipt_2,png,mild_shadow,tax_amount,2.78,,label not detected,0.8742,NO_LINE_ITEMS_FOUND
+RCT-0002,RCT-0002-image_png,receipt,receipt_2,png,mild_shadow,line_items,2,0,compact receipt layout,0.8742,NO_LINE_ITEMS_FOUND
+RCT-0004,RCT-0004-image_png,receipt,receipt_4,png,light_noise,merchant_address,"39 Prism Avenue, Eastmere, IL 60607","39PrismAvenue,Eastmere,IL60607",OCR character error,0.9265,
+RCT-0006,RCT-0006-image_png,receipt,receipt_2,png,lower_contrast,merchant_address,"88 Crescent Road, Pinecross, WA 98104","88CrescentRoad,Pinecross,WA98104",OCR character error,0.9272,
+RCT-0010,RCT-0010-image_png,receipt,receipt_2,png,slight_rotation,merchant_address,"88 Crescent Road, Pinecross, WA 98104","88CrescentRoad,Pinecross,WA98104",rotation,0.9274,
+RCT-0014,RCT-0014-image_png,receipt,receipt_2,png,jpeg_compression,merchant_address,"88 Crescent Road, Pinecross, WA 98104","88CrescentRoad,Pinecross,WA98104",OCR character error,0.9163,LINE_ITEM_SUM_MISMATCH
+RCT-0014,RCT-0014-image_png,receipt,receipt_2,png,jpeg_compression,line_items,5,1,compact receipt layout,0.9163,LINE_ITEM_SUM_MISMATCH
+RCT-0021,RCT-0021-image_png,receipt,receipt_1,png,jpeg_compression,merchant_address,"15 Orchard Way, Brookfield, VT 05036","15OrchardWay,Brookfield,VT05036",OCR character error,0.9249,
+RCT-0022,RCT-0022-image_png,receipt,receipt_2,png,mild_blur,merchant_address,"88 Crescent Road, Pinecross, WA 98104","88CrescentRoad,Pinecross,WA98104",OCR character error,0.9281,
+RCT-0025,RCT-0025-image_png,receipt,receipt_1,png,light_noise,merchant_address,"15 Orchard Way, Brookfield, VT 05036","15OrchardWay,Brookfield,VT05036",OCR character error,0.9171,LINE_ITEM_SUM_MISMATCH
+RCT-0025,RCT-0025-image_png,receipt,receipt_1,png,light_noise,line_items,5,4,compact receipt layout,0.9171,LINE_ITEM_SUM_MISMATCH
+RCT-0028,RCT-0028-image_png,receipt,receipt_4,png,jpeg_compression,merchant_name,Cobalt Corner Shop,CobaltCornerShop,OCR character error,0.9268,
+RCT-0028,RCT-0028-image_png,receipt,receipt_4,png,jpeg_compression,merchant_address,"39 Prism Avenue, Eastmere, IL 60607","39PrismAvenue,Eastmere,IL60607",OCR character error,0.9268,
+RCT-0030,RCT-0030-image_png,receipt,receipt_2,png,mild_shadow,tax_amount,0.0,,label not detected,0.8773,NO_LINE_ITEMS_FOUND
+RCT-0030,RCT-0030-image_png,receipt,receipt_2,png,mild_shadow,line_items,4,0,compact receipt layout,0.8773,NO_LINE_ITEMS_FOUND
+INV-0002,INV-0002-scanned_pdf,invoice,invoice_2,scanned_pdf,jpeg_compression,vendor_name,Juniper Office Works,JuniperOfficeWorks,OCR character error,0.9297,LINE_ITEM_SUM_MISMATCH
+INV-0002,INV-0002-scanned_pdf,invoice,invoice_2,scanned_pdf,jpeg_compression,vendor_address,"72 Cedar Walk, Lumen City, CO 80014","72CedarWalk,LumenCity,CO80014",OCR character error,0.9297,LINE_ITEM_SUM_MISMATCH
+INV-0002,INV-0002-scanned_pdf,invoice,invoice_2,scanned_pdf,jpeg_compression,customer_name,David Rodriguez,,label not detected,0.9297,LINE_ITEM_SUM_MISMATCH
+INV-0002,INV-0002-scanned_pdf,invoice,invoice_2,scanned_pdf,jpeg_compression,customer_address,"81445 Alvin Canyon, Amandahaven",,label not detected,0.9297,LINE_ITEM_SUM_MISMATCH
+INV-0002,INV-0002-scanned_pdf,invoice,invoice_2,scanned_pdf,jpeg_compression,line_items,4,3,row grouping,0.9297,LINE_ITEM_SUM_MISMATCH
+INV-0004,INV-0004-scanned_pdf,invoice,invoice_4,scanned_pdf,mild_shadow,vendor_address,"11 Quartz Street, Bellmere, AZ 85004","11QuartzStreet,Bellmere,AZ85004",OCR character error,0.9061,NO_LINE_ITEMS_FOUND
+INV-0004,INV-0004-scanned_pdf,invoice,invoice_4,scanned_pdf,mild_shadow,customer_name,Heather Garrett,Heather Garrett Date:2025-02-03,OCR character error,0.9061,NO_LINE_ITEMS_FOUND
+INV-0004,INV-0004-scanned_pdf,invoice,invoice_4,scanned_pdf,mild_shadow,customer_address,"117 Chang Junctions Suite 390, New Taylor","117 Chang Junctions Suite 390, NewTaylor Due:2025-03-20",OCR character error,0.9061,NO_LINE_ITEMS_FOUND
+INV-0004,INV-0004-scanned_pdf,invoice,invoice_4,scanned_pdf,mild_shadow,line_items,4,0,row grouping,0.9061,NO_LINE_ITEMS_FOUND
+INV-0008,INV-0008-scanned_pdf,invoice,invoice_3,scanned_pdf,lower_contrast,vendor_name,Blue Finch Supplies,BlueFinchSupplies,OCR character error,0.8931,NO_LINE_ITEMS_FOUND
+INV-0008,INV-0008-scanned_pdf,invoice,invoice_3,scanned_pdf,lower_contrast,vendor_address,"409 Harbor Lane, Fairhaven, ME 04032","409HarborLane,Fairhaven,ME04032",OCR character error,0.8931,NO_LINE_ITEMS_FOUND
+INV-0008,INV-0008-scanned_pdf,invoice,invoice_3,scanned_pdf,lower_contrast,customer_name,Leonard Hood,,label not detected,0.8931,NO_LINE_ITEMS_FOUND
+INV-0008,INV-0008-scanned_pdf,invoice,invoice_3,scanned_pdf,lower_contrast,customer_address,"95673 Matthew Key, Michelefurt",,label not detected,0.8931,NO_LINE_ITEMS_FOUND
+INV-0008,INV-0008-scanned_pdf,invoice,invoice_3,scanned_pdf,lower_contrast,line_items,4,0,row grouping,0.8931,NO_LINE_ITEMS_FOUND
+INV-0011,INV-0011-scanned_pdf,invoice,invoice_1,scanned_pdf,mild_shadow,vendor_address,"18 Willow Loop, Alder Bay, OR 97001",18 Wulow Loop Alder Bay OR 97001,OCR character error,0.9439,
+INV-0011,INV-0011-scanned_pdf,invoice,invoice_1,scanned_pdf,mild_shadow,customer_name,Mr. Joshua Boyle,Mr. Joshua Boyle Date:2025-11-08,OCR character error,0.9439,
+INV-0011,INV-0011-scanned_pdf,invoice,invoice_1,scanned_pdf,mild_shadow,customer_address,"96378 Pierce Parkway, Burnsmouth","96378Pierce Parkway,Burnsmouth Due:2025-12-23",OCR character error,0.9439,
+INV-0011,INV-0011-scanned_pdf,invoice,invoice_1,scanned_pdf,mild_shadow,subtotal,159.77,,label not detected,0.9439,
+INV-0011,INV-0011-scanned_pdf,invoice,invoice_1,scanned_pdf,mild_shadow,tax_amount,7.99,,label not detected,0.9439,
+INV-0013,INV-0013-scanned_pdf,invoice,invoice_3,scanned_pdf,light_noise,vendor_address,"409 Harbor Lane, Fairhaven, ME 04032","409HarborLane,Fairhaven,ME04032",OCR character error,0.9427,LINE_ITEM_SUM_MISMATCH
+INV-0013,INV-0013-scanned_pdf,invoice,invoice_3,scanned_pdf,light_noise,customer_name,Tiffany Burton,TiffanyBurton Date:2025-10-12,OCR character error,0.9427,LINE_ITEM_SUM_MISMATCH
+INV-0013,INV-0013-scanned_pdf,invoice,invoice_3,scanned_pdf,light_noise,customer_address,"9576 Bradford Squares, Mckinneyborough","9576BradfordSquares,Mckinneyborough Due:2025-11-26",OCR character error,0.9427,LINE_ITEM_SUM_MISMATCH
+INV-0015,INV-0015-scanned_pdf,invoice,invoice_5,scanned_pdf,lower_contrast,vendor_address,"260 Grove Avenue, Westvale, NY 10018","260GroveAvenue,Westvale,NY10018",OCR character error,0.929,LINE_ITEM_SUM_MISMATCH
+INV-0015,INV-0015-scanned_pdf,invoice,invoice_5,scanned_pdf,lower_contrast,customer_name,Kari Soto,,label not detected,0.929,LINE_ITEM_SUM_MISMATCH
+INV-0015,INV-0015-scanned_pdf,invoice,invoice_5,scanned_pdf,lower_contrast,customer_address,"74704 Stanley Trace Suite 038, Lake Thomasfurt",,label not detected,0.929,LINE_ITEM_SUM_MISMATCH
+INV-0027,INV-0027-scanned_pdf,invoice,invoice_2,scanned_pdf,light_noise,vendor_address,"72 Cedar Walk, Lumen City, CO 80014","72CedarWalk,LumenCity,CO80014",OCR character error,0.9425,LINE_ITEM_SUM_MISMATCH
+INV-0027,INV-0027-scanned_pdf,invoice,invoice_2,scanned_pdf,light_noise,customer_name,Lisa Johnson,Lisa Johnson Date:2025-04-07,OCR character error,0.9425,LINE_ITEM_SUM_MISMATCH
+INV-0027,INV-0027-scanned_pdf,invoice,invoice_2,scanned_pdf,light_noise,customer_address,"112 Phillip Terrace, South Carlos","112PhillipTerrace,SouthCarlos Due:2025-04-21",OCR character error,0.9425,LINE_ITEM_SUM_MISMATCH
+INV-0031,INV-0031-scanned_pdf,invoice,invoice_1,scanned_pdf,mild_blur,vendor_name,Northstar Paper Co.,NorthstarPaperCo.,OCR character error,0.9297,LINE_ITEM_SUM_MISMATCH
+INV-0031,INV-0031-scanned_pdf,invoice,invoice_1,scanned_pdf,mild_blur,vendor_address,"18 Willow Loop, Alder Bay, OR 97001","18WillowLoop,AlderBay,OR97001",OCR character error,0.9297,LINE_ITEM_SUM_MISMATCH
+INV-0031,INV-0031-scanned_pdf,invoice,invoice_1,scanned_pdf,mild_blur,customer_name,Emily Serrano,,label not detected,0.9297,LINE_ITEM_SUM_MISMATCH
+INV-0031,INV-0031-scanned_pdf,invoice,invoice_1,scanned_pdf,mild_blur,customer_address,"5982 Crystal Port, Bowmanbury",,label not detected,0.9297,LINE_ITEM_SUM_MISMATCH
+INV-0037,INV-0037-scanned_pdf,invoice,invoice_2,scanned_pdf,jpeg_compression,vendor_address,"72 Cedar Walk, Lumen City, CO 80014","72CedarWalk,LumenCity,CO80014",OCR character error,0.939,
+INV-0037,INV-0037-scanned_pdf,invoice,invoice_2,scanned_pdf,jpeg_compression,customer_name,Gabrielle Gentry,,label not detected,0.939,
+INV-0037,INV-0037-scanned_pdf,invoice,invoice_2,scanned_pdf,jpeg_compression,customer_address,"84346 Jackson Road, Sarahaven",,label not detected,0.939,
+INV-0038,INV-0038-scanned_pdf,invoice,invoice_3,scanned_pdf,mild_blur,vendor_name,Blue Finch Supplies,BlueFinchSupplies,OCR character error,0.9294,LINE_ITEM_SUM_MISMATCH
+INV-0038,INV-0038-scanned_pdf,invoice,invoice_3,scanned_pdf,mild_blur,vendor_address,"409 Harbor Lane, Fairhaven, ME 04032","409HarborLane,Fairhaven,ME04032",OCR character error,0.9294,LINE_ITEM_SUM_MISMATCH
+INV-0038,INV-0038-scanned_pdf,invoice,invoice_3,scanned_pdf,mild_blur,customer_name,Philip Arnold,,label not detected,0.9294,LINE_ITEM_SUM_MISMATCH
+INV-0038,INV-0038-scanned_pdf,invoice,invoice_3,scanned_pdf,mild_blur,customer_address,"4989 Crystal Harbor Apt. 271, Cantumouth",,label not detected,0.9294,LINE_ITEM_SUM_MISMATCH
+INV-0038,INV-0038-scanned_pdf,invoice,invoice_3,scanned_pdf,mild_blur,line_items,3,2,row grouping,0.9294,LINE_ITEM_SUM_MISMATCH
+INV-0040,INV-0040-scanned_pdf,invoice,invoice_5,scanned_pdf,slight_rotation,vendor_address,"260 Grove Avenue, Westvale, NY 10018","260GroveAvenue,estvale,NY10018",rotation,0.9371,
+INV-0040,INV-0040-scanned_pdf,invoice,invoice_5,scanned_pdf,slight_rotation,customer_name,Teresa Jones,,label not detected,0.9371,
+INV-0040,INV-0040-scanned_pdf,invoice,invoice_5,scanned_pdf,slight_rotation,customer_address,"3885 Michael Rue Apt. 488, West Matthew",,label not detected,0.9371,
+INV-0040,INV-0040-scanned_pdf,invoice,invoice_5,scanned_pdf,slight_rotation,subtotal,392.61,,label not detected,0.9371,
+INV-0040,INV-0040-scanned_pdf,invoice,invoice_5,scanned_pdf,slight_rotation,line_items,3,2,row grouping,0.9371,
+RCT-0002,RCT-0002-scanned_pdf,receipt,receipt_2,scanned_pdf,perspective,merchant_address,"88 Crescent Road, Pinecross, WA 98104","88CrescentRoad,Pinecross,WA98104",perspective distortion,0.9258,
+RCT-0004,RCT-0004-scanned_pdf,receipt,receipt_4,scanned_pdf,jpeg_compression,merchant_name,Cobalt Corner Shop,CobaltCornerShop,OCR character error,0.9254,
+RCT-0004,RCT-0004-scanned_pdf,receipt,receipt_4,scanned_pdf,jpeg_compression,merchant_address,"39 Prism Avenue, Eastmere, IL 60607","39PrismAvenue,Eastmere,IL60607",OCR character error,0.9254,
+RCT-0006,RCT-0006-scanned_pdf,receipt,receipt_2,scanned_pdf,mild_shadow,subtotal,119.42,,label not detected,0.915,
+RCT-0006,RCT-0006-scanned_pdf,receipt,receipt_2,scanned_pdf,mild_shadow,tax_amount,5.97,,label not detected,0.915,
+RCT-0010,RCT-0010-scanned_pdf,receipt,receipt_2,scanned_pdf,lower_contrast,merchant_address,"88 Crescent Road, Pinecross, WA 98104","88CrescentRoad,Pinecross,WA98104",OCR character error,0.9238,
+RCT-0010,RCT-0010-scanned_pdf,receipt,receipt_2,scanned_pdf,lower_contrast,tax_amount,3.24,,label not detected,0.9238,
+RCT-0014,RCT-0014-scanned_pdf,receipt,receipt_2,scanned_pdf,slight_rotation,merchant_address,"88 Crescent Road, Pinecross, WA 98104","88CrescentRoad,Pinecross,WA98104",rotation,0.9159,LINE_ITEM_SUM_MISMATCH
+RCT-0014,RCT-0014-scanned_pdf,receipt,receipt_2,scanned_pdf,slight_rotation,line_items,5,1,compact receipt layout,0.9159,LINE_ITEM_SUM_MISMATCH
+RCT-0021,RCT-0021-scanned_pdf,receipt,receipt_1,scanned_pdf,slight_rotation,merchant_address,"15 Orchard Way, Brookfield, VT 05036","15OrchardWay,Brookfield,VT05036",rotation,0.9164,LINE_ITEM_SUM_MISMATCH
+RCT-0021,RCT-0021-scanned_pdf,receipt,receipt_1,scanned_pdf,slight_rotation,line_items,2,1,compact receipt layout,0.9164,LINE_ITEM_SUM_MISMATCH
+RCT-0022,RCT-0022-scanned_pdf,receipt,receipt_2,scanned_pdf,light_noise,merchant_address,"88 Crescent Road, Pinecross, WA 98104","88CrescentRoad,Pinecross,WA98104",OCR character error,0.9271,
+RCT-0025,RCT-0025-scanned_pdf,receipt,receipt_1,scanned_pdf,jpeg_compression,merchant_name,Morning Oak Market,Morning OakMarket,OCR character error,0.9165,LINE_ITEM_SUM_MISMATCH
+RCT-0025,RCT-0025-scanned_pdf,receipt,receipt_1,scanned_pdf,jpeg_compression,merchant_address,"15 Orchard Way, Brookfield, VT 05036","15OrchardWay,Brookfield,VT05036",OCR character error,0.9165,LINE_ITEM_SUM_MISMATCH
+RCT-0025,RCT-0025-scanned_pdf,receipt,receipt_1,scanned_pdf,jpeg_compression,line_items,5,4,compact receipt layout,0.9165,LINE_ITEM_SUM_MISMATCH
+RCT-0028,RCT-0028-scanned_pdf,receipt,receipt_4,scanned_pdf,slight_rotation,merchant_name,Cobalt Corner Shop,CobaltCornerShop,rotation,0.9262,
+RCT-0028,RCT-0028-scanned_pdf,receipt,receipt_4,scanned_pdf,slight_rotation,merchant_address,"39 Prism Avenue, Eastmere, IL 60607","39PrismAvenue,Eastmere,IL60607",rotation,0.9262,
+RCT-0030,RCT-0030-scanned_pdf,receipt,receipt_2,scanned_pdf,perspective,merchant_address,"88 Crescent Road, Pinecross, WA 98104","88CrescentRoad,Pinecross,WA98104",perspective distortion,0.9261,

@@ -1,0 +1,10 @@
+{
+  "uncached_total_seconds": 380.92,
+  "average_seconds_per_variant": 4.532220238095237,
+  "median_seconds_per_variant": 5.38765,
+  "digital_pdf_average_seconds": 0.06321428571428572,
+  "ocr_variant_average_seconds": 6.021888888888888,
+  "cached_total_seconds": 3.917,
+  "failure_count": 0,
+  "exceptions": []
+}

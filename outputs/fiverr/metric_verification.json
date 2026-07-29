@@ -1,0 +1,8 @@
+{
+  "critical_field_accuracy": 0.9714285714285713,
+  "numeric_tolerance_accuracy": 0.9568874868559412,
+  "line_item_f1": 0.8809073724007561,
+  "test_variant_count": 84,
+  "source": "outputs/evaluation/evaluation_summary.json",
+  "all_values_loaded_from_summary": true
+}

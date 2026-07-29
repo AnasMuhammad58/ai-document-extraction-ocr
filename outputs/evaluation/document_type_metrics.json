@@ -1,0 +1,35 @@
+{
+  "accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "uncertain_count": 0,
+  "labels": [
+    "invoice",
+    "receipt"
+  ],
+  "confusion_matrix": [
+    [
+      44,
+      0
+    ],
+    [
+      0,
+      40
+    ]
+  ],
+  "per_class": {
+    "invoice": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 44
+    },
+    "receipt": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 40
+    }
+  }
+}

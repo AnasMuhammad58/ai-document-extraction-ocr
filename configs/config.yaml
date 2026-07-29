@@ -1,0 +1,22 @@
+seed: 20260728
+dataset:
+  invoices: 40
+  receipts: 30
+  quick_invoices: 5
+  quick_receipts: 4
+render:
+  dpi: 144
+  jpeg_quality: 58
+extraction:
+  pdf_text_min_chars: 40
+  render_dpi: 180
+  numeric_tolerance: 0.05
+  low_ocr_confidence: 0.65
+  low_extraction_confidence: 0.55
+  cache_version: 1
+  preprocessing:
+    upscale_min_width: 900
+    deskew: true
+    normalize_contrast: true
+    denoise: true
+

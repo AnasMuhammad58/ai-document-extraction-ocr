@@ -1,0 +1,7 @@
+warning_code,occurrence_count,document_count,warned_records_with_actual_error_percentage,erroneous_records_caught_percentage,false_warning_count
+DOCUMENT_TYPE_UNCERTAIN,0,0,0.0,0.0,0
+LINE_ITEM_SUM_MISMATCH,41,41,0.8292682926829268,0.5151515151515151,7
+LOW_EXTRACTION_CONFIDENCE,0,0,0.0,0.0,0
+LOW_OCR_CONFIDENCE,0,0,0.0,0.0,0
+NO_LINE_ITEMS_FOUND,7,7,1.0,0.10606060606060606,0
+TOTAL_MISMATCH,0,0,0.0,0.0,0

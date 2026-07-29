@@ -1,0 +1,5439 @@
+[
+  {
+    "document_id": "INV-0002",
+    "variant_id": "INV-0002-image_jpg",
+    "file_path": "data/synthetic/invoices/jpg/inv-0002_mild_shadow.jpg",
+    "template": "invoice_2",
+    "quality_condition": "mild_shadow",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Juniper Office Works",
+      "vendor_address": "72 Cedar Walk, Lumen City, CO 80014",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "David Rodriguez Date:2025-04-25",
+      "customer_address": "81445 Alvin Canyon, Amandahaven Due:2025-06-09",
+      "invoice_number": "NS-2025-10001",
+      "invoice_date": "2025-04-25",
+      "due_date": "2025-06-09",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 71.74,
+      "tax_rate": null,
+      "tax_amount": 3.59,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 75.33,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Cable clips",
+        "quantity": 2.0,
+        "unit_price": 2.74,
+        "line_total": 5.48,
+        "raw_text": "Cable clips | 2 | $2.74 | $5.48",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel pen set",
+        "quantity": 1.0,
+        "unit_price": 16.94,
+        "line_total": 16.94,
+        "raw_text": "Gel pen set | 1 | $16.94 | $16.94",
+        "confidence": 0.95
+      },
+      {
+        "description": "Recycled notebooks",
+        "quantity": 3.0,
+        "unit_price": 10.86,
+        "line_total": 32.58,
+        "raw_text": "Recycled notebooks | 3 | $10.86 | $32.58",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cleaning cloths",
+        "quantity": 1.0,
+        "unit_price": 4.74,
+        "line_total": 4.74,
+        "raw_text": "Cleaning cloths | 1 | $4.74 | $4.74",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9760895142020487,
+    "structured_confidence": 0.9389,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 6.8774,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0002-image_jpg.json"
+  },
+  {
+    "document_id": "INV-0004",
+    "variant_id": "INV-0004-image_jpg",
+    "file_path": "data/synthetic/invoices/jpg/inv-0004_light_noise.jpg",
+    "template": "invoice_4",
+    "quality_condition": "light_noise",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Copper &PineStudio",
+      "vendor_address": "11QuartzStreet,Bellmere,AZ85004",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "HeatherGarrett Date:2025-02-03",
+      "customer_address": "117ChangJunctionsSuite390,NewTaylor Due:2025-03-20",
+      "invoice_number": "NS-2025-10003",
+      "invoice_date": "2025-02-03",
+      "due_date": "2025-03-20",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 598.08,
+      "tax_rate": null,
+      "tax_amount": 29.9,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 627.98,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Cleaning cloths",
+        "quantity": 2.0,
+        "unit_price": 30.95,
+        "line_total": 61.9,
+        "raw_text": "Cleaning cloths | 2 | $30.95 | $61.90",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 4.0,
+        "unit_price": 52.48,
+        "line_total": 209.92,
+        "raw_text": "Cable clips | 4 | $52.48 | $209.92",
+        "confidence": 0.95
+      },
+      {
+        "description": "Canvastote",
+        "quantity": 3.0,
+        "unit_price": 49.32,
+        "line_total": 147.96,
+        "raw_text": "Canvastote | 3 | $49.32 | $147.96",
+        "confidence": 0.95
+      },
+      {
+        "description": "Archivefolders",
+        "quantity": 3.0,
+        "unit_price": 57.1,
+        "line_total": 171.3,
+        "raw_text": "Archivefolders | 3 | $57.10 | $171.30",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9928099375491255,
+    "structured_confidence": 0.9439,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 5.9409,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0004-image_jpg.json"
+  },
+  {
+    "document_id": "INV-0008",
+    "variant_id": "INV-0008-image_jpg",
+    "file_path": "data/synthetic/invoices/jpg/inv-0008_mild_blur.jpg",
+    "template": "invoice_3",
+    "quality_condition": "mild_blur",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "BlueFinchSupplies",
+      "vendor_address": "409HarborLane,Fairhaven,ME04032",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": null,
+      "customer_address": null,
+      "invoice_number": "NS-2025-10007",
+      "invoice_date": "2025-09-09",
+      "due_date": "2025-10-24",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 395.96,
+      "tax_rate": null,
+      "tax_amount": 29.7,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 425.66,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Shippinglabels",
+        "quantity": 2.0,
+        "unit_price": 52.2,
+        "line_total": 104.4,
+        "raw_text": "Shippinglabels | 2 | $52.20 | $104.40",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cleaning cloths",
+        "quantity": 3.0,
+        "unit_price": 5.89,
+        "line_total": 17.67,
+        "raw_text": "Cleaning cloths | 3 | $5.89 | $17.67",
+        "confidence": 0.95
+      },
+      {
+        "description": "Herbal tea",
+        "quantity": 3.0,
+        "unit_price": 18.41,
+        "line_total": 55.23,
+        "raw_text": "Herbal tea | 3 | $18.41 | $55.23",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffeebeans",
+        "quantity": 4.0,
+        "unit_price": 52.54,
+        "line_total": 210.16,
+        "raw_text": "Coffeebeans | 4 | $52.54 | $210.16",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9925599505140253,
+    "structured_confidence": 0.9302,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 4.3378,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0008-image_jpg.json"
+  },
+  {
+    "document_id": "INV-0011",
+    "variant_id": "INV-0011-image_jpg",
+    "file_path": "data/synthetic/invoices/jpg/inv-0011_light_noise.jpg",
+    "template": "invoice_1",
+    "quality_condition": "light_noise",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Northstar Paper Co.",
+      "vendor_address": "18WillowLoop,AlderBay,OR97001",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Mr.Joshua Boyle Date:2025-11-08",
+      "customer_address": "96378PierceParkway,Burnsmouth Due:2025-12-23",
+      "invoice_number": "NS-2025-10010",
+      "invoice_date": "2025-11-08",
+      "due_date": "2025-12-23",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 159.77,
+      "tax_rate": null,
+      "tax_amount": 7.99,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 167.76,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Archivefolders",
+        "quantity": 2.0,
+        "unit_price": 42.53,
+        "line_total": 85.06,
+        "raw_text": "Archivefolders | 2 | $42.53 | $85.06",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffeebeans",
+        "quantity": 3.0,
+        "unit_price": 22.04,
+        "line_total": 66.12,
+        "raw_text": "Coffeebeans | 3 | $22.04 | $66.12",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9898489386432495,
+    "structured_confidence": 0.943,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 6.3489,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0011-image_jpg.json"
+  },
+  {
+    "document_id": "INV-0013",
+    "variant_id": "INV-0013-image_jpg",
+    "file_path": "data/synthetic/invoices/jpg/inv-0013_lower_contrast.jpg",
+    "template": "invoice_3",
+    "quality_condition": "lower_contrast",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Blue Finch Supplies",
+      "vendor_address": "409HarborLane,Fairhaven,ME04032",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": null,
+      "customer_address": null,
+      "invoice_number": "NS-2025-10012",
+      "invoice_date": "2025-10-12",
+      "due_date": "2025-11-26",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 197.95,
+      "tax_rate": null,
+      "tax_amount": 16.33,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 214.28,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "USBadapter",
+        "quantity": 2.0,
+        "unit_price": 2.87,
+        "line_total": 5.74,
+        "raw_text": "USBadapter | 2 | $2.87 | $5.74",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 2.0,
+        "unit_price": 42.65,
+        "line_total": 85.3,
+        "raw_text": "Cable clips | 2 | $42.65 | $85.30",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel penset",
+        "quantity": 3.0,
+        "unit_price": 38.97,
+        "line_total": 116.91,
+        "raw_text": "Gel penset | 3 | $38.97 | $116.91",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.987968921347629,
+    "structured_confidence": 0.9288,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 4.8161,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0013-image_jpg.json"
+  },
+  {
+    "document_id": "INV-0015",
+    "variant_id": "INV-0015-image_jpg",
+    "file_path": "data/synthetic/invoices/jpg/inv-0015_mild_blur.jpg",
+    "template": "invoice_5",
+    "quality_condition": "mild_blur",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Maple Circuit Goods",
+      "vendor_address": "260GroveAvenue,Westvale,NY10018",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": null,
+      "customer_address": null,
+      "invoice_number": "NS-2025-10014",
+      "invoice_date": "2025-10-29",
+      "due_date": "2025-11-12",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 404.29,
+      "tax_rate": null,
+      "tax_amount": 30.32,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 434.61,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffeebeans",
+        "quantity": 3.0,
+        "unit_price": 47.31,
+        "line_total": 141.93,
+        "raw_text": "Coffeebeans | 3 | $47.31 | $141.93",
+        "confidence": 0.95
+      },
+      {
+        "description": "Deskorganizer",
+        "quantity": 1.0,
+        "unit_price": 13.99,
+        "line_total": 13.99,
+        "raw_text": "Deskorganizer | 1 | $13.99 | $13.99",
+        "confidence": 0.95
+      },
+      {
+        "description": "USBadapter",
+        "quantity": 3.0,
+        "unit_price": 45.5,
+        "line_total": 136.5,
+        "raw_text": "USBadapter | 3 | $45.50 | $136.50",
+        "confidence": 0.95
+      },
+      {
+        "description": "Herbal tea",
+        "quantity": 2.0,
+        "unit_price": 44.11,
+        "line_total": 88.22,
+        "raw_text": "Herbal tea | 2 | $44.11 | $88.22",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9913408758792113,
+    "structured_confidence": 0.9298,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 6.1532,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0015-image_jpg.json"
+  },
+  {
+    "document_id": "INV-0027",
+    "variant_id": "INV-0027-image_jpg",
+    "file_path": "data/synthetic/invoices/jpg/inv-0027_lower_contrast.jpg",
+    "template": "invoice_2",
+    "quality_condition": "lower_contrast",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "JuniperOfficeWorks",
+      "vendor_address": "72CedarWalk,LumenCity,CO80014",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": null,
+      "customer_address": null,
+      "invoice_number": "NS-2025-10026",
+      "invoice_date": "2025-04-07",
+      "due_date": "2025-04-21",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 307.28,
+      "tax_rate": null,
+      "tax_amount": 25.35,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 332.63,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "USBadapter",
+        "quantity": 1.0,
+        "unit_price": 46.59,
+        "line_total": 46.59,
+        "raw_text": "USBadapter | 1 | $46.59 | $46.59",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9904909306803147,
+    "structured_confidence": 0.9295,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 5.3027,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0027-image_jpg.json"
+  },
+  {
+    "document_id": "INV-0031",
+    "variant_id": "INV-0031-image_jpg",
+    "file_path": "data/synthetic/invoices/jpg/inv-0031_slight_rotation.jpg",
+    "template": "invoice_1",
+    "quality_condition": "slight_rotation",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Northstar Paper Co.",
+      "vendor_address": "18WillowLoop,AlderBay,OR97001",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Emily Serrano 5982CrystalPort,Bowmanbury Due:2025-10-27",
+      "customer_address": "QTY PRICE AMOUNT",
+      "invoice_number": "NS-2025-10030",
+      "invoice_date": "2025-09-27",
+      "due_date": "2025-10-27",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": null,
+      "tax_rate": null,
+      "tax_amount": 22.96,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 329.05,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Granola cup",
+        "quantity": 3.0,
+        "unit_price": 7.7,
+        "line_total": 23.1,
+        "raw_text": "Granola cup | 3 | $7.70 | $23.10",
+        "confidence": 0.95
+      },
+      {
+        "description": "Canvastote",
+        "quantity": 4.0,
+        "unit_price": 33.76,
+        "line_total": 135.04,
+        "raw_text": "Canvastote | 4 | $33.76 | $135.04",
+        "confidence": 0.95
+      },
+      {
+        "description": "Herbal tea",
+        "quantity": 3.0,
+        "unit_price": 11.57,
+        "line_total": 34.71,
+        "raw_text": "Herbal tea | 3 | $11.57 | $34.71",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9901782902037701,
+    "structured_confidence": 0.9516,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 5.7979,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0031-image_jpg.json"
+  },
+  {
+    "document_id": "INV-0037",
+    "variant_id": "INV-0037-image_jpg",
+    "file_path": "data/synthetic/invoices/jpg/inv-0037_mild_shadow.jpg",
+    "template": "invoice_2",
+    "quality_condition": "mild_shadow",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Juniper Office Works",
+      "vendor_address": "72 Cedar Walk, Lumen City, CO 80014",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Gabrielle Gentry Date:2025-05-24",
+      "customer_address": "84346JacksonRoad, Sarahaven Due:2025-06-07",
+      "invoice_number": "NS-2025-10036",
+      "invoice_date": "2025-05-24",
+      "due_date": "2025-06-07",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 264.48,
+      "tax_rate": null,
+      "tax_amount": 21.82,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 286.3,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "USB adapter",
+        "quantity": 1.0,
+        "unit_price": 10.63,
+        "line_total": 10.63,
+        "raw_text": "USB adapter | 1 | $10.63 | $10.63",
+        "confidence": 0.95
+      },
+      {
+        "description": "Desk organizer",
+        "quantity": 1.0,
+        "unit_price": 29.85,
+        "line_total": 29.85,
+        "raw_text": "Desk organizer | 1 | $29.85 | $29.85",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9788800099448829,
+    "structured_confidence": 0.9398,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 5.9205,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0037-image_jpg.json"
+  },
+  {
+    "document_id": "INV-0038",
+    "variant_id": "INV-0038-image_jpg",
+    "file_path": "data/synthetic/invoices/jpg/inv-0038_slight_rotation.jpg",
+    "template": "invoice_3",
+    "quality_condition": "slight_rotation",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Blue Finch Supplies",
+      "vendor_address": "409HarborLane,Fairhaven,ME04032",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": null,
+      "customer_address": null,
+      "invoice_number": "NS-2025-10037",
+      "invoice_date": "2025-10-21",
+      "due_date": "2025-12-05",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": null,
+      "tax_rate": null,
+      "tax_amount": 0.0,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 81.31,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Herbal tea",
+        "quantity": 2.0,
+        "unit_price": 21.55,
+        "line_total": 43.1,
+        "raw_text": "Herbal tea | 2 | $21.55 | $43.10",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9902177291047516,
+    "structured_confidence": 0.9382,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 6.1893,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0038-image_jpg.json"
+  },
+  {
+    "document_id": "INV-0040",
+    "variant_id": "INV-0040-image_jpg",
+    "file_path": "data/synthetic/invoices/jpg/inv-0040_perspective.jpg",
+    "template": "invoice_5",
+    "quality_condition": "perspective",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Maple Circuit Goods",
+      "vendor_address": "260GroveAvenue,Westvale,NY10018",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Teresa Jones Date:2025-10-01",
+      "customer_address": "3885MichaelRueApt.488,WestMatthew Due:2025-10-15",
+      "invoice_number": "NS-2025-10039",
+      "invoice_date": "2025-10-01",
+      "due_date": "2025-10-15",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 392.61,
+      "tax_rate": null,
+      "tax_amount": 0.0,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 392.61,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffeebeans",
+        "quantity": 4.0,
+        "unit_price": 18.99,
+        "line_total": 75.96,
+        "raw_text": "Coffeebeans | 4 | $18.99 | $75.96",
+        "confidence": 0.95
+      },
+      {
+        "description": "Granola cup",
+        "quantity": 4.0,
+        "unit_price": 56.04,
+        "line_total": 224.16,
+        "raw_text": "Granola cup | 4 | $56.04 | $224.16",
+        "confidence": 0.95
+      },
+      {
+        "description": "USBadapter",
+        "quantity": 2.0,
+        "unit_price": 43.77,
+        "line_total": 87.54,
+        "raw_text": "USBadapter | 2 | $43.77 | $87.54",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9922777861184032,
+    "structured_confidence": 0.9438,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 5.4255,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0040-image_jpg.json"
+  },
+  {
+    "document_id": "INV-0002",
+    "variant_id": "INV-0002-digital_pdf",
+    "file_path": "data/synthetic/invoices/pdf/inv-0002_digital.pdf",
+    "template": "invoice_2",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "vendor_name": "Juniper Office Works",
+      "vendor_address": "72 Cedar Walk, Lumen City, CO 80014",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "David Rodriguez",
+      "customer_address": "81445 Alvin Canyon, Amandahaven",
+      "invoice_number": "NS-2025-10001",
+      "invoice_date": "2025-04-25",
+      "due_date": "2025-06-09",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 71.74,
+      "tax_rate": null,
+      "tax_amount": 3.59,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 75.33,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Cable clips",
+        "quantity": 2.0,
+        "unit_price": 2.74,
+        "line_total": 5.48,
+        "raw_text": "Cable | clips | 2 | $2.74 | $5.48",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel pen set",
+        "quantity": 1.0,
+        "unit_price": 16.94,
+        "line_total": 16.94,
+        "raw_text": "Gel | pen | set | 1 | $16.94 | $16.94",
+        "confidence": 0.95
+      },
+      {
+        "description": "Recycled notebooks",
+        "quantity": 3.0,
+        "unit_price": 10.86,
+        "line_total": 32.58,
+        "raw_text": "Recycled | notebooks | 3 | $10.86 | $32.58",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cleaning cloths",
+        "quantity": 1.0,
+        "unit_price": 4.74,
+        "line_total": 4.74,
+        "raw_text": "Cleaning | cloths | 1 | $4.74 | $4.74",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9116,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 0.1586,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0002-digital_pdf.json"
+  },
+  {
+    "document_id": "INV-0004",
+    "variant_id": "INV-0004-digital_pdf",
+    "file_path": "data/synthetic/invoices/pdf/inv-0004_digital.pdf",
+    "template": "invoice_4",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "vendor_name": "Copper & Pine Studio",
+      "vendor_address": "11 Quartz Street, Bellmere, AZ 85004",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Heather Garrett",
+      "customer_address": "117 Chang Junctions Suite 390, New Taylor",
+      "invoice_number": "NS-2025-10003",
+      "invoice_date": "2025-02-03",
+      "due_date": "2025-03-20",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 598.08,
+      "tax_rate": null,
+      "tax_amount": 29.9,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 627.98,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Cleaning cloths",
+        "quantity": 2.0,
+        "unit_price": 30.95,
+        "line_total": 61.9,
+        "raw_text": "Cleaning | cloths | 2 | $30.95 | $61.90",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 4.0,
+        "unit_price": 52.48,
+        "line_total": 209.92,
+        "raw_text": "Cable | clips | 4 | $52.48 | $209.92",
+        "confidence": 0.95
+      },
+      {
+        "description": "Canvas tote",
+        "quantity": 3.0,
+        "unit_price": 49.32,
+        "line_total": 147.96,
+        "raw_text": "Canvas | tote | 3 | $49.32 | $147.96",
+        "confidence": 0.95
+      },
+      {
+        "description": "Archive folders",
+        "quantity": 3.0,
+        "unit_price": 57.1,
+        "line_total": 171.3,
+        "raw_text": "Archive | folders | 3 | $57.10 | $171.30",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9116,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 0.0498,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0004-digital_pdf.json"
+  },
+  {
+    "document_id": "INV-0008",
+    "variant_id": "INV-0008-digital_pdf",
+    "file_path": "data/synthetic/invoices/pdf/inv-0008_digital.pdf",
+    "template": "invoice_3",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "vendor_name": "Blue Finch Supplies",
+      "vendor_address": "409 Harbor Lane, Fairhaven, ME 04032",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Leonard Hood",
+      "customer_address": "95673 Matthew Key, Michelefurt",
+      "invoice_number": "NS-2025-10007",
+      "invoice_date": "2025-09-09",
+      "due_date": "2025-10-24",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 395.96,
+      "tax_rate": null,
+      "tax_amount": 29.7,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 425.66,
+      "payment_terms": null
+    },
+    "predicted_line_items": [],
+    "ocr_confidence": null,
+    "structured_confidence": 0.8756,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "NO_LINE_ITEMS_FOUND",
+        "message": "No line items were parsed.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 0.0516,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0008-digital_pdf.json"
+  },
+  {
+    "document_id": "INV-0011",
+    "variant_id": "INV-0011-digital_pdf",
+    "file_path": "data/synthetic/invoices/pdf/inv-0011_digital.pdf",
+    "template": "invoice_1",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "vendor_name": "Northstar Paper Co.",
+      "vendor_address": "18 Willow Loop, Alder Bay, OR 97001",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Mr. Joshua Boyle",
+      "customer_address": "96378 Pierce Parkway, Burnsmouth",
+      "invoice_number": "NS-2025-10010",
+      "invoice_date": "2025-11-08",
+      "due_date": "2025-12-23",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 159.77,
+      "tax_rate": null,
+      "tax_amount": 7.99,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 167.76,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Archive folders",
+        "quantity": 2.0,
+        "unit_price": 42.53,
+        "line_total": 85.06,
+        "raw_text": "Archive | folders | 2 | $42.53 | $85.06",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffee beans",
+        "quantity": 3.0,
+        "unit_price": 22.04,
+        "line_total": 66.12,
+        "raw_text": "Coffee | beans | 3 | $22.04 | $66.12",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel pen set",
+        "quantity": 1.0,
+        "unit_price": 8.64,
+        "line_total": 8.64,
+        "raw_text": "Gel | pen | set | 1 | $8.64 | $8.64",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9216,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 0.0394,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0011-digital_pdf.json"
+  },
+  {
+    "document_id": "INV-0013",
+    "variant_id": "INV-0013-digital_pdf",
+    "file_path": "data/synthetic/invoices/pdf/inv-0013_digital.pdf",
+    "template": "invoice_3",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "vendor_name": "Blue Finch Supplies",
+      "vendor_address": "409 Harbor Lane, Fairhaven, ME 04032",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Tiffany Burton",
+      "customer_address": "9576 Bradford Squares, Mckinneyborough",
+      "invoice_number": "NS-2025-10012",
+      "invoice_date": "2025-10-12",
+      "due_date": "2025-11-26",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 197.95,
+      "tax_rate": null,
+      "tax_amount": 16.33,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 214.28,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "USB adapter",
+        "quantity": 2.0,
+        "unit_price": 2.87,
+        "line_total": 5.74,
+        "raw_text": "USB | adapter | 2 | $2.87 | $5.74",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 2.0,
+        "unit_price": 42.65,
+        "line_total": 85.3,
+        "raw_text": "Cable | clips | 2 | $42.65 | $85.30",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel pen set",
+        "quantity": 3.0,
+        "unit_price": 38.97,
+        "line_total": 116.91,
+        "raw_text": "Gel | pen | set | 3 | $38.97 | $116.91",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9116,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 0.0837,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0013-digital_pdf.json"
+  },
+  {
+    "document_id": "INV-0015",
+    "variant_id": "INV-0015-digital_pdf",
+    "file_path": "data/synthetic/invoices/pdf/inv-0015_digital.pdf",
+    "template": "invoice_5",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "vendor_name": "Maple Circuit Goods",
+      "vendor_address": "260 Grove Avenue, Westvale, NY 10018",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Kari Soto",
+      "customer_address": "74704 Stanley Trace Suite 038, Lake Thomasfurt",
+      "invoice_number": "NS-2025-10014",
+      "invoice_date": "2025-10-29",
+      "due_date": "2025-11-12",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 404.29,
+      "tax_rate": null,
+      "tax_amount": 30.32,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 434.61,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Granola cup",
+        "quantity": 1.0,
+        "unit_price": 21.65,
+        "line_total": 21.65,
+        "raw_text": "Granola | cup | 1 | $21.65 | $21.65",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffee beans",
+        "quantity": 3.0,
+        "unit_price": 47.31,
+        "line_total": 141.93,
+        "raw_text": "Coffee | beans | 3 | $47.31 | $141.93",
+        "confidence": 0.95
+      },
+      {
+        "description": "Desk organizer",
+        "quantity": 1.0,
+        "unit_price": 13.99,
+        "line_total": 13.99,
+        "raw_text": "Desk | organizer | 1 | $13.99 | $13.99",
+        "confidence": 0.95
+      },
+      {
+        "description": "USB adapter",
+        "quantity": 3.0,
+        "unit_price": 45.5,
+        "line_total": 136.5,
+        "raw_text": "USB | adapter | 3 | $45.50 | $136.50",
+        "confidence": 0.95
+      },
+      {
+        "description": "Herbal tea",
+        "quantity": 2.0,
+        "unit_price": 44.11,
+        "line_total": 88.22,
+        "raw_text": "Herbal | tea | 2 | $44.11 | $88.22",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9116,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 0.042,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0015-digital_pdf.json"
+  },
+  {
+    "document_id": "INV-0027",
+    "variant_id": "INV-0027-digital_pdf",
+    "file_path": "data/synthetic/invoices/pdf/inv-0027_digital.pdf",
+    "template": "invoice_2",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "vendor_name": "Juniper Office Works",
+      "vendor_address": "72 Cedar Walk, Lumen City, CO 80014",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Lisa Johnson",
+      "customer_address": "112 Phillip Terrace, South Carlos",
+      "invoice_number": "NS-2025-10026",
+      "invoice_date": "2025-04-07",
+      "due_date": "2025-04-21",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 307.28,
+      "tax_rate": null,
+      "tax_amount": 25.35,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 332.63,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Archive folders",
+        "quantity": 3.0,
+        "unit_price": 36.9,
+        "line_total": 110.7,
+        "raw_text": "Archive | folders | 3 | $36.90 | $110.70",
+        "confidence": 0.95
+      },
+      {
+        "description": "USB adapter",
+        "quantity": 1.0,
+        "unit_price": 46.59,
+        "line_total": 46.59,
+        "raw_text": "USB | adapter | 1 | $46.59 | $46.59",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cleaning cloths",
+        "quantity": 4.0,
+        "unit_price": 36.26,
+        "line_total": 145.04,
+        "raw_text": "Cleaning | cloths | 4 | $36.26 | $145.04",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9116,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 0.023,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0027-digital_pdf.json"
+  },
+  {
+    "document_id": "INV-0031",
+    "variant_id": "INV-0031-digital_pdf",
+    "file_path": "data/synthetic/invoices/pdf/inv-0031_digital.pdf",
+    "template": "invoice_1",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "vendor_name": "Northstar Paper Co.",
+      "vendor_address": "18 Willow Loop, Alder Bay, OR 97001",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Emily Serrano",
+      "customer_address": "5982 Crystal Port, Bowmanbury",
+      "invoice_number": "NS-2025-10030",
+      "invoice_date": "2025-09-27",
+      "due_date": "2025-10-27",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 306.09,
+      "tax_rate": null,
+      "tax_amount": 22.96,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 329.05,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Granola cup",
+        "quantity": 2.0,
+        "unit_price": 52.37,
+        "line_total": 104.74,
+        "raw_text": "Granola | cup | 2 | $52.37 | $104.74",
+        "confidence": 0.95
+      },
+      {
+        "description": "Canvas tote",
+        "quantity": 3.0,
+        "unit_price": 7.7,
+        "line_total": 23.1,
+        "raw_text": "Canvas | tote | 3 | $7.70 | $23.10",
+        "confidence": 0.95
+      },
+      {
+        "description": "Herbal tea",
+        "quantity": 4.0,
+        "unit_price": 33.76,
+        "line_total": 135.04,
+        "raw_text": "Herbal | tea | 4 | $33.76 | $135.04",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cleaning cloths",
+        "quantity": 3.0,
+        "unit_price": 11.57,
+        "line_total": 34.71,
+        "raw_text": "Cleaning | cloths | 3 | $11.57 | $34.71",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9116,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 0.0508,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0031-digital_pdf.json"
+  },
+  {
+    "document_id": "INV-0037",
+    "variant_id": "INV-0037-digital_pdf",
+    "file_path": "data/synthetic/invoices/pdf/inv-0037_digital.pdf",
+    "template": "invoice_2",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "vendor_name": "Juniper Office Works",
+      "vendor_address": "72 Cedar Walk, Lumen City, CO 80014",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Gabrielle Gentry",
+      "customer_address": "84346 Jackson Road, Sarahaven",
+      "invoice_number": "NS-2025-10036",
+      "invoice_date": "2025-05-24",
+      "due_date": "2025-06-07",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 264.48,
+      "tax_rate": null,
+      "tax_amount": 21.82,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 286.3,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "USB adapter",
+        "quantity": 1.0,
+        "unit_price": 10.63,
+        "line_total": 10.63,
+        "raw_text": "USB | adapter | 1 | $10.63 | $10.63",
+        "confidence": 0.95
+      },
+      {
+        "description": "Desk organizer",
+        "quantity": 1.0,
+        "unit_price": 29.85,
+        "line_total": 29.85,
+        "raw_text": "Desk | organizer | 1 | $29.85 | $29.85",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel pen set",
+        "quantity": 4.0,
+        "unit_price": 56.0,
+        "line_total": 224.0,
+        "raw_text": "Gel | pen | set | 4 | $56.00 | $224.00",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9216,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 0.0367,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0037-digital_pdf.json"
+  },
+  {
+    "document_id": "INV-0038",
+    "variant_id": "INV-0038-digital_pdf",
+    "file_path": "data/synthetic/invoices/pdf/inv-0038_digital.pdf",
+    "template": "invoice_3",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "vendor_name": "Blue Finch Supplies",
+      "vendor_address": "409 Harbor Lane, Fairhaven, ME 04032",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Philip Arnold",
+      "customer_address": "4989 Crystal Harbor Apt. 271, Cantumouth",
+      "invoice_number": "NS-2025-10037",
+      "invoice_date": "2025-10-21",
+      "due_date": "2025-12-05",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 81.31,
+      "tax_rate": null,
+      "tax_amount": 0.0,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 81.31,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Herbal tea",
+        "quantity": 3.0,
+        "unit_price": 11.25,
+        "line_total": 33.75,
+        "raw_text": "Herbal | tea | 3 | $11.25 | $33.75",
+        "confidence": 0.95
+      },
+      {
+        "description": "Granola cup",
+        "quantity": 2.0,
+        "unit_price": 21.55,
+        "line_total": 43.1,
+        "raw_text": "Granola | cup | 2 | $21.55 | $43.10",
+        "confidence": 0.95
+      },
+      {
+        "description": "Recycled notebooks",
+        "quantity": 1.0,
+        "unit_price": 4.46,
+        "line_total": 4.46,
+        "raw_text": "Recycled | notebooks | 1 | $4.46 | $4.46",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9216,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 0.0442,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0038-digital_pdf.json"
+  },
+  {
+    "document_id": "INV-0040",
+    "variant_id": "INV-0040-digital_pdf",
+    "file_path": "data/synthetic/invoices/pdf/inv-0040_digital.pdf",
+    "template": "invoice_5",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "vendor_name": "Maple Circuit Goods",
+      "vendor_address": "260 Grove Avenue, Westvale, NY 10018",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Teresa Jones",
+      "customer_address": "3885 Michael Rue Apt. 488, West Matthew",
+      "invoice_number": "NS-2025-10039",
+      "invoice_date": "2025-10-01",
+      "due_date": "2025-10-15",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 392.61,
+      "tax_rate": null,
+      "tax_amount": 0.0,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 392.61,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffee beans",
+        "quantity": 4.0,
+        "unit_price": 18.99,
+        "line_total": 75.96,
+        "raw_text": "Coffee | beans | 4 | $18.99 | $75.96",
+        "confidence": 0.95
+      },
+      {
+        "description": "Granola cup",
+        "quantity": 4.0,
+        "unit_price": 56.04,
+        "line_total": 224.16,
+        "raw_text": "Granola | cup | 4 | $56.04 | $224.16",
+        "confidence": 0.95
+      },
+      {
+        "description": "USB adapter",
+        "quantity": 2.0,
+        "unit_price": 43.77,
+        "line_total": 87.54,
+        "raw_text": "USB | adapter | 2 | $43.77 | $87.54",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9116,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 0.0217,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0040-digital_pdf.json"
+  },
+  {
+    "document_id": "INV-0002",
+    "variant_id": "INV-0002-image_png",
+    "file_path": "data/synthetic/invoices/png/inv-0002_light_noise.png",
+    "template": "invoice_2",
+    "quality_condition": "light_noise",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Juniper OfficeWorks",
+      "vendor_address": "72CedarWalk,LumenCity,CO80014",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "David Rodriguez Date:2025-04-25",
+      "customer_address": "81445AlvinCanyon,Amandahaven Due:2025-06-09",
+      "invoice_number": "NS-2025-10001",
+      "invoice_date": "2025-04-25",
+      "due_date": "2025-06-09",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 71.74,
+      "tax_rate": null,
+      "tax_amount": 3.59,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 75.33,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Cable clips",
+        "quantity": 2.0,
+        "unit_price": 2.74,
+        "line_total": 5.48,
+        "raw_text": "Cable clips | 2 | $2.74 | $5.48",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel pen set",
+        "quantity": 1.0,
+        "unit_price": 16.94,
+        "line_total": 16.94,
+        "raw_text": "Gel pen set | 1 | $16.94 | $16.94",
+        "confidence": 0.95
+      },
+      {
+        "description": "Recycled notebooks",
+        "quantity": 3.0,
+        "unit_price": 10.86,
+        "line_total": 32.58,
+        "raw_text": "Recycled notebooks | 3 | $10.86 | $32.58",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cleaning cloths",
+        "quantity": 1.0,
+        "unit_price": 4.74,
+        "line_total": 4.74,
+        "raw_text": "Cleaning cloths | 1 | $4.74 | $4.74",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9894202502907007,
+    "structured_confidence": 0.9429,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 6.498,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0002-image_png.json"
+  },
+  {
+    "document_id": "INV-0004",
+    "variant_id": "INV-0004-image_png",
+    "file_path": "data/synthetic/invoices/png/inv-0004_lower_contrast.png",
+    "template": "invoice_4",
+    "quality_condition": "lower_contrast",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Copper &PineStudio",
+      "vendor_address": "11QuartzStreet,Bellmere,AZ85004",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Heather Garrett Date:2025-02-03",
+      "customer_address": "117ChangJunctionsSuite390,NewTaylor Due:2025-03-20",
+      "invoice_number": "NS-2025-10003",
+      "invoice_date": "2025-02-03",
+      "due_date": "2025-03-20",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 598.08,
+      "tax_rate": null,
+      "tax_amount": 29.9,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 627.98,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Cleaning cloths",
+        "quantity": 2.0,
+        "unit_price": 30.95,
+        "line_total": 61.9,
+        "raw_text": "Cleaning cloths | 2 | $30.95 | $61.90",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 4.0,
+        "unit_price": 52.48,
+        "line_total": 209.92,
+        "raw_text": "Cable clips | 4 | $52.48 | $209.92",
+        "confidence": 0.95
+      },
+      {
+        "description": "Canvastote",
+        "quantity": 3.0,
+        "unit_price": 49.32,
+        "line_total": 147.96,
+        "raw_text": "Canvastote | 3 | $49.32 | $147.96",
+        "confidence": 0.95
+      },
+      {
+        "description": "Archivefolders",
+        "quantity": 3.0,
+        "unit_price": 57.1,
+        "line_total": 171.3,
+        "raw_text": "Archivefolders | 3 | $57.10 | $171.30",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9942612819094896,
+    "structured_confidence": 0.9444,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 5.3701,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0004-image_png.json"
+  },
+  {
+    "document_id": "INV-0008",
+    "variant_id": "INV-0008-image_png",
+    "file_path": "data/synthetic/invoices/png/inv-0008_slight_rotation.png",
+    "template": "invoice_3",
+    "quality_condition": "slight_rotation",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Blue Finch Supplies",
+      "vendor_address": "409HarborLane,Fairhaven,ME04032",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Leonard Hood 95673MatthewKey,Michelefurt Due:2025-10-24",
+      "customer_address": "QTY PRICE AMOUNT",
+      "invoice_number": "NS-2025-10007",
+      "invoice_date": "2025-09-09",
+      "due_date": "2025-10-24",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": null,
+      "tax_rate": null,
+      "tax_amount": 29.7,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 425.66,
+      "payment_terms": null
+    },
+    "predicted_line_items": [],
+    "ocr_confidence": 0.9920620738101109,
+    "structured_confidence": 0.9061,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "NO_LINE_ITEMS_FOUND",
+        "message": "No line items were parsed.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 5.0394,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0008-image_png.json"
+  },
+  {
+    "document_id": "INV-0011",
+    "variant_id": "INV-0011-image_png",
+    "file_path": "data/synthetic/invoices/png/inv-0011_lower_contrast.png",
+    "template": "invoice_1",
+    "quality_condition": "lower_contrast",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Northstar Paper Co.",
+      "vendor_address": "18WillowLoop,AlderBay,OR97001",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Mr. Joshua Boyle Date:2025-11-08",
+      "customer_address": "96378PierceParkway,Burnsmouth Due:2025-12-23",
+      "invoice_number": "NS-2025-10010",
+      "invoice_date": "2025-11-08",
+      "due_date": "2025-12-23",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 159.77,
+      "tax_rate": null,
+      "tax_amount": 7.99,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 167.76,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Archive folders",
+        "quantity": 2.0,
+        "unit_price": 42.53,
+        "line_total": 85.06,
+        "raw_text": "Archive folders | 2 | $42.53 | $85.06",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffeebeans",
+        "quantity": 3.0,
+        "unit_price": 22.04,
+        "line_total": 66.12,
+        "raw_text": "Coffeebeans | 3 | $22.04 | $66.12",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9906253617410716,
+    "structured_confidence": 0.9433,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 4.898,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0011-image_png.json"
+  },
+  {
+    "document_id": "INV-0013",
+    "variant_id": "INV-0013-image_png",
+    "file_path": "data/synthetic/invoices/png/inv-0013_mild_blur.png",
+    "template": "invoice_3",
+    "quality_condition": "mild_blur",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Blue Finch Supplies",
+      "vendor_address": "409HarborLane,Fairhaven,ME04032",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Tiffany Burton Date:2025-10-12",
+      "customer_address": "9576BradfordSquares,Mckinneyborough Due:2025-11-26",
+      "invoice_number": "NS-2025-10012",
+      "invoice_date": "2025-10-12",
+      "due_date": "2025-11-26",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 197.95,
+      "tax_rate": null,
+      "tax_amount": 16.33,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 214.28,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "USB adapter",
+        "quantity": 2.0,
+        "unit_price": 2.87,
+        "line_total": 5.74,
+        "raw_text": "USB adapter | 2 | $2.87 | $5.74",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 2.0,
+        "unit_price": 42.65,
+        "line_total": 85.3,
+        "raw_text": "Cable clips | 2 | $42.65 | $85.30",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel pen set",
+        "quantity": 3.0,
+        "unit_price": 38.97,
+        "line_total": 116.91,
+        "raw_text": "Gel pen set | 3 | $38.97 | $116.91",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9900774424678306,
+    "structured_confidence": 0.9431,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 4.473,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0013-image_png.json"
+  },
+  {
+    "document_id": "INV-0015",
+    "variant_id": "INV-0015-image_png",
+    "file_path": "data/synthetic/invoices/png/inv-0015_slight_rotation.png",
+    "template": "invoice_5",
+    "quality_condition": "slight_rotation",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Maple Circuit Goods",
+      "vendor_address": "260GroveAvenue,Westvale,NY10018",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Kari Soto 74704StanleyTraceSuite038,LakeThomasfurt Due: 2025-11-12",
+      "customer_address": "QTY PRICEAMOUNT",
+      "invoice_number": "NS-2025-10014",
+      "invoice_date": "2025-10-29",
+      "due_date": "2025-11-12",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": null,
+      "tax_rate": null,
+      "tax_amount": 30.32,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 434.61,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Granola cup",
+        "quantity": 3.0,
+        "unit_price": 47.31,
+        "line_total": 141.93,
+        "raw_text": "Granola cup | 3 | $47.31 | $141.93",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffeebeans",
+        "quantity": 1.0,
+        "unit_price": 13.99,
+        "line_total": 13.99,
+        "raw_text": "Coffeebeans | 1 | $13.99 | $13.99",
+        "confidence": 0.95
+      },
+      {
+        "description": "Deskorganizer",
+        "quantity": 3.0,
+        "unit_price": 45.5,
+        "line_total": 136.5,
+        "raw_text": "Deskorganizer | 3 | $45.50 | $136.50",
+        "confidence": 0.95
+      },
+      {
+        "description": "USB adapter",
+        "quantity": 2.0,
+        "unit_price": 44.11,
+        "line_total": 88.22,
+        "raw_text": "USB adapter | 2 | $44.11 | $88.22",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9933035621273487,
+    "structured_confidence": 0.9525,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 6.6049,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0015-image_png.json"
+  },
+  {
+    "document_id": "INV-0027",
+    "variant_id": "INV-0027-image_png",
+    "file_path": "data/synthetic/invoices/png/inv-0027_mild_blur.png",
+    "template": "invoice_2",
+    "quality_condition": "mild_blur",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Juniper Office Works",
+      "vendor_address": "72CedarWalk,LumenCity,CO80014",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Lisa Johnson Date:2025-04-07",
+      "customer_address": "112PhillipTerrace,SouthCarlos Due:2025-04-21",
+      "invoice_number": "NS-2025-10026",
+      "invoice_date": "2025-04-07",
+      "due_date": "2025-04-21",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 307.28,
+      "tax_rate": null,
+      "tax_amount": 25.35,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 332.63,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "USB adapter",
+        "quantity": 1.0,
+        "unit_price": 46.59,
+        "line_total": 46.59,
+        "raw_text": "USB adapter | 1 | $46.59 | $46.59",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9897325856316733,
+    "structured_confidence": 0.943,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 6.382,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0027-image_png.json"
+  },
+  {
+    "document_id": "INV-0031",
+    "variant_id": "INV-0031-image_png",
+    "file_path": "data/synthetic/invoices/png/inv-0031_perspective.png",
+    "template": "invoice_1",
+    "quality_condition": "perspective",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Northstar Paper Co.",
+      "vendor_address": "18WillowLoop,AlderBay,OR97001",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": null,
+      "customer_address": null,
+      "invoice_number": "NS-2025-10030",
+      "invoice_date": "2025-09-27",
+      "due_date": "2025-10-27",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 306.09,
+      "tax_rate": null,
+      "tax_amount": 22.96,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 329.05,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Granola cup",
+        "quantity": 2.0,
+        "unit_price": 52.37,
+        "line_total": 104.74,
+        "raw_text": "Granola cup | 2 | $52.37 | $104.74",
+        "confidence": 0.95
+      },
+      {
+        "description": "Canvastote",
+        "quantity": 3.0,
+        "unit_price": 7.7,
+        "line_total": 23.1,
+        "raw_text": "Canvastote | 3 | $7.70 | $23.10",
+        "confidence": 0.95
+      },
+      {
+        "description": "Herbal tea",
+        "quantity": 4.0,
+        "unit_price": 33.76,
+        "line_total": 135.04,
+        "raw_text": "Herbal tea | 4 | $33.76 | $135.04",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cleaning cloths",
+        "quantity": 3.0,
+        "unit_price": 11.57,
+        "line_total": 34.71,
+        "raw_text": "Cleaning cloths | 3 | $11.57 | $34.71",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9941270254033445,
+    "structured_confidence": 0.9306,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 6.7785,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0031-image_png.json"
+  },
+  {
+    "document_id": "INV-0037",
+    "variant_id": "INV-0037-image_png",
+    "file_path": "data/synthetic/invoices/png/inv-0037_light_noise.png",
+    "template": "invoice_2",
+    "quality_condition": "light_noise",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Juniper OfficeWorks",
+      "vendor_address": "72CedarWalk,LumenCity,CO80014",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "GabrielleGentry Date:2025-05-24",
+      "customer_address": "84346JacksonRoad,Sarahaven Due:2025-06-07",
+      "invoice_number": "NS-2025-10036",
+      "invoice_date": "2025-05-24",
+      "due_date": "2025-06-07",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 264.48,
+      "tax_rate": null,
+      "tax_amount": 21.82,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 286.3,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "USB adapter",
+        "quantity": 1.0,
+        "unit_price": 10.63,
+        "line_total": 10.63,
+        "raw_text": "USB adapter | 1 | $10.63 | $10.63",
+        "confidence": 0.95
+      },
+      {
+        "description": "Desk organizer",
+        "quantity": 1.0,
+        "unit_price": 29.85,
+        "line_total": 29.85,
+        "raw_text": "Desk organizer | 1 | $29.85 | $29.85",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9933681817055539,
+    "structured_confidence": 0.9441,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 6.5799,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0037-image_png.json"
+  },
+  {
+    "document_id": "INV-0038",
+    "variant_id": "INV-0038-image_png",
+    "file_path": "data/synthetic/invoices/png/inv-0038_perspective.png",
+    "template": "invoice_3",
+    "quality_condition": "perspective",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Blue Finch Supplies",
+      "vendor_address": "409HarborLane,Fairhaven,ME04032",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Philip Arnold Date:2025-10-21",
+      "customer_address": "4989CrystalHarborApt.271,Cantumouth Due:2025-12-05",
+      "invoice_number": "NS-2025-10037",
+      "invoice_date": "2025-10-21",
+      "due_date": "2025-12-05",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 81.31,
+      "tax_rate": null,
+      "tax_amount": 0.0,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 81.31,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Herbal tea",
+        "quantity": 3.0,
+        "unit_price": 11.25,
+        "line_total": 33.75,
+        "raw_text": "Herbal tea | 3 | $11.25 | $33.75",
+        "confidence": 0.95
+      },
+      {
+        "description": "Granolacup",
+        "quantity": 2.0,
+        "unit_price": 21.55,
+        "line_total": 43.1,
+        "raw_text": "Granolacup | 2 | $21.55 | $43.10",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9924547276833472,
+    "structured_confidence": 0.9438,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 6.1246,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0038-image_png.json"
+  },
+  {
+    "document_id": "INV-0040",
+    "variant_id": "INV-0040-image_png",
+    "file_path": "data/synthetic/invoices/png/inv-0040_jpeg_compression.png",
+    "template": "invoice_5",
+    "quality_condition": "jpeg_compression",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Maple Circuit Goods",
+      "vendor_address": "260GroveAvenue,Westvale,NY10018",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": null,
+      "customer_address": null,
+      "invoice_number": "NS-2025-10039",
+      "invoice_date": "2025-10-01",
+      "due_date": "2025-10-15",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 392.61,
+      "tax_rate": null,
+      "tax_amount": 0.0,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 392.61,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffee beans",
+        "quantity": 4.0,
+        "unit_price": 18.99,
+        "line_total": 75.96,
+        "raw_text": "Coffee beans | 4 | $18.99 | $75.96",
+        "confidence": 0.95
+      },
+      {
+        "description": "Granolacup",
+        "quantity": 4.0,
+        "unit_price": 56.04,
+        "line_total": 224.16,
+        "raw_text": "Granolacup | 4 | $56.04 | $224.16",
+        "confidence": 0.95
+      },
+      {
+        "description": "USBadapter",
+        "quantity": 2.0,
+        "unit_price": 43.77,
+        "line_total": 87.54,
+        "raw_text": "USBadapter | 2 | $43.77 | $87.54",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9888584850847801,
+    "structured_confidence": 0.929,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 6.5171,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0040-image_png.json"
+  },
+  {
+    "document_id": "RCT-0002",
+    "variant_id": "RCT-0002-image_jpg",
+    "file_path": "data/synthetic/receipts/jpg/rct-0002_jpeg_compression.jpg",
+    "template": "receipt_2",
+    "quality_condition": "jpeg_compression",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88CrescentRoad,Pinecross,WA98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2502-5001",
+      "transaction_date": "2025-02-26",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 55.63,
+      "tax_amount": 2.78,
+      "total_amount": 58.41,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Granola cup",
+        "quantity": 3.0,
+        "unit_price": 14.29,
+        "line_total": 42.87,
+        "raw_text": "Granola cup | 3 | $14.29 | $42.87",
+        "confidence": 0.95
+      },
+      {
+        "description": "USB adapter",
+        "quantity": 1.0,
+        "unit_price": 12.76,
+        "line_total": 12.76,
+        "raw_text": "USB adapter | 1 | $12.76 | $12.76",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9867478207371433,
+    "structured_confidence": 0.9251,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 7.8631,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0002-image_jpg.json"
+  },
+  {
+    "document_id": "RCT-0004",
+    "variant_id": "RCT-0004-image_jpg",
+    "file_path": "data/synthetic/receipts/jpg/rct-0004_mild_shadow.jpg",
+    "template": "receipt_4",
+    "quality_condition": "mild_shadow",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Cobalt Corner Shop",
+      "merchant_address": "39 Prism Avenue, Eastmere, IL 60607",
+      "merchant_phone": null,
+      "receipt_number": "RC-2510-5003",
+      "transaction_date": "2025-10-29",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 56.13,
+      "tax_amount": 0.0,
+      "total_amount": 56.13,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [],
+    "ocr_confidence": 0.9715484166484315,
+    "structured_confidence": 0.8746,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "NO_LINE_ITEMS_FOUND",
+        "message": "No line items were parsed.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 6.5796,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0004-image_jpg.json"
+  },
+  {
+    "document_id": "RCT-0006",
+    "variant_id": "RCT-0006-image_jpg",
+    "file_path": "data/synthetic/receipts/jpg/rct-0006_light_noise.jpg",
+    "template": "receipt_2",
+    "quality_condition": "light_noise",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88CrescentRoad,Pinecross,WA98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2510-5005",
+      "transaction_date": "2025-10-11",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 119.42,
+      "tax_amount": 5.97,
+      "total_amount": 125.39,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Cleaning cloths",
+        "quantity": 2.0,
+        "unit_price": 15.85,
+        "line_total": 31.7,
+        "raw_text": "Cleaning cloths | 2 | $15.85 | $31.70",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel pen set",
+        "quantity": 2.0,
+        "unit_price": 8.76,
+        "line_total": 17.52,
+        "raw_text": "Gel pen set | 2 | $8.76 | $17.52",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 4.0,
+        "unit_price": 14.22,
+        "line_total": 56.88,
+        "raw_text": "Cable clips | 4 | $14.22 | $56.88",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffee beans",
+        "quantity": 3.0,
+        "unit_price": 4.44,
+        "line_total": 13.32,
+        "raw_text": "Coffee beans | 3 | $4.44 | $13.32",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9931564232964364,
+    "structured_confidence": 0.9271,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 9.1226,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0006-image_jpg.json"
+  },
+  {
+    "document_id": "RCT-0010",
+    "variant_id": "RCT-0010-image_jpg",
+    "file_path": "data/synthetic/receipts/jpg/rct-0010_mild_blur.jpg",
+    "template": "receipt_2",
+    "quality_condition": "mild_blur",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "LittleLanternCafe",
+      "merchant_address": "88CrescentRoad,Pinecross,WA98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2501-5009",
+      "transaction_date": "2025-01-25",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 64.84,
+      "tax_amount": 3.24,
+      "total_amount": 68.08,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Recyclednotebooks",
+        "quantity": 2.0,
+        "unit_price": 15.26,
+        "line_total": 30.52,
+        "raw_text": "Recyclednotebooks | 2 | $15.26 | $30.52",
+        "confidence": 0.95
+      },
+      {
+        "description": "Deskorganizer",
+        "quantity": 2.0,
+        "unit_price": 17.16,
+        "line_total": 34.32,
+        "raw_text": "Deskorganizer | 2 | $17.16 | $34.32",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.995300701349719,
+    "structured_confidence": 0.9277,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 6.1811,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0010-image_jpg.json"
+  },
+  {
+    "document_id": "RCT-0014",
+    "variant_id": "RCT-0014-image_jpg",
+    "file_path": "data/synthetic/receipts/jpg/rct-0014_perspective.jpg",
+    "template": "receipt_2",
+    "quality_condition": "perspective",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88CrescentRoad,Pinecross,WA98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2507-5013",
+      "transaction_date": "2025-07-21",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 122.91,
+      "tax_amount": 0.0,
+      "total_amount": 122.91,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Desk organizer",
+        "quantity": 3.0,
+        "unit_price": 8.96,
+        "line_total": 26.88,
+        "raw_text": "Desk organizer | 3 | $8.96 | $26.88",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9941940345109032,
+    "structured_confidence": 0.9174,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 8.133,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0014-image_jpg.json"
+  },
+  {
+    "document_id": "RCT-0021",
+    "variant_id": "RCT-0021-image_jpg",
+    "file_path": "data/synthetic/receipts/jpg/rct-0021_perspective.jpg",
+    "template": "receipt_1",
+    "quality_condition": "perspective",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Morning Oak Market",
+      "merchant_address": "15OrchardWay,Brookfield,VT05036",
+      "merchant_phone": null,
+      "receipt_number": "RC-2504-5020",
+      "transaction_date": "2025-04-17",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 40.67,
+      "tax_amount": 2.03,
+      "total_amount": 42.7,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Recycled notebooks",
+        "quantity": 3.0,
+        "unit_price": 9.73,
+        "line_total": 29.19,
+        "raw_text": "Recycled notebooks | 3 | $9.73 | $29.19",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9913624988067528,
+    "structured_confidence": 0.9165,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 7.0536,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0021-image_jpg.json"
+  },
+  {
+    "document_id": "RCT-0022",
+    "variant_id": "RCT-0022-image_jpg",
+    "file_path": "data/synthetic/receipts/jpg/rct-0022_lower_contrast.jpg",
+    "template": "receipt_2",
+    "quality_condition": "lower_contrast",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88CrescentRoad,Pinecross,WA98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2507-5021",
+      "transaction_date": "2025-07-23",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 130.35,
+      "tax_amount": 9.78,
+      "total_amount": 140.13,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffee beans",
+        "quantity": 4.0,
+        "unit_price": 14.0,
+        "line_total": 56.0,
+        "raw_text": "Coffee beans | 4 | $14.00 | $56.00",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gelpenset",
+        "quantity": 3.0,
+        "unit_price": 15.5,
+        "line_total": 46.5,
+        "raw_text": "Gelpenset | 3 | $15.50 | $46.50",
+        "confidence": 0.95
+      },
+      {
+        "description": "Deskorganizer",
+        "quantity": 3.0,
+        "unit_price": 3.59,
+        "line_total": 10.77,
+        "raw_text": "Deskorganizer | 3 | $3.59 | $10.77",
+        "confidence": 0.95
+      },
+      {
+        "description": "Canvastote",
+        "quantity": 2.0,
+        "unit_price": 8.54,
+        "line_total": 17.08,
+        "raw_text": "Canvastote | 2 | $8.54 | $17.08",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9916434910934242,
+    "structured_confidence": 0.9266,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 5.0672,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0022-image_jpg.json"
+  },
+  {
+    "document_id": "RCT-0025",
+    "variant_id": "RCT-0025-image_jpg",
+    "file_path": "data/synthetic/receipts/jpg/rct-0025_mild_shadow.jpg",
+    "template": "receipt_1",
+    "quality_condition": "mild_shadow",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "MorningOakMarket",
+      "merchant_address": "15 OrchardWay,BrookfieldVT 05036",
+      "merchant_phone": null,
+      "receipt_number": "RC-2501-5024",
+      "transaction_date": "2025-01-01",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 114.09,
+      "tax_amount": 0.0,
+      "total_amount": 114.09,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Archive folders",
+        "quantity": 1.0,
+        "unit_price": 15.68,
+        "line_total": 15.68,
+        "raw_text": "Archive folders | 1 | $15.68 | $15.68",
+        "confidence": 0.95
+      },
+      {
+        "description": "Granola cup",
+        "quantity": 3.0,
+        "unit_price": 7.13,
+        "line_total": 21.39,
+        "raw_text": "Granola cup | 3 | $7.13 | $21.39",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffee beans",
+        "quantity": 2.0,
+        "unit_price": 10.86,
+        "line_total": 21.72,
+        "raw_text": "Coffee beans | 2 | $10.86 | $21.72",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cleaning cloths",
+        "quantity": 2.0,
+        "unit_price": 11.33,
+        "line_total": 22.66,
+        "raw_text": "Cleaning cloths | 2 | $11.33 | $22.66",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9775086525404203,
+    "structured_confidence": 0.9124,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 6.9627,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0025-image_jpg.json"
+  },
+  {
+    "document_id": "RCT-0028",
+    "variant_id": "RCT-0028-image_jpg",
+    "file_path": "data/synthetic/receipts/jpg/rct-0028_perspective.jpg",
+    "template": "receipt_4",
+    "quality_condition": "perspective",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Cobalt Corner Shop",
+      "merchant_address": "39PrismAvenue,Eastmere,IL60607",
+      "merchant_phone": null,
+      "receipt_number": "RC-2510-5027",
+      "transaction_date": "2025-10-25",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 178.58,
+      "tax_amount": 13.39,
+      "total_amount": 191.97,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffee beans",
+        "quantity": 2.0,
+        "unit_price": 9.08,
+        "line_total": 18.16,
+        "raw_text": "Coffee beans | 2 | $9.08 | $18.16",
+        "confidence": 0.95
+      },
+      {
+        "description": "Desk organizer",
+        "quantity": 4.0,
+        "unit_price": 14.91,
+        "line_total": 59.64,
+        "raw_text": "Desk organizer | 4 | $14.91 | $59.64",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 3.0,
+        "unit_price": 9.85,
+        "line_total": 29.55,
+        "raw_text": "Cable clips | 3 | $9.85 | $29.55",
+        "confidence": 0.95
+      },
+      {
+        "description": "Herbal tea",
+        "quantity": 2.0,
+        "unit_price": 8.96,
+        "line_total": 17.92,
+        "raw_text": "Herbal tea | 2 | $8.96 | $17.92",
+        "confidence": 0.95
+      },
+      {
+        "description": "Recycled notebooks",
+        "quantity": 3.0,
+        "unit_price": 17.77,
+        "line_total": 53.31,
+        "raw_text": "Recycled notebooks | 3 | $17.77 | $53.31",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9932308283261345,
+    "structured_confidence": 0.9271,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 6.5428,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0028-image_jpg.json"
+  },
+  {
+    "document_id": "RCT-0030",
+    "variant_id": "RCT-0030-image_jpg",
+    "file_path": "data/synthetic/receipts/jpg/rct-0030_jpeg_compression.jpg",
+    "template": "receipt_2",
+    "quality_condition": "jpeg_compression",
+    "file_format": "jpg",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88Crescent Road,Pinecross,WA 98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2505-5029",
+      "transaction_date": "2025-05-05",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 79.01,
+      "tax_amount": 0.0,
+      "total_amount": 79.01,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Gel pen set",
+        "quantity": 4.0,
+        "unit_price": 5.87,
+        "line_total": 23.48,
+        "raw_text": "Gel pen set | 4 | $5.87 | $23.48",
+        "confidence": 0.95
+      },
+      {
+        "description": "Deskorganizer",
+        "quantity": 2.0,
+        "unit_price": 17.56,
+        "line_total": 35.12,
+        "raw_text": "Deskorganizer | 2 | $17.56 | $35.12",
+        "confidence": 0.95
+      },
+      {
+        "description": "Granola cup",
+        "quantity": 1.0,
+        "unit_price": 10.45,
+        "line_total": 10.45,
+        "raw_text": "Granola cup | 1 | $10.45 | $10.45",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffee beans",
+        "quantity": 2.0,
+        "unit_price": 4.98,
+        "line_total": 9.96,
+        "raw_text": "Coffee beans | 2 | $4.98 | $9.96",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.991656675726825,
+    "structured_confidence": 0.9266,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 6.2034,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0030-image_jpg.json"
+  },
+  {
+    "document_id": "RCT-0002",
+    "variant_id": "RCT-0002-digital_pdf",
+    "file_path": "data/synthetic/receipts/pdf/rct-0002_digital.pdf",
+    "template": "receipt_2",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88 Crescent Road, Pinecross, WA 98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2502-5001",
+      "transaction_date": "2025-02-26",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 55.63,
+      "tax_amount": 2.78,
+      "total_amount": 58.41,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Granola cup",
+        "quantity": 3.0,
+        "unit_price": 14.29,
+        "line_total": 42.87,
+        "raw_text": "Granola | cup | 3 | $14.29 | $42.87",
+        "confidence": 0.95
+      },
+      {
+        "description": "USB adapter",
+        "quantity": 1.0,
+        "unit_price": 12.76,
+        "line_total": 12.76,
+        "raw_text": "USB | adapter | 1 | $12.76 | $12.76",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9141,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 0.1639,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0002-digital_pdf.json"
+  },
+  {
+    "document_id": "RCT-0004",
+    "variant_id": "RCT-0004-digital_pdf",
+    "file_path": "data/synthetic/receipts/pdf/rct-0004_digital.pdf",
+    "template": "receipt_4",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "merchant_name": "Cobalt Corner Shop",
+      "merchant_address": "39 Prism Avenue, Eastmere, IL 60607",
+      "merchant_phone": null,
+      "receipt_number": "RC-2510-5003",
+      "transaction_date": "2025-10-29",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 56.13,
+      "tax_amount": 0.0,
+      "total_amount": 56.13,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffee beans",
+        "quantity": 3.0,
+        "unit_price": 14.97,
+        "line_total": 44.91,
+        "raw_text": "Coffee | beans | 3 | $14.97 | $44.91",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 3.0,
+        "unit_price": 3.74,
+        "line_total": 11.22,
+        "raw_text": "Cable | clips | 3 | $3.74 | $11.22",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9141,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 0.0558,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0004-digital_pdf.json"
+  },
+  {
+    "document_id": "RCT-0006",
+    "variant_id": "RCT-0006-digital_pdf",
+    "file_path": "data/synthetic/receipts/pdf/rct-0006_digital.pdf",
+    "template": "receipt_2",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88 Crescent Road, Pinecross, WA 98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2510-5005",
+      "transaction_date": "2025-10-11",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 119.42,
+      "tax_amount": 5.97,
+      "total_amount": 125.39,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Cleaning cloths",
+        "quantity": 2.0,
+        "unit_price": 15.85,
+        "line_total": 31.7,
+        "raw_text": "Cleaning | cloths | 2 | $15.85 | $31.70",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel pen set",
+        "quantity": 2.0,
+        "unit_price": 8.76,
+        "line_total": 17.52,
+        "raw_text": "Gel | pen | set | 2 | $8.76 | $17.52",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 4.0,
+        "unit_price": 14.22,
+        "line_total": 56.88,
+        "raw_text": "Cable | clips | 4 | $14.22 | $56.88",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffee beans",
+        "quantity": 3.0,
+        "unit_price": 4.44,
+        "line_total": 13.32,
+        "raw_text": "Coffee | beans | 3 | $4.44 | $13.32",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9141,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 0.0425,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0006-digital_pdf.json"
+  },
+  {
+    "document_id": "RCT-0010",
+    "variant_id": "RCT-0010-digital_pdf",
+    "file_path": "data/synthetic/receipts/pdf/rct-0010_digital.pdf",
+    "template": "receipt_2",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88 Crescent Road, Pinecross, WA 98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2501-5009",
+      "transaction_date": "2025-01-25",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 64.84,
+      "tax_amount": 3.24,
+      "total_amount": 68.08,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Recycled notebooks",
+        "quantity": 2.0,
+        "unit_price": 15.26,
+        "line_total": 30.52,
+        "raw_text": "Recycled | notebooks | 2 | $15.26 | $30.52",
+        "confidence": 0.95
+      },
+      {
+        "description": "Desk organizer",
+        "quantity": 2.0,
+        "unit_price": 17.16,
+        "line_total": 34.32,
+        "raw_text": "Desk | organizer | 2 | $17.16 | $34.32",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9141,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 0.0637,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0010-digital_pdf.json"
+  },
+  {
+    "document_id": "RCT-0014",
+    "variant_id": "RCT-0014-digital_pdf",
+    "file_path": "data/synthetic/receipts/pdf/rct-0014_digital.pdf",
+    "template": "receipt_2",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88 Crescent Road, Pinecross, WA 98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2507-5013",
+      "transaction_date": "2025-07-21",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 122.91,
+      "tax_amount": 0.0,
+      "total_amount": 122.91,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Desk organizer",
+        "quantity": 3.0,
+        "unit_price": 8.96,
+        "line_total": 26.88,
+        "raw_text": "Desk | organizer | 3 | $8.96 | $26.88",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9041,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 0.0698,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0014-digital_pdf.json"
+  },
+  {
+    "document_id": "RCT-0021",
+    "variant_id": "RCT-0021-digital_pdf",
+    "file_path": "data/synthetic/receipts/pdf/rct-0021_digital.pdf",
+    "template": "receipt_1",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "merchant_name": "Morning Oak Market",
+      "merchant_address": "15 Orchard Way, Brookfield, VT 05036",
+      "merchant_phone": null,
+      "receipt_number": "RC-2504-5020",
+      "transaction_date": "2025-04-17",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 40.67,
+      "tax_amount": 2.03,
+      "total_amount": 42.7,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Desk organizer",
+        "quantity": 1.0,
+        "unit_price": 11.48,
+        "line_total": 11.48,
+        "raw_text": "Desk | organizer | 1 | $11.48 | $11.48",
+        "confidence": 0.95
+      },
+      {
+        "description": "Recycled notebooks",
+        "quantity": 3.0,
+        "unit_price": 9.73,
+        "line_total": 29.19,
+        "raw_text": "Recycled | notebooks | 3 | $9.73 | $29.19",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9141,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 0.0507,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0021-digital_pdf.json"
+  },
+  {
+    "document_id": "RCT-0022",
+    "variant_id": "RCT-0022-digital_pdf",
+    "file_path": "data/synthetic/receipts/pdf/rct-0022_digital.pdf",
+    "template": "receipt_2",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88 Crescent Road, Pinecross, WA 98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2507-5021",
+      "transaction_date": "2025-07-23",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 130.35,
+      "tax_amount": 9.78,
+      "total_amount": 140.13,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffee beans",
+        "quantity": 4.0,
+        "unit_price": 14.0,
+        "line_total": 56.0,
+        "raw_text": "Coffee | beans | 4 | $14.00 | $56.00",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel pen set",
+        "quantity": 3.0,
+        "unit_price": 15.5,
+        "line_total": 46.5,
+        "raw_text": "Gel | pen | set | 3 | $15.50 | $46.50",
+        "confidence": 0.95
+      },
+      {
+        "description": "Desk organizer",
+        "quantity": 3.0,
+        "unit_price": 3.59,
+        "line_total": 10.77,
+        "raw_text": "Desk | organizer | 3 | $3.59 | $10.77",
+        "confidence": 0.95
+      },
+      {
+        "description": "Canvas tote",
+        "quantity": 2.0,
+        "unit_price": 8.54,
+        "line_total": 17.08,
+        "raw_text": "Canvas | tote | 2 | $8.54 | $17.08",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9141,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 0.048,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0022-digital_pdf.json"
+  },
+  {
+    "document_id": "RCT-0025",
+    "variant_id": "RCT-0025-digital_pdf",
+    "file_path": "data/synthetic/receipts/pdf/rct-0025_digital.pdf",
+    "template": "receipt_1",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "merchant_name": "Morning Oak Market",
+      "merchant_address": "15 Orchard Way, Brookfield, VT 05036",
+      "merchant_phone": null,
+      "receipt_number": "RC-2501-5024",
+      "transaction_date": "2025-01-01",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 114.09,
+      "tax_amount": 0.0,
+      "total_amount": 114.09,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Archive folders",
+        "quantity": 1.0,
+        "unit_price": 15.68,
+        "line_total": 15.68,
+        "raw_text": "Archive | folders | 1 | $15.68 | $15.68",
+        "confidence": 0.95
+      },
+      {
+        "description": "Granola cup",
+        "quantity": 3.0,
+        "unit_price": 7.13,
+        "line_total": 21.39,
+        "raw_text": "Granola | cup | 3 | $7.13 | $21.39",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffee beans",
+        "quantity": 2.0,
+        "unit_price": 10.86,
+        "line_total": 21.72,
+        "raw_text": "Coffee | beans | 2 | $10.86 | $21.72",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cleaning cloths",
+        "quantity": 2.0,
+        "unit_price": 11.33,
+        "line_total": 22.66,
+        "raw_text": "Cleaning | cloths | 2 | $11.33 | $22.66",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9041,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 0.0566,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0025-digital_pdf.json"
+  },
+  {
+    "document_id": "RCT-0028",
+    "variant_id": "RCT-0028-digital_pdf",
+    "file_path": "data/synthetic/receipts/pdf/rct-0028_digital.pdf",
+    "template": "receipt_4",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "merchant_name": "Cobalt Corner Shop",
+      "merchant_address": "39 Prism Avenue, Eastmere, IL 60607",
+      "merchant_phone": null,
+      "receipt_number": "RC-2510-5027",
+      "transaction_date": "2025-10-25",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 178.58,
+      "tax_amount": 13.39,
+      "total_amount": 191.97,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffee beans",
+        "quantity": 2.0,
+        "unit_price": 9.08,
+        "line_total": 18.16,
+        "raw_text": "Coffee | beans | 2 | $9.08 | $18.16",
+        "confidence": 0.95
+      },
+      {
+        "description": "Desk organizer",
+        "quantity": 4.0,
+        "unit_price": 14.91,
+        "line_total": 59.64,
+        "raw_text": "Desk | organizer | 4 | $14.91 | $59.64",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 3.0,
+        "unit_price": 9.85,
+        "line_total": 29.55,
+        "raw_text": "Cable | clips | 3 | $9.85 | $29.55",
+        "confidence": 0.95
+      },
+      {
+        "description": "Herbal tea",
+        "quantity": 2.0,
+        "unit_price": 8.96,
+        "line_total": 17.92,
+        "raw_text": "Herbal | tea | 2 | $8.96 | $17.92",
+        "confidence": 0.95
+      },
+      {
+        "description": "Recycled notebooks",
+        "quantity": 3.0,
+        "unit_price": 17.77,
+        "line_total": 53.31,
+        "raw_text": "Recycled | notebooks | 3 | $17.77 | $53.31",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9141,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 0.0538,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0028-digital_pdf.json"
+  },
+  {
+    "document_id": "RCT-0030",
+    "variant_id": "RCT-0030-digital_pdf",
+    "file_path": "data/synthetic/receipts/pdf/rct-0030_digital.pdf",
+    "template": "receipt_2",
+    "quality_condition": "clean",
+    "file_format": "digital_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "embedded_text",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88 Crescent Road, Pinecross, WA 98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2505-5029",
+      "transaction_date": "2025-05-05",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 79.01,
+      "tax_amount": 0.0,
+      "total_amount": 79.01,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Gel pen set",
+        "quantity": 4.0,
+        "unit_price": 5.87,
+        "line_total": 23.48,
+        "raw_text": "Gel | pen | set | 4 | $5.87 | $23.48",
+        "confidence": 0.95
+      },
+      {
+        "description": "Desk organizer",
+        "quantity": 2.0,
+        "unit_price": 17.56,
+        "line_total": 35.12,
+        "raw_text": "Desk | organizer | 2 | $17.56 | $35.12",
+        "confidence": 0.95
+      },
+      {
+        "description": "Granola cup",
+        "quantity": 1.0,
+        "unit_price": 10.45,
+        "line_total": 10.45,
+        "raw_text": "Granola | cup | 1 | $10.45 | $10.45",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffee beans",
+        "quantity": 2.0,
+        "unit_price": 4.98,
+        "line_total": 9.96,
+        "raw_text": "Coffee | beans | 2 | $4.98 | $9.96",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": null,
+    "structured_confidence": 0.9141,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 0.1212,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0030-digital_pdf.json"
+  },
+  {
+    "document_id": "RCT-0002",
+    "variant_id": "RCT-0002-image_png",
+    "file_path": "data/synthetic/receipts/png/rct-0002_mild_shadow.png",
+    "template": "receipt_2",
+    "quality_condition": "mild_shadow",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88 Crescent Road, Pinecross, WA 98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2502-5001",
+      "transaction_date": "2025-02-26",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 55.63,
+      "tax_amount": null,
+      "total_amount": 58.41,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [],
+    "ocr_confidence": 0.9756640967576348,
+    "structured_confidence": 0.8742,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "NO_LINE_ITEMS_FOUND",
+        "message": "No line items were parsed.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 4.1834,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0002-image_png.json"
+  },
+  {
+    "document_id": "RCT-0004",
+    "variant_id": "RCT-0004-image_png",
+    "file_path": "data/synthetic/receipts/png/rct-0004_light_noise.png",
+    "template": "receipt_4",
+    "quality_condition": "light_noise",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Cobalt Corner Shop",
+      "merchant_address": "39PrismAvenue,Eastmere,IL60607",
+      "merchant_phone": null,
+      "receipt_number": "RC-2510-5003",
+      "transaction_date": "2025-10-29",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 56.13,
+      "tax_amount": 0.0,
+      "total_amount": 56.13,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffee beans",
+        "quantity": 3.0,
+        "unit_price": 14.97,
+        "line_total": 44.91,
+        "raw_text": "Coffee beans | 3 | $14.97 | $44.91",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 3.0,
+        "unit_price": 3.74,
+        "line_total": 11.22,
+        "raw_text": "Cable clips | 3 | $3.74 | $11.22",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9912927544991952,
+    "structured_confidence": 0.9265,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 7.4117,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0004-image_png.json"
+  },
+  {
+    "document_id": "RCT-0006",
+    "variant_id": "RCT-0006-image_png",
+    "file_path": "data/synthetic/receipts/png/rct-0006_lower_contrast.png",
+    "template": "receipt_2",
+    "quality_condition": "lower_contrast",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88CrescentRoad,Pinecross,WA98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2510-5005",
+      "transaction_date": "2025-10-11",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 119.42,
+      "tax_amount": 5.97,
+      "total_amount": 125.39,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Cleaning cloths",
+        "quantity": 2.0,
+        "unit_price": 15.85,
+        "line_total": 31.7,
+        "raw_text": "Cleaning cloths | 2 | $15.85 | $31.70",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel pen set",
+        "quantity": 2.0,
+        "unit_price": 8.76,
+        "line_total": 17.52,
+        "raw_text": "Gel pen set | 2 | $8.76 | $17.52",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 4.0,
+        "unit_price": 14.22,
+        "line_total": 56.88,
+        "raw_text": "Cable clips | 4 | $14.22 | $56.88",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffee beans",
+        "quantity": 3.0,
+        "unit_price": 4.44,
+        "line_total": 13.32,
+        "raw_text": "Coffee beans | 3 | $4.44 | $13.32",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9937227606621771,
+    "structured_confidence": 0.9272,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 5.4052,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0006-image_png.json"
+  },
+  {
+    "document_id": "RCT-0010",
+    "variant_id": "RCT-0010-image_png",
+    "file_path": "data/synthetic/receipts/png/rct-0010_slight_rotation.png",
+    "template": "receipt_2",
+    "quality_condition": "slight_rotation",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88CrescentRoad,Pinecross,WA98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2501-5009",
+      "transaction_date": "2025-01-25",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 64.84,
+      "tax_amount": 3.24,
+      "total_amount": 68.08,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Recycled notebooks",
+        "quantity": 2.0,
+        "unit_price": 15.26,
+        "line_total": 30.52,
+        "raw_text": "Recycled notebooks | 2 | $15.26 | $30.52",
+        "confidence": 0.95
+      },
+      {
+        "description": "Desk organizer",
+        "quantity": 2.0,
+        "unit_price": 17.16,
+        "line_total": 34.32,
+        "raw_text": "Desk organizer | 2 | $17.16 | $34.32",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9941926638671537,
+    "structured_confidence": 0.9274,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 6.6024,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0010-image_png.json"
+  },
+  {
+    "document_id": "RCT-0014",
+    "variant_id": "RCT-0014-image_png",
+    "file_path": "data/synthetic/receipts/png/rct-0014_jpeg_compression.png",
+    "template": "receipt_2",
+    "quality_condition": "jpeg_compression",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88CrescentRoad,Pinecross,WA98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2507-5013",
+      "transaction_date": "2025-07-21",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 122.91,
+      "tax_amount": 0.0,
+      "total_amount": 122.91,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Desk organizer",
+        "quantity": 3.0,
+        "unit_price": 8.96,
+        "line_total": 26.88,
+        "raw_text": "Desk organizer | 3 | $8.96 | $26.88",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9906577726864878,
+    "structured_confidence": 0.9163,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 7.6701,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0014-image_png.json"
+  },
+  {
+    "document_id": "RCT-0021",
+    "variant_id": "RCT-0021-image_png",
+    "file_path": "data/synthetic/receipts/png/rct-0021_jpeg_compression.png",
+    "template": "receipt_1",
+    "quality_condition": "jpeg_compression",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Morning Oak Market",
+      "merchant_address": "15OrchardWay,Brookfield,VT05036",
+      "merchant_phone": null,
+      "receipt_number": "RC-2504-5020",
+      "transaction_date": "2025-04-17",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 40.67,
+      "tax_amount": 2.03,
+      "total_amount": 42.7,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Desk organizer",
+        "quantity": 1.0,
+        "unit_price": 11.48,
+        "line_total": 11.48,
+        "raw_text": "Desk organizer | 1 | $11.48 | $11.48",
+        "confidence": 0.95
+      },
+      {
+        "description": "Recycled notebooks",
+        "quantity": 3.0,
+        "unit_price": 9.73,
+        "line_total": 29.19,
+        "raw_text": "Recycled notebooks | 3 | $9.73 | $29.19",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9860505287257851,
+    "structured_confidence": 0.9249,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 7.9426,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0021-image_png.json"
+  },
+  {
+    "document_id": "RCT-0022",
+    "variant_id": "RCT-0022-image_png",
+    "file_path": "data/synthetic/receipts/png/rct-0022_mild_blur.png",
+    "template": "receipt_2",
+    "quality_condition": "mild_blur",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88CrescentRoad,Pinecross,WA98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2507-5021",
+      "transaction_date": "2025-07-23",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 130.35,
+      "tax_amount": 9.78,
+      "total_amount": 140.13,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffeebeans",
+        "quantity": 4.0,
+        "unit_price": 14.0,
+        "line_total": 56.0,
+        "raw_text": "Coffeebeans | 4 | $14.00 | $56.00",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel pen set",
+        "quantity": 3.0,
+        "unit_price": 15.5,
+        "line_total": 46.5,
+        "raw_text": "Gel pen set | 3 | $15.50 | $46.50",
+        "confidence": 0.95
+      },
+      {
+        "description": "Deskorganizer",
+        "quantity": 3.0,
+        "unit_price": 3.59,
+        "line_total": 10.77,
+        "raw_text": "Deskorganizer | 3 | $3.59 | $10.77",
+        "confidence": 0.95
+      },
+      {
+        "description": "Canvastote",
+        "quantity": 2.0,
+        "unit_price": 8.54,
+        "line_total": 17.08,
+        "raw_text": "Canvastote | 2 | $8.54 | $17.08",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9964547962602386,
+    "structured_confidence": 0.9281,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 5.3658,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0022-image_png.json"
+  },
+  {
+    "document_id": "RCT-0025",
+    "variant_id": "RCT-0025-image_png",
+    "file_path": "data/synthetic/receipts/png/rct-0025_light_noise.png",
+    "template": "receipt_1",
+    "quality_condition": "light_noise",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Morning Oak Market",
+      "merchant_address": "15OrchardWay,Brookfield,VT05036",
+      "merchant_phone": null,
+      "receipt_number": "RC-2501-5024",
+      "transaction_date": "2025-01-01",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 114.09,
+      "tax_amount": 0.0,
+      "total_amount": 114.09,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Archive folders",
+        "quantity": 1.0,
+        "unit_price": 15.68,
+        "line_total": 15.68,
+        "raw_text": "Archive folders | 1 | $15.68 | $15.68",
+        "confidence": 0.95
+      },
+      {
+        "description": "Granola cup",
+        "quantity": 3.0,
+        "unit_price": 7.13,
+        "line_total": 21.39,
+        "raw_text": "Granola cup | 3 | $7.13 | $21.39",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffee beans",
+        "quantity": 2.0,
+        "unit_price": 10.86,
+        "line_total": 21.72,
+        "raw_text": "Coffee beans | 2 | $10.86 | $21.72",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cleaning cloths",
+        "quantity": 2.0,
+        "unit_price": 11.33,
+        "line_total": 22.66,
+        "raw_text": "Cleaning cloths | 2 | $11.33 | $22.66",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9931633285036359,
+    "structured_confidence": 0.9171,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 8.0126,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0025-image_png.json"
+  },
+  {
+    "document_id": "RCT-0028",
+    "variant_id": "RCT-0028-image_png",
+    "file_path": "data/synthetic/receipts/png/rct-0028_jpeg_compression.png",
+    "template": "receipt_4",
+    "quality_condition": "jpeg_compression",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "CobaltCornerShop",
+      "merchant_address": "39PrismAvenue,Eastmere,IL60607",
+      "merchant_phone": null,
+      "receipt_number": "RC-2510-5027",
+      "transaction_date": "2025-10-25",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 178.58,
+      "tax_amount": 13.39,
+      "total_amount": 191.97,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffee beans",
+        "quantity": 2.0,
+        "unit_price": 9.08,
+        "line_total": 18.16,
+        "raw_text": "Coffee beans | 2 | $9.08 | $18.16",
+        "confidence": 0.95
+      },
+      {
+        "description": "Desk organizer",
+        "quantity": 4.0,
+        "unit_price": 14.91,
+        "line_total": 59.64,
+        "raw_text": "Desk organizer | 4 | $14.91 | $59.64",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 3.0,
+        "unit_price": 9.85,
+        "line_total": 29.55,
+        "raw_text": "Cable clips | 3 | $9.85 | $29.55",
+        "confidence": 0.95
+      },
+      {
+        "description": "Herbal tea",
+        "quantity": 2.0,
+        "unit_price": 8.96,
+        "line_total": 17.92,
+        "raw_text": "Herbal tea | 2 | $8.96 | $17.92",
+        "confidence": 0.95
+      },
+      {
+        "description": "Recycled notebooks",
+        "quantity": 3.0,
+        "unit_price": 17.77,
+        "line_total": 53.31,
+        "raw_text": "Recycled notebooks | 3 | $17.77 | $53.31",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9923439343577832,
+    "structured_confidence": 0.9268,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 7.1058,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0028-image_png.json"
+  },
+  {
+    "document_id": "RCT-0030",
+    "variant_id": "RCT-0030-image_png",
+    "file_path": "data/synthetic/receipts/png/rct-0030_mild_shadow.png",
+    "template": "receipt_2",
+    "quality_condition": "mild_shadow",
+    "file_format": "png",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88 Crescent Road, Pinecross, WA 98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2505-5029",
+      "transaction_date": "2025-05-05",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 79.01,
+      "tax_amount": null,
+      "total_amount": 79.01,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [],
+    "ocr_confidence": 0.9860179261648995,
+    "structured_confidence": 0.8773,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "NO_LINE_ITEMS_FOUND",
+        "message": "No line items were parsed.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 3.7618,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0030-image_png.json"
+  },
+  {
+    "document_id": "INV-0002",
+    "variant_id": "INV-0002-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/inv-0002_jpeg_compression.pdf",
+    "template": "invoice_2",
+    "quality_condition": "jpeg_compression",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "JuniperOfficeWorks",
+      "vendor_address": "72CedarWalk,LumenCity,CO80014",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": null,
+      "customer_address": null,
+      "invoice_number": "NS-2025-10001",
+      "invoice_date": "2025-04-25",
+      "due_date": "2025-06-09",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 71.74,
+      "tax_rate": null,
+      "tax_amount": 3.59,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 75.33,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Cableclips",
+        "quantity": 2.0,
+        "unit_price": 2.74,
+        "line_total": 5.48,
+        "raw_text": "Cableclips | 2 | $2.74 | $5.48",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel penset",
+        "quantity": 1.0,
+        "unit_price": 16.94,
+        "line_total": 16.94,
+        "raw_text": "Gel penset | 1 | $16.94 | $16.94",
+        "confidence": 0.95
+      },
+      {
+        "description": "Recycled notebooks",
+        "quantity": 3.0,
+        "unit_price": 10.86,
+        "line_total": 32.58,
+        "raw_text": "Recycled notebooks | 3 | $10.86 | $32.58",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9911027662897695,
+    "structured_confidence": 0.9297,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 9.4055,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0002-scanned_pdf.json"
+  },
+  {
+    "document_id": "INV-0004",
+    "variant_id": "INV-0004-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/inv-0004_mild_shadow.pdf",
+    "template": "invoice_4",
+    "quality_condition": "mild_shadow",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Copper &Pine Studio",
+      "vendor_address": "11QuartzStreet,Bellmere,AZ85004",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Heather Garrett Date:2025-02-03",
+      "customer_address": "117 Chang Junctions Suite 390, NewTaylor Due:2025-03-20",
+      "invoice_number": "NS-2025-10003",
+      "invoice_date": "2025-02-03",
+      "due_date": "2025-03-20",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 598.08,
+      "tax_rate": null,
+      "tax_amount": 29.9,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 627.98,
+      "payment_terms": null
+    },
+    "predicted_line_items": [],
+    "ocr_confidence": 0.986710289761827,
+    "structured_confidence": 0.9061,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "NO_LINE_ITEMS_FOUND",
+        "message": "No line items were parsed.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 6.3784,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0004-scanned_pdf.json"
+  },
+  {
+    "document_id": "INV-0008",
+    "variant_id": "INV-0008-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/inv-0008_lower_contrast.pdf",
+    "template": "invoice_3",
+    "quality_condition": "lower_contrast",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "BlueFinchSupplies",
+      "vendor_address": "409HarborLane,Fairhaven,ME04032",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": null,
+      "customer_address": null,
+      "invoice_number": "NS-2025-10007",
+      "invoice_date": "2025-09-09",
+      "due_date": "2025-10-24",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 395.96,
+      "tax_rate": null,
+      "tax_amount": 29.7,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 425.66,
+      "payment_terms": null
+    },
+    "predicted_line_items": [],
+    "ocr_confidence": 0.9891126701391871,
+    "structured_confidence": 0.8931,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "NO_LINE_ITEMS_FOUND",
+        "message": "No line items were parsed.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 6.626,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0008-scanned_pdf.json"
+  },
+  {
+    "document_id": "INV-0011",
+    "variant_id": "INV-0011-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/inv-0011_mild_shadow.pdf",
+    "template": "invoice_1",
+    "quality_condition": "mild_shadow",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Northstar Paper Co.",
+      "vendor_address": "18 Wulow Loop Alder Bay OR 97001",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Mr. Joshua Boyle Date:2025-11-08",
+      "customer_address": "96378Pierce Parkway,Burnsmouth Due:2025-12-23",
+      "invoice_number": "NS-2025-10010",
+      "invoice_date": "2025-11-08",
+      "due_date": "2025-12-23",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": null,
+      "tax_rate": null,
+      "tax_amount": null,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 167.76,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Archive folders",
+        "quantity": 2.0,
+        "unit_price": 42.53,
+        "line_total": 85.06,
+        "raw_text": "Archive folders | 2 | $42.53 | $85.06",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffee beans",
+        "quantity": 3.0,
+        "unit_price": 22.04,
+        "line_total": 66.12,
+        "raw_text": "Coffee beans | 3 | $22.04 | $66.12",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel pen set",
+        "quantity": 1.0,
+        "unit_price": 8.64,
+        "line_total": 8.64,
+        "raw_text": "Gel pen set | 1 | $8.64 | $8.64",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.971095100748076,
+    "structured_confidence": 0.9439,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 5.0856,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0011-scanned_pdf.json"
+  },
+  {
+    "document_id": "INV-0013",
+    "variant_id": "INV-0013-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/inv-0013_light_noise.pdf",
+    "template": "invoice_3",
+    "quality_condition": "light_noise",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Blue Finch Supplies",
+      "vendor_address": "409HarborLane,Fairhaven,ME04032",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "TiffanyBurton Date:2025-10-12",
+      "customer_address": "9576BradfordSquares,Mckinneyborough Due:2025-11-26",
+      "invoice_number": "NS-2025-10012",
+      "invoice_date": "2025-10-12",
+      "due_date": "2025-11-26",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 197.95,
+      "tax_rate": null,
+      "tax_amount": 16.33,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 214.28,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "USBadapter",
+        "quantity": 2.0,
+        "unit_price": 2.87,
+        "line_total": 5.74,
+        "raw_text": "USBadapter | 2 | $2.87 | $5.74",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 2.0,
+        "unit_price": 42.65,
+        "line_total": 85.3,
+        "raw_text": "Cable clips | 2 | $42.65 | $85.30",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel penset",
+        "quantity": 3.0,
+        "unit_price": 38.97,
+        "line_total": 116.91,
+        "raw_text": "Gel penset | 3 | $38.97 | $116.91",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9888369323549375,
+    "structured_confidence": 0.9427,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 7.4229,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0013-scanned_pdf.json"
+  },
+  {
+    "document_id": "INV-0015",
+    "variant_id": "INV-0015-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/inv-0015_lower_contrast.pdf",
+    "template": "invoice_5",
+    "quality_condition": "lower_contrast",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Maple Circuit Goods",
+      "vendor_address": "260GroveAvenue,Westvale,NY10018",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": null,
+      "customer_address": null,
+      "invoice_number": "NS-2025-10014",
+      "invoice_date": "2025-10-29",
+      "due_date": "2025-11-12",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 404.29,
+      "tax_rate": null,
+      "tax_amount": 30.32,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 434.61,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Granola cup",
+        "quantity": 1.0,
+        "unit_price": 21.65,
+        "line_total": 21.65,
+        "raw_text": "Granola cup | 1 | $21.65 | $21.65",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffeebeans",
+        "quantity": 3.0,
+        "unit_price": 47.31,
+        "line_total": 141.93,
+        "raw_text": "Coffeebeans | 3 | $47.31 | $141.93",
+        "confidence": 0.95
+      },
+      {
+        "description": "Desk organizer",
+        "quantity": 1.0,
+        "unit_price": 13.99,
+        "line_total": 13.99,
+        "raw_text": "Desk organizer | 1 | $13.99 | $13.99",
+        "confidence": 0.95
+      },
+      {
+        "description": "USBadapter",
+        "quantity": 3.0,
+        "unit_price": 45.5,
+        "line_total": 136.5,
+        "raw_text": "USBadapter | 3 | $45.50 | $136.50",
+        "confidence": 0.95
+      },
+      {
+        "description": "Herbal tea",
+        "quantity": 2.0,
+        "unit_price": 44.11,
+        "line_total": 88.22,
+        "raw_text": "Herbal tea | 2 | $44.11 | $88.22",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.988669799190537,
+    "structured_confidence": 0.929,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 6.3907,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0015-scanned_pdf.json"
+  },
+  {
+    "document_id": "INV-0027",
+    "variant_id": "INV-0027-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/inv-0027_light_noise.pdf",
+    "template": "invoice_2",
+    "quality_condition": "light_noise",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 1.0,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Juniper Office Works",
+      "vendor_address": "72CedarWalk,LumenCity,CO80014",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": "Lisa Johnson Date:2025-04-07",
+      "customer_address": "112PhillipTerrace,SouthCarlos Due:2025-04-21",
+      "invoice_number": "NS-2025-10026",
+      "invoice_date": "2025-04-07",
+      "due_date": "2025-04-21",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 307.28,
+      "tax_rate": null,
+      "tax_amount": 25.35,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 332.63,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Archivefolders",
+        "quantity": 3.0,
+        "unit_price": 36.9,
+        "line_total": 110.7,
+        "raw_text": "Archivefolders | 3 | $36.90 | $110.70",
+        "confidence": 0.95
+      },
+      {
+        "description": "USBadapter",
+        "quantity": 1.0,
+        "unit_price": 46.59,
+        "line_total": 46.59,
+        "raw_text": "USBadapter | 1 | $46.59 | $46.59",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cleaning cloths",
+        "quantity": 4.0,
+        "unit_price": 36.26,
+        "line_total": 145.04,
+        "raw_text": "Cleaning cloths | 4 | $36.26 | $145.04",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.988179763053847,
+    "structured_confidence": 0.9425,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 7.2774,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0027-scanned_pdf.json"
+  },
+  {
+    "document_id": "INV-0031",
+    "variant_id": "INV-0031-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/inv-0031_mild_blur.pdf",
+    "template": "invoice_1",
+    "quality_condition": "mild_blur",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "NorthstarPaperCo.",
+      "vendor_address": "18WillowLoop,AlderBay,OR97001",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": null,
+      "customer_address": null,
+      "invoice_number": "NS-2025-10030",
+      "invoice_date": "2025-09-27",
+      "due_date": "2025-10-27",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 306.09,
+      "tax_rate": null,
+      "tax_amount": 22.96,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 329.05,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Granola cup",
+        "quantity": 2.0,
+        "unit_price": 52.37,
+        "line_total": 104.74,
+        "raw_text": "Granola cup | 2 | $52.37 | $104.74",
+        "confidence": 0.95
+      },
+      {
+        "description": "Canvastote",
+        "quantity": 3.0,
+        "unit_price": 7.7,
+        "line_total": 23.1,
+        "raw_text": "Canvastote | 3 | $7.70 | $23.10",
+        "confidence": 0.95
+      },
+      {
+        "description": "Herbal tea",
+        "quantity": 4.0,
+        "unit_price": 33.76,
+        "line_total": 135.04,
+        "raw_text": "Herbal tea | 4 | $33.76 | $135.04",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cleaning cloths",
+        "quantity": 3.0,
+        "unit_price": 11.57,
+        "line_total": 34.71,
+        "raw_text": "Cleaning cloths | 3 | $11.57 | $34.71",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.99101789900859,
+    "structured_confidence": 0.9297,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 5.7861,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0031-scanned_pdf.json"
+  },
+  {
+    "document_id": "INV-0037",
+    "variant_id": "INV-0037-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/inv-0037_jpeg_compression.pdf",
+    "template": "invoice_2",
+    "quality_condition": "jpeg_compression",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Juniper Office Works",
+      "vendor_address": "72CedarWalk,LumenCity,CO80014",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": null,
+      "customer_address": null,
+      "invoice_number": "NS-2025-10036",
+      "invoice_date": "2025-05-24",
+      "due_date": "2025-06-07",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 264.48,
+      "tax_rate": null,
+      "tax_amount": 21.82,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 286.3,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "USBadapter",
+        "quantity": 1.0,
+        "unit_price": 10.63,
+        "line_total": 10.63,
+        "raw_text": "USBadapter | 1 | $10.63 | $10.63",
+        "confidence": 0.95
+      },
+      {
+        "description": "Deskorganizer",
+        "quantity": 1.0,
+        "unit_price": 29.85,
+        "line_total": 29.85,
+        "raw_text": "Deskorganizer | 1 | $29.85 | $29.85",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel penset",
+        "quantity": 4.0,
+        "unit_price": 56.0,
+        "line_total": 224.0,
+        "raw_text": "Gel penset | 4 | $56.00 | $224.00",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9887706626459829,
+    "structured_confidence": 0.939,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 6.3738,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0037-scanned_pdf.json"
+  },
+  {
+    "document_id": "INV-0038",
+    "variant_id": "INV-0038-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/inv-0038_mild_blur.pdf",
+    "template": "invoice_3",
+    "quality_condition": "mild_blur",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "BlueFinchSupplies",
+      "vendor_address": "409HarborLane,Fairhaven,ME04032",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": null,
+      "customer_address": null,
+      "invoice_number": "NS-2025-10037",
+      "invoice_date": "2025-10-21",
+      "due_date": "2025-12-05",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": 81.31,
+      "tax_rate": null,
+      "tax_amount": 0.0,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 81.31,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Herbal tea",
+        "quantity": 3.0,
+        "unit_price": 11.25,
+        "line_total": 33.75,
+        "raw_text": "Herbal tea | 3 | $11.25 | $33.75",
+        "confidence": 0.95
+      },
+      {
+        "description": "Granolacup",
+        "quantity": 2.0,
+        "unit_price": 21.55,
+        "line_total": 43.1,
+        "raw_text": "Granolacup | 2 | $21.55 | $43.10",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9899642287916052,
+    "structured_confidence": 0.9294,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 6.0345,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0038-scanned_pdf.json"
+  },
+  {
+    "document_id": "INV-0040",
+    "variant_id": "INV-0040-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/inv-0040_slight_rotation.pdf",
+    "template": "invoice_5",
+    "quality_condition": "slight_rotation",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "invoice",
+    "document_type_confidence": 0.8700000000000001,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "vendor_name": "Maple Circuit Goods",
+      "vendor_address": "260GroveAvenue,estvale,NY10018",
+      "vendor_email": null,
+      "vendor_phone": null,
+      "customer_name": null,
+      "customer_address": null,
+      "invoice_number": "NS-2025-10039",
+      "invoice_date": "2025-10-01",
+      "due_date": "2025-10-15",
+      "currency": "USD",
+      "purchase_order": null,
+      "subtotal": null,
+      "tax_rate": null,
+      "tax_amount": 0.0,
+      "discount": null,
+      "shipping": null,
+      "total_amount": 392.61,
+      "payment_terms": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffeebeans",
+        "quantity": 4.0,
+        "unit_price": 56.04,
+        "line_total": 224.16,
+        "raw_text": "Coffeebeans | 4 | $56.04 | $224.16",
+        "confidence": 0.95
+      },
+      {
+        "description": "Granolacup",
+        "quantity": 2.0,
+        "unit_price": 43.77,
+        "line_total": 87.54,
+        "raw_text": "Granolacup | 2 | $43.77 | $87.54",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9864774224308869,
+    "structured_confidence": 0.9371,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 5.5414,
+    "raw_text_path": "outputs/extracted/raw_text/INV-0040-scanned_pdf.json"
+  },
+  {
+    "document_id": "RCT-0002",
+    "variant_id": "RCT-0002-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/rct-0002_perspective.pdf",
+    "template": "receipt_2",
+    "quality_condition": "perspective",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88CrescentRoad,Pinecross,WA98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2502-5001",
+      "transaction_date": "2025-02-26",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 55.63,
+      "tax_amount": 2.78,
+      "total_amount": 58.41,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Granola cup",
+        "quantity": 3.0,
+        "unit_price": 14.29,
+        "line_total": 42.87,
+        "raw_text": "Granola cup | 3 | $14.29 | $42.87",
+        "confidence": 0.95
+      },
+      {
+        "description": "USB adapter",
+        "quantity": 1.0,
+        "unit_price": 12.76,
+        "line_total": 12.76,
+        "raw_text": "USB adapter | 1 | $12.76 | $12.76",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9887537735181035,
+    "structured_confidence": 0.9258,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 3.6279,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0002-scanned_pdf.json"
+  },
+  {
+    "document_id": "RCT-0004",
+    "variant_id": "RCT-0004-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/rct-0004_jpeg_compression.pdf",
+    "template": "receipt_4",
+    "quality_condition": "jpeg_compression",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "CobaltCornerShop",
+      "merchant_address": "39PrismAvenue,Eastmere,IL60607",
+      "merchant_phone": null,
+      "receipt_number": "RC-2510-5003",
+      "transaction_date": "2025-10-29",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 56.13,
+      "tax_amount": 0.0,
+      "total_amount": 56.13,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffee beans",
+        "quantity": 3.0,
+        "unit_price": 14.97,
+        "line_total": 44.91,
+        "raw_text": "Coffee beans | 3 | $14.97 | $44.91",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 3.0,
+        "unit_price": 3.74,
+        "line_total": 11.22,
+        "raw_text": "Cable clips | 3 | $3.74 | $11.22",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9874887668746595,
+    "structured_confidence": 0.9254,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 5.0004,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0004-scanned_pdf.json"
+  },
+  {
+    "document_id": "RCT-0006",
+    "variant_id": "RCT-0006-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/rct-0006_mild_shadow.pdf",
+    "template": "receipt_2",
+    "quality_condition": "mild_shadow",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88 Crescent Road, Pinecross, WA 98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2510-5005",
+      "transaction_date": "2025-10-11",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": null,
+      "tax_amount": null,
+      "total_amount": 125.39,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Cleaning cloths",
+        "quantity": 2.0,
+        "unit_price": 15.85,
+        "line_total": 31.7,
+        "raw_text": "Cleaning cloths | 2 | $15.85 | $31.70",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gel pen set",
+        "quantity": 2.0,
+        "unit_price": 8.76,
+        "line_total": 17.52,
+        "raw_text": "Gel pen set | 2 | $8.76 | $17.52",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 4.0,
+        "unit_price": 14.22,
+        "line_total": 56.88,
+        "raw_text": "Cable clips | 4 | $14.22 | $56.88",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffee beans",
+        "quantity": 3.0,
+        "unit_price": 4.44,
+        "line_total": 13.32,
+        "raw_text": "Coffee beans | 3 | $4.44 | $13.32",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9655998830338188,
+    "structured_confidence": 0.915,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 4.8575,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0006-scanned_pdf.json"
+  },
+  {
+    "document_id": "RCT-0010",
+    "variant_id": "RCT-0010-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/rct-0010_lower_contrast.pdf",
+    "template": "receipt_2",
+    "quality_condition": "lower_contrast",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88CrescentRoad,Pinecross,WA98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2501-5009",
+      "transaction_date": "2025-01-25",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 64.84,
+      "tax_amount": null,
+      "total_amount": 68.08,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Recycled notebooks",
+        "quantity": 2.0,
+        "unit_price": 15.26,
+        "line_total": 30.52,
+        "raw_text": "Recycled notebooks | 2 | $15.26 | $30.52",
+        "confidence": 0.95
+      },
+      {
+        "description": "Desk organizer",
+        "quantity": 2.0,
+        "unit_price": 17.16,
+        "line_total": 34.32,
+        "raw_text": "Desk organizer | 2 | $17.16 | $34.32",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9878016530031561,
+    "structured_confidence": 0.9238,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 4.1175,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0010-scanned_pdf.json"
+  },
+  {
+    "document_id": "RCT-0014",
+    "variant_id": "RCT-0014-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/rct-0014_slight_rotation.pdf",
+    "template": "receipt_2",
+    "quality_condition": "slight_rotation",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88CrescentRoad,Pinecross,WA98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2507-5013",
+      "transaction_date": "2025-07-21",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 122.91,
+      "tax_amount": 0.0,
+      "total_amount": 122.91,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Desk organizer",
+        "quantity": 3.0,
+        "unit_price": 8.96,
+        "line_total": 26.88,
+        "raw_text": "Desk organizer | 3 | $8.96 | $26.88",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9891029608237943,
+    "structured_confidence": 0.9159,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 4.5785,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0014-scanned_pdf.json"
+  },
+  {
+    "document_id": "RCT-0021",
+    "variant_id": "RCT-0021-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/rct-0021_slight_rotation.pdf",
+    "template": "receipt_1",
+    "quality_condition": "slight_rotation",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Morning Oak Market",
+      "merchant_address": "15OrchardWay,Brookfield,VT05036",
+      "merchant_phone": null,
+      "receipt_number": "RC-2504-5020",
+      "transaction_date": "2025-04-17",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 40.67,
+      "tax_amount": 2.03,
+      "total_amount": 42.7,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Recycled notebooks",
+        "quantity": 3.0,
+        "unit_price": 9.73,
+        "line_total": 29.19,
+        "raw_text": "Recycled notebooks | 3 | $9.73 | $29.19",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9908706083881504,
+    "structured_confidence": 0.9164,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 4.3044,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0021-scanned_pdf.json"
+  },
+  {
+    "document_id": "RCT-0022",
+    "variant_id": "RCT-0022-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/rct-0022_light_noise.pdf",
+    "template": "receipt_2",
+    "quality_condition": "light_noise",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88CrescentRoad,Pinecross,WA98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2507-5021",
+      "transaction_date": "2025-07-23",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 130.35,
+      "tax_amount": 9.78,
+      "total_amount": 140.13,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffeebeans",
+        "quantity": 4.0,
+        "unit_price": 14.0,
+        "line_total": 56.0,
+        "raw_text": "Coffeebeans | 4 | $14.00 | $56.00",
+        "confidence": 0.95
+      },
+      {
+        "description": "Gelpenset",
+        "quantity": 3.0,
+        "unit_price": 15.5,
+        "line_total": 46.5,
+        "raw_text": "Gelpenset | 3 | $15.50 | $46.50",
+        "confidence": 0.95
+      },
+      {
+        "description": "Deskorganizer",
+        "quantity": 3.0,
+        "unit_price": 3.59,
+        "line_total": 10.77,
+        "raw_text": "Deskorganizer | 3 | $3.59 | $10.77",
+        "confidence": 0.95
+      },
+      {
+        "description": "Canvastote",
+        "quantity": 2.0,
+        "unit_price": 8.54,
+        "line_total": 17.08,
+        "raw_text": "Canvastote | 2 | $8.54 | $17.08",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9933831649661862,
+    "structured_confidence": 0.9271,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 5.0395,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0022-scanned_pdf.json"
+  },
+  {
+    "document_id": "RCT-0025",
+    "variant_id": "RCT-0025-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/rct-0025_jpeg_compression.pdf",
+    "template": "receipt_1",
+    "quality_condition": "jpeg_compression",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Morning OakMarket",
+      "merchant_address": "15OrchardWay,Brookfield,VT05036",
+      "merchant_phone": null,
+      "receipt_number": "RC-2501-5024",
+      "transaction_date": "2025-01-01",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 114.09,
+      "tax_amount": 0.0,
+      "total_amount": 114.09,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Archive folders",
+        "quantity": 1.0,
+        "unit_price": 15.68,
+        "line_total": 15.68,
+        "raw_text": "Archive folders | 1 | $15.68 | $15.68",
+        "confidence": 0.95
+      },
+      {
+        "description": "Granola cup",
+        "quantity": 3.0,
+        "unit_price": 7.13,
+        "line_total": 21.39,
+        "raw_text": "Granola cup | 3 | $7.13 | $21.39",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffee beans",
+        "quantity": 2.0,
+        "unit_price": 10.86,
+        "line_total": 21.72,
+        "raw_text": "Coffee beans | 2 | $10.86 | $21.72",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cleaning cloths",
+        "quantity": 2.0,
+        "unit_price": 11.33,
+        "line_total": 22.66,
+        "raw_text": "Cleaning cloths | 2 | $11.33 | $22.66",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9911781890092076,
+    "structured_confidence": 0.9165,
+    "confidence_label": "High",
+    "validation_warnings": [
+      {
+        "code": "LINE_ITEM_SUM_MISMATCH",
+        "message": "Line-item totals do not reconcile with subtotal.",
+        "field": null,
+        "severity": "warning"
+      }
+    ],
+    "processing_time_seconds": 5.7467,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0025-scanned_pdf.json"
+  },
+  {
+    "document_id": "RCT-0028",
+    "variant_id": "RCT-0028-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/rct-0028_slight_rotation.pdf",
+    "template": "receipt_4",
+    "quality_condition": "slight_rotation",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "CobaltCornerShop",
+      "merchant_address": "39PrismAvenue,Eastmere,IL60607",
+      "merchant_phone": null,
+      "receipt_number": "RC-2510-5027",
+      "transaction_date": "2025-10-25",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 178.58,
+      "tax_amount": 13.39,
+      "total_amount": 191.97,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Coffee beans",
+        "quantity": 2.0,
+        "unit_price": 9.08,
+        "line_total": 18.16,
+        "raw_text": "Coffee beans | 2 | $9.08 | $18.16",
+        "confidence": 0.95
+      },
+      {
+        "description": "Desk organizer",
+        "quantity": 4.0,
+        "unit_price": 14.91,
+        "line_total": 59.64,
+        "raw_text": "Desk organizer | 4 | $14.91 | $59.64",
+        "confidence": 0.95
+      },
+      {
+        "description": "Cable clips",
+        "quantity": 3.0,
+        "unit_price": 9.85,
+        "line_total": 29.55,
+        "raw_text": "Cable clips | 3 | $9.85 | $29.55",
+        "confidence": 0.95
+      },
+      {
+        "description": "Herbal tea",
+        "quantity": 2.0,
+        "unit_price": 8.96,
+        "line_total": 17.92,
+        "raw_text": "Herbal tea | 2 | $8.96 | $17.92",
+        "confidence": 0.95
+      },
+      {
+        "description": "Recyclednotebooks",
+        "quantity": 3.0,
+        "unit_price": 17.77,
+        "line_total": 53.31,
+        "raw_text": "Recyclednotebooks | 3 | $17.77 | $53.31",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9902318984496828,
+    "structured_confidence": 0.9262,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 4.3303,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0028-scanned_pdf.json"
+  },
+  {
+    "document_id": "RCT-0030",
+    "variant_id": "RCT-0030-scanned_pdf",
+    "file_path": "data/synthetic/scanned_pdfs/rct-0030_perspective.pdf",
+    "template": "receipt_2",
+    "quality_condition": "perspective",
+    "file_format": "scanned_pdf",
+    "success": true,
+    "error": null,
+    "predicted_document_type": "receipt",
+    "document_type_confidence": 0.79,
+    "extraction_method": "ocr",
+    "predicted_fields": {
+      "merchant_name": "Little Lantern Cafe",
+      "merchant_address": "88CrescentRoad,Pinecross,WA98104",
+      "merchant_phone": null,
+      "receipt_number": "RC-2505-5029",
+      "transaction_date": "2025-05-05",
+      "transaction_time": null,
+      "currency": "USD",
+      "subtotal": 79.01,
+      "tax_amount": 0.0,
+      "total_amount": 79.01,
+      "payment_method": null,
+      "last_four_digits": null,
+      "cashier": null
+    },
+    "predicted_line_items": [
+      {
+        "description": "Gel pen set",
+        "quantity": 4.0,
+        "unit_price": 5.87,
+        "line_total": 23.48,
+        "raw_text": "Gel pen set | 4 | $5.87 | $23.48",
+        "confidence": 0.95
+      },
+      {
+        "description": "Deskorganizer",
+        "quantity": 2.0,
+        "unit_price": 17.56,
+        "line_total": 35.12,
+        "raw_text": "Deskorganizer | 2 | $17.56 | $35.12",
+        "confidence": 0.95
+      },
+      {
+        "description": "Granola cup",
+        "quantity": 1.0,
+        "unit_price": 10.45,
+        "line_total": 10.45,
+        "raw_text": "Granola cup | 1 | $10.45 | $10.45",
+        "confidence": 0.95
+      },
+      {
+        "description": "Coffee beans",
+        "quantity": 2.0,
+        "unit_price": 4.98,
+        "line_total": 9.96,
+        "raw_text": "Coffee beans | 2 | $4.98 | $9.96",
+        "confidence": 0.95
+      }
+    ],
+    "ocr_confidence": 0.9897985930550298,
+    "structured_confidence": 0.9261,
+    "confidence_label": "High",
+    "validation_warnings": [],
+    "processing_time_seconds": 3.9078,
+    "raw_text_path": "outputs/extracted/raw_text/RCT-0030-scanned_pdf.json"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "engine_name": "RapidOCR ONNX Runtime",
+  "engine_version": "1.4.4",
+  "onnxruntime_version": "1.22.1",
+  "execution_provider": [
+    "CPUExecutionProvider"
+  ],
+  "available_execution_providers": [
+    "AzureExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "fallback_engine": null,
+  "supported_file_types": [
+    "pdf",
+    "png",
+    "jpg",
+    "jpeg"
+  ],
+  "bounding_boxes_available": true,
+  "ocr_confidence_available": true
+}

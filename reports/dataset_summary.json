@@ -1,0 +1,25 @@
+{
+  "mode": "normal",
+  "invoices": 40,
+  "receipts": 30,
+  "documents": 70,
+  "invoice_templates": 5,
+  "receipt_templates": 4,
+  "variants": 280,
+  "format_counts": {
+    "pdf": 70,
+    "png": 70,
+    "jpg": 70,
+    "scanned_pdf": 70
+  },
+  "quality_counts": {
+    "clean": 70,
+    "slight_rotation": 30,
+    "mild_blur": 30,
+    "lower_contrast": 30,
+    "light_noise": 30,
+    "mild_shadow": 30,
+    "jpeg_compression": 30,
+    "perspective": 30
+  }
+}
